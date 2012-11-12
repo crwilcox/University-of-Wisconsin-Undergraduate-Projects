@@ -1,0 +1,4 @@
+This folder contains the program that was used to find the best 6 scanable flip flops.  You can run this program using the runProgram.sh script.
+
+BestFiles
+	Contains a space to hold the best result(s)

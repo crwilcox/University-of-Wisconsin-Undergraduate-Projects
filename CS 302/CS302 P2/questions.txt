@@ -1,0 +1,67 @@
+Assignment Number: 2
+Assignment Name: Who Let The Frogs Out?
+Date Completed: March 9th, 2008
+
+Partner 1 Name: Christopher Wilcox	
+Partner 1 Login: wilcox
+Partner 1 Lecturer's Name: Hasti	
+Partner 1 Lab Section: 316
+
+Partner 2 Name: Jacob Backhaus	
+Partner 2 Login: backhaus
+Partner 2 Lecturer's Name: Hasti
+Partner 2 Lab Section: 306
+
+1.	What practical problems are there with even-sized ponds? 
+
+	ANSWER:  	In an even sized pond there is no center.  This would cause an
+				argument with the creation of our pond.
+		
+				
+				
+2.	What classes would need to be modified in order to have the user play ponds 
+	where the width is different from the height (both being odd numbers)? 
+	
+	ANSWER:		We would have to change the Game Class.  We would need to
+				make a constructor with the ability to accept two different
+				parameters from the user (one being height, another being width)
+				
+	
+	
+3.	In the current implementation of the game, the Pad constructor has a 
+	parameter for what amphibian begins there at the game's start. 
+	Suppose instead that the constructor received 3 parameters: 
+	the size of the pond, and the row and column in which this pad is
+	being placed. Would it still be possible to write the Pad class in such
+	a way that all of the amphibians start on the same squares they do now? 
+	How might we do this (or, why is this impossible)?
+	
+	ANSWER: 	We believe it would be possible. If you were to combine the 
+				pad and game class to make one entity.  It wouldn't be very 
+				practical because it would require the entry of every pad.
+				We believe the method we have now is far mor efficient.
+	 
+	 
+	 
+4.	When you call the resetPond() method of Pond, does it actually go through
+	and reset each individual Pad object, or does it just create new ones? 
+	How did you determine this? 
+	
+	ANSWER:		Our Code Sets the pads back to their initial state. In this way
+				it changes existing objects to their original states.
+	
+	
+
+5.	When you click "Reset" on the menu of our GameGUI, does it use 
+	the resetPond method of the Pond class or does it create a whole new 
+	Game object? This design decision wasn't an arbitrary choice. 
+	Why do you suppose we did it this way? 
+	
+	ANSWER:		The GameGUI implements the resetPond method instead of simply
+				starting a new Game object.  This is a more memory efficient
+				way to program as it does not create a handful of extra 
+				objects in the process of putting the board back to an 
+				initial state.
+	
+	
+	

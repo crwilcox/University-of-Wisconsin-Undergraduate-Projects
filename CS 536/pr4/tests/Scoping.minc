@@ -1,0 +1,16 @@
+bool A = false;
+bool main(int argc){
+	while(true) {
+		int B = 4;
+		if(B < 3) {
+			bool A = true;
+			int B = 2;
+			return !A;
+		}
+		else {
+			bool A = true;
+			int B = 1;
+			return A;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+
+
+
+exp  ::=  LPAREN exp RPAREN
+  | IDENT LPAREN actualsList RPAREN
+  | unaryOp
+  | binaryOp
+  | literalExp
+  | IDENT
+  ;
+
+
+binaryOp  ::= 
+  | exp LAND exp
+  | exp LOR exp
+  | exp ASSIGN exp
+  | exp LT exp
+  | exp LTE exp
+  | exp GT exp
+  | exp GTE exp
+  | exp EQUAL exp
+  | exp NEQUAL exp
+  | exp PLUS exp
+  | exp MINUS exp
+  | exp STAR exp
+  | exp DIV exp
+  | exp MOD exp
+  ;
+
+
+
+
+-- give definitions for actual/formal
+-- describe differences from C  (array syntax, nonassoc of <)
+
+-- no function pointers, no returning arrays, so all of these are illegal
+    --  foo()()
+    --  foo()[1]
+    --  foo[1]()
+
+-- clarify precedence of <, <=, etc.
+
+-- add bit about how to get loc
+
+-- varDecl
+-- how to make lists that produce List<?>
+-- note about error message
+

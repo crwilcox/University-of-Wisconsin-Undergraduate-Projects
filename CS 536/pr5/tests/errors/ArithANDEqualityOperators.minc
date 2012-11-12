@@ -1,0 +1,47 @@
+void main() {
+int I = 0;
+double D = 1.0;
+string S = "";
+bool B = true;
+int* P;
+
+// operator (%) may only be applied to arguments of type int.
+int Modulo;
+Modulo = I % D;
+Modulo = I % S;
+Modulo = I % B;
+Modulo = I % P;
+
+int Num;
+Num = B + B;
+Num = S + S;
+Num = P + P;
+
+Num = B - B;
+Num = B - B;
+Num = B - B;
+
+Num = B * B;
+Num = B * B;
+Num = B * B;
+
+Num = B / B;
+Num = S / S;
+Num = P / P;
+
+Num = S < S;
+Num = P < P;
+Num = S < S;
+
+Num = P > P;
+Num = S > S;
+Num = P > P;
+
+Num = S <= S;
+Num = P <= P;
+Num = S <= S;
+
+Num = P >= P;
+Num = S >= S;
+Num = P >= P;
+}

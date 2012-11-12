@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'lab3.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"aduc7026.o"'
+### List of Objects: adding '"exceptions.o"'
+### List of Objects: adding '"irq_handler.o"'
+### ADS-LD Command completed:
+--device DARMAD "main.o" "aduc7026.o" "exceptions.o" "irq_handler.o" --ro-base 0x00080000 --entry 0x00080000 --rw-base 0x00010000 --strict --first=aduc7026.o(reset) --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lab3.map" -o "lab3.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'lab3.axf'
+### ADS-LD Command File: 'lab3.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'lab3.lnp', Handle=0x00000220
+### Writing '.lnp' file
+### ADS-LD Command file 'lab3.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,50 @@
+run -all
+# Initializing Testbench
+# SimTime: 5    Count: 0   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 1 RstCnt: 1
+# release reset and load enable
+# SimTime: 10   Count: 0   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 15   Count: 1   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 25   Count: 2   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 35   Count: 3   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 45   Count: 4   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 55   Count: 5   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 65   Count: 6   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 75   Count: 7   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 85   Count: 0   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 95   Count: 1   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 105  Count: 2   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 115  Count: 3   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# SimTime: 125  Count: 4   Mode: 0 CountLimit: 7   UpperLimit: 7   LoadEn: 0 RstCnt: 0
+# Change the upper limit to something below where count is while it is counting up
+# SimTime: 130  Count: 4   Mode: 0 CountLimit: 7   UpperLimit: 3   LoadEn: 1 RstCnt: 0
+# SimTime: 135  Count: 5   Mode: 0 CountLimit: 3   UpperLimit: 3   LoadEn: 1 RstCnt: 0
+# SimTime: 140  Count: 5   Mode: 0 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# SimTime: 145  Count: 0   Mode: 0 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# SimTime: 155  Count: 1   Mode: 0 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# SimTime: 165  Count: 2   Mode: 0 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# Change the mode to count down
+# SimTime: 170  Count: 2   Mode: 1 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# SimTime: 175  Count: 1   Mode: 1 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# SimTime: 185  Count: 0   Mode: 1 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# SimTime: 195  Count: 3   Mode: 1 CountLimit: 3   UpperLimit: 3   LoadEn: 0 RstCnt: 0
+# Change the upper limit
+# SimTime: 200  Count: 3   Mode: 1 CountLimit: 3   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 205  Count: 2   Mode: 1 CountLimit: 3   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 215  Count: 1   Mode: 1 CountLimit: 3   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# Enable the new limit
+# SimTime: 220  Count: 1   Mode: 1 CountLimit: 3   UpperLimit: 6   LoadEn: 1 RstCnt: 0
+# SimTime: 225  Count: 0   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 1 RstCnt: 0
+# SimTime: 230  Count: 0   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 235  Count: 6   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 245  Count: 5   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 255  Count: 4   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 265  Count: 3   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# Assert rst_count
+# SimTime: 270  Count: 3   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 1
+# SimTime: 275  Count: 0   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 1
+# SimTime: 280  Count: 0   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 285  Count: 6   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 295  Count: 5   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 305  Count: 4   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# SimTime: 315  Count: 3   Mode: 1 CountLimit: 6   UpperLimit: 6   LoadEn: 0 RstCnt: 0
+# Break in Module ud_counter_tb at /filespace/people/c/cwilcox/courses/ece551/hw3/ud_counter_tb.v line 76

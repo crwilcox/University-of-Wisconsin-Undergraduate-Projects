@@ -1,0 +1,5 @@
+int G = 0; /*4*/
+void main(int argc /*4*/) {
+  int L = G/*1:5:G*/; /*4*/
+  return L/*3:7:L*/;
+}

@@ -1,0 +1,63 @@
+int f_int_lit()
+{
+	return 1;
+}
+int f_int_ref()
+{
+	int i = 2;
+	return 2;
+}
+
+double f_double_lit()
+{
+	return 2.1817;
+}
+double f_double_ref()
+{
+	double i = 3.1415;
+	return i;
+}
+
+bool f_bool_lit()
+{
+	return false;
+}
+bool f_bool_ref()
+{
+	bool i = false;
+	return false;
+}
+
+string f_string_lit()
+{
+	return "initial string ";
+}
+string f_string_ref()
+{
+	string i = "initial string ";
+	return i;
+}
+
+int* f_pointer(int q)
+{
+	int *a = &q;
+	return a;
+}
+
+int main()
+{
+	int a;
+	double b;
+	bool c;
+	string d;
+	int *e;
+	a = f_int_lit() + 1;
+	a = f_int_ref() + 1;
+	b = f_double_lit() + 3.1415;
+	b = f_double_ref() + 3.1415;
+	c = f_bool_lit() || true;
+	c = f_bool_ref() || true;
+	d = f_string_lit();
+	d = f_string_ref();
+	e = f_pointer(a);
+}

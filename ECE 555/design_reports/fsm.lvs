@@ -1,0 +1,103 @@
+@(#)$CDS: LVS.exe version 6.1.1 01/18/2007 15:13 (cds126047) $
+
+Command line: /afs/engr.wisc.edu/apps/cadence-2008/IC-6.1.1/tools.lnx86/dfII/bin/32bit/LVS.exe -dir /filespace/people/e/enharris/ece555/ece555/LVS -l -s -t /filespace/people/e/enharris/ece555/ece555/LVS/layout /filespace/people/e/enharris/ece555/ece555/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /filespace/people/e/enharris/ece555/ece555/LVS/layout/netlist
+       count
+	282		nets
+	16		terminals
+	311		pmos
+	311		nmos
+
+    Net-list summary for /filespace/people/e/enharris/ece555/ece555/LVS/schematic/netlist
+       count
+	282		nets
+	16		terminals
+	311		pmos
+	311		nmos
+
+
+    Terminal correspondence points
+    N270      N58       clk
+    N267      N1        gnd!
+    N279      N51       left_right
+    N275      N7        rdenA2_rdenB3_adden
+    N266      N50       rdenA3_done
+    N281      N10       rdenA4_shiften
+    N272      N44       rdenB0
+    N271      N64       rdenB1
+    N268      N73       rst
+    N278      N60       start
+    N269      N0        vdd!
+    N277      N62       wren0
+    N276      N67       wren1
+    N280      N48       wren2_ppgenen_rdenA0
+    N274      N66       wren3
+    N273      N55       wren4
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			622	622
+	total			622	622
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			282	282
+	total			282	282
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			16	16
+
+
+Probe files from /filespace/people/e/enharris/ece555/ece555/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /filespace/people/e/enharris/ece555/ece555/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

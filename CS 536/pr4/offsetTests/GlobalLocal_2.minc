@@ -1,0 +1,7 @@
+// Test Checking a variable local and Global versions
+int Var = 0;
+void main(int argc) {
+  int Var2 = Var + Var;
+  int Var = 1;
+  int Var3 = Var * Var;
+}

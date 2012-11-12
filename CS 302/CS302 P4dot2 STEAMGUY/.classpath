@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="P4_backend.jar"/>
+	<classpathentry kind="lib" path="p4_part1_solution.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

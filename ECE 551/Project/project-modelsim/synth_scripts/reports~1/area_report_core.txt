@@ -1,0 +1,28 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'core' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : area
+Design : core
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:31:24 2010
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'core' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    gflxp (File: /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxp/gflxp_nom.db)
+
+Number of ports:              349
+Number of nets:               694
+Number of cells:                6
+Number of references:           6
+
+Combinational area:       22901.247532
+Noncombinational area:    43920.974642
+Net Interconnect area:    32467.016465 
+
+Total cell area:          66822.222174
+Total area:               99289.238639
+1

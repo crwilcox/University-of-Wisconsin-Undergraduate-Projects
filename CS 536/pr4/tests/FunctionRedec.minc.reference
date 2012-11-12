@@ -1,0 +1,5 @@
+void Function() {
+  int Do; /*4*/
+  int Some; /*4*/
+  int Stuff; /*4*/
+}

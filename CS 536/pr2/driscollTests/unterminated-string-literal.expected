@@ -1,0 +1,6 @@
+1:1:Unterminated string: "this string would continue to the next line if we supported that,
+2:1:IDENT: but
+2:5:IDENT: we
+2:8:IDENT: do
+2:11:IDENT: not
+2:14:Unterminated string: "

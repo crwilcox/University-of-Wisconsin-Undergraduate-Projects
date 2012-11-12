@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Routing_State_Machine
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:30:30 2010
+****************************************
+
+Operating Conditions: NOM   Library: gflxp
+Wire Load Model Mode: enclosed
+
+  Startpoint: dataLocation_reg[0]
+              (rising edge-triggered flip-flop clocked by Clk_r)
+  Endpoint: chosenPacket_reg[17]
+            (rising edge-triggered flip-flop clocked by Clk_r)
+  Path Group: Clk_r
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Routing_State_Machine
+                     B1X1                  gflxp
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clk_r (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  dataLocation_reg[0]/CP (FD2LQM1P)        0.00       0.00 r
+  dataLocation_reg[0]/Q (FD2LQM1P)         0.14       0.14 r
+  U399/Z (N1M1P)                           0.04       0.18 f
+  U358/Z (AND2M8P)                         0.07       0.25 f
+  U357/Z (ND2FM4P)                         0.03       0.29 r
+  U374/Z (ND2FM4P)                         0.04       0.33 f
+  U310/Z (MUX21LM1P)                       0.08       0.40 f
+  U307/Z (OAI21M2P)                        0.06       0.47 r
+  U389/Z (ND4DNFM4P)                       0.07       0.53 f
+  U334/Z (ND2BNM3P)                        0.13       0.66 f
+  U294/Z (NR2M2P)                          0.11       0.77 r
+  U339/Z (BUFM4P)                          0.15       0.92 r
+  U439/Z (AOI22M1P)                        0.07       0.99 f
+  U566/Z (ND4M1P)                          0.03       1.02 r
+  chosenPacket_reg[17]/D (FD1QM3P)         0.00       1.02 r
+  data arrival time                                   1.02
+
+  clock Clk_r (rise edge)                  1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  chosenPacket_reg[17]/CP (FD1QM3P)        0.00       1.25 r
+  library setup time                      -0.23       1.02
+  data required time                                  1.02
+  -----------------------------------------------------------
+  data required time                                  1.02
+  data arrival time                                  -1.02
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

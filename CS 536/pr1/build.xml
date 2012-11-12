@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<!-- This is an XML comment -->
+
+<project name="sample" default="compile" basedir=".">
+
+     <!-- Abbreviate these so they can be change easier -->
+     <property name="src_dir" value="src"/>
+     <property name="build_dir" value="bin"/>
+
+
+     <!-- Start building by making the bin directory -->
+     <target name="init">
+          <mkdir dir="${build_dir}"/>
+     </target>
+
+
+     <!-- The compile target, which is default. Build all the files in src/
+          to bin/ -->
+     <target name="compile" depends="init">
+          <javac srcdir="${src_dir}" destdir="${build_dir}"/>
+     </target>
+
+     <!-- Clean -->
+     <target name="clean" >
+         <delete dir="${build_dir}" />
+     </target>
+
+
+     <!-- do all of the above -->
+     <target name="all">
+          <antcall target="compile" />
+     </target>
+</project>

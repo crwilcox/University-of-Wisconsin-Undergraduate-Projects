@@ -1,0 +1,8 @@
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_1_ctrl.asm SUCCESS CPI:3.8 VALID_CPI:3.1 CYCLES:2867 ICOUNT:747 VALID_ICOUNT:919 IHITRATE: 69.7 DHITRATE: 1435.9
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_2_ctrl.asm SUCCESS CPI:3.5 VALID_CPI:3.0 CYCLES:3348 ICOUNT:952 VALID_ICOUNT:1134 IHITRATE: 71.3 DHITRATE: 1366.3
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_3_ctrl.asm SUCCESS CPI:3.6 VALID_CPI:2.9 CYCLES:3338 ICOUNT:928 VALID_ICOUNT:1137 IHITRATE: 71.3 DHITRATE: 1322.1
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_4_ctrl.asm SUCCESS CPI:4.2 VALID_CPI:3.2 CYCLES:2348 ICOUNT:557 VALID_ICOUNT:725 IHITRATE: 68.8 DHITRATE: 1342.6
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_5_ctrl.asm SUCCESS CPI:3.5 VALID_CPI:2.9 CYCLES:3215 ICOUNT:916 VALID_ICOUNT:1098 IHITRATE: 71.6 DHITRATE: 1426.0
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_6_ctrl.asm SUCCESS CPI:3.8 VALID_CPI:3.0 CYCLES:2928 ICOUNT:770 VALID_ICOUNT:964 IHITRATE: 70.7 DHITRATE: 1251.9
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_7_ctrl.asm SUCCESS CPI:3.6 VALID_CPI:2.9 CYCLES:3170 ICOUNT:889 VALID_ICOUNT:1083 IHITRATE: 71.5 DHITRATE: 1320.7
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_ctrl/t_8_ctrl.asm SUCCESS CPI:4.0 VALID_CPI:3.1 CYCLES:2531 ICOUNT:635 VALID_ICOUNT:812 IHITRATE: 70.2 DHITRATE: 1331.1

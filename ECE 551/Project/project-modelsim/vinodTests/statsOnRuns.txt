@@ -1,0 +1,9 @@
+Low
+# Rcvd pkts: 100  Send pkts: 100  Dropped:         0 Drop Rate:0.000000 throughput:inf
+
+Medium
+# Rcvd pkts: 207  Send pkts: 207  Dropped:         0 Drop Rate:0.000000 throughput:0.279730
+
+High
+# Rcvd pkts: 200  Send pkts: 200  Dropped:         0 Drop Rate:0.000000 throughput:0.066225
+

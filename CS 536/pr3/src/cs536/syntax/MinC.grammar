@@ -1,0 +1,117 @@
+program ::= declList
+  ;
+
+declList  ::= declList decl
+  | /* epsilon */
+  ;
+
+decl  ::= varDecl
+  | funcDecl
+  ;
+
+varDecl  ::= type IDENT SEMI
+  | type IDENT ASSIGN exp SEMI
+  ;
+
+type  ::= INT
+  | BOOL
+  | DOUBLE
+  | STRING
+  | type STAR
+  | type LBRACKET INT_LIT RBRACKET
+  ;
+
+funcType  ::= type
+  | VOID
+  ;
+
+funcDecl  ::= funcType IDENT LPAREN formalList RPAREN LBRACE stmtList RBRACE
+  ;
+
+formalList  ::= nonEmptyFormalList
+  | /* epsilon */
+  ;
+
+nonEmptyFormalList  ::= formal formalTail
+  ;
+
+formalTail  ::= COMMA formal formalTail
+  | /* epsilon */
+  ;
+
+formal  ::= type IDENT
+  ;
+
+stmtList  ::= stmtList stmt
+  | /* epsilon */
+  ;
+
+stmt  ::= varDecl
+  | RETURN SEMI
+  | RETURN exp SEMI
+  | IF LPAREN exp RPAREN stmtOrBody
+  | IF LPAREN exp RPAREN stmtOrBody ELSE stmtOrBody
+  | WHILE LPAREN exp RPAREN stmtOrBody
+  | exp SEMI
+  | WRITE exp SEMI
+  | READ IDENT SEMI
+  ;
+
+stmtOrBody ::= stmt
+  | LBRACE stmtList RBRACE
+  ;
+
+exp  ::=  LPAREN exp RPAREN
+  | IDENT LPAREN actualsList RPAREN
+  | exp LBRACKET exp RBRACKET
+  | unaryOp
+  | binaryOp
+  | literalExp
+  | IDENT
+  ;
+
+unaryOp  ::= STAR exp
+  | MINUS exp
+  | INCR exp
+  | exp INCR
+  | DECR exp
+  | exp DECR
+  | LNOT exp
+  | ADDROF exp
+  ;
+
+binaryOp  ::= 
+  | exp LAND exp
+  | exp LOR exp
+  | exp ASSIGN exp
+  | exp LT exp
+  | exp LTE exp
+  | exp GT exp
+  | exp GTE exp
+  | exp EQUAL exp
+  | exp NEQUAL exp
+  | exp PLUS exp
+  | exp MINUS exp
+  | exp STAR exp
+  | exp DIV exp
+  | exp MOD exp
+  ;
+
+literalExp  ::= NULL
+  | TRUE
+  | FALSE
+  | STRINGLIT
+  | INTLIT
+  | FLOATLIT
+  ;
+
+actualsList  ::= nonEmptyActualsList
+  | /* epsilon */
+  ;
+
+nonEmptyActualsList  ::= exp actualsTail
+  ;
+
+actualsTail ::= COMMA exp actualsTail
+  | /* epsilon */
+  ;

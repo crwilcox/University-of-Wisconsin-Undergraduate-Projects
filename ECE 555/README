@@ -1,0 +1,128 @@
+GROUP MEMBERS:
+	Christopher Wilcox
+	Cody Hanson
+	Eric Harris
+
+------------------------------------------------------------------------------------
+NOTE: LVS has one more pmos as we split one to make it fit.  The netlist still 
+	match, and it correctly operates in spectre.
+------------------------------------------------------------------------------------
+DRC REPORT OF DATAPATH:
+	./design_reports/toplevel.drc
+------------------------------------------------------------------------------------
+LVS REPORT OF DATAPATH:
+	./design_reports/toplevel.lvs
+------------------------------------------------------------------------------------
+MINIMUM CLOCK PERIOD OF DATAPATH: 
+	10ns
+------------------------------------------------------------------------------------
+AREA OF DATAPATH: (without tristates for testing the bus).
+	Height (35 slices, 32+3control): 364.32um
+	Width: 205.695um
+	Area: 74938.8 um^2
+------------------------------------------------------------------------------------
+TEST INPUT 1:
+	./spectre_inputs/demo_num1.txt
+------------------------------------------------------------------------------------
+TEST INPUT 2:
+	./spectre_inputs/demo_num2.txt
+------------------------------------------------------------------------------------
+VERILOG SIMULATION WAVEFORM OF DATAPATH:
+	./verilog_waveforms/t_toplevel_waveform.bmp
+------------------------------------------------------------------------------------
+SPECTRE LAYOUT SIMULATION WAVEFORM OF DATAPATH:
+                (Sometimes waveform signals aren't sequential on graphs)
+	DEMO 1:
+		./spectre_waveforms/demo1_1.png
+		./spectre_waveforms/demo1_2.png
+		./spectre_waveforms/demo1_3.png
+	DEMO 2:
+		./spectre_waveforms/demo2full_1.png
+		./spectre_waveforms/demo2full_2.png
+------------------------------------------------------------------------------------
+CLK SIGNAL RISE/FALL TIME AND PERIOD DEFINITION:
+	vCLK CLK 0 pulse 0 1.8 0.5n 0.145n 0.145n 5n 10n
+------------------------------------------------------------------------------------
+CRITICAL PATH DELAYS:
+	NOTE: Our min clock period is less than the critical path delay because in a
+	16x16 multiply we do not excite the full carry chain at once.
+    (But it is not that far off)
+    
+    CLK-TO_RD ENABLE (FSM): 145.6 ps 
+    RD_EN TO OUTPUT (REGFILE): 276.3 ps
+    INPUT TO OUTPUT (RCA32): 11.405 ns
+    SETUP TIME: 136 ps
+    TOTAL Critical Path: 11.9ns   
+ 
+    SHIFTER (Not in critical path since RCA32 is longer): 3.2167 ns
+	PPGEN (Not in critical path): 164 ps
+------------------------------------------------------------------------------------
+GENERAL FILE LOCATIONS:
+	The files are organized into separate folders.  Here is a description of what is
+	in each folder
+
+	DRC/LVS/EXTRACT REPORTS: 
+		The reports are in the design_reports folder
+
+	SPECTRE INPUT FILES: 
+		The input files for spectre are in the spectre_inputs folder
+
+	SPECTRE OUTPUT WAVEFORMS: 
+		The output waveforms for spectre can be found in the spectre_waveforms folder
+
+	MODULE DELAYS: 
+		The reports showing delay in modules can be found in the delay_reports folder
+
+	VERILOG FILES: 
+		All verilog files can be found in the fsm_verilog folder
+
+	VERILOG WAVEFORMS: 
+		The output waveforms of the verilog code can be found in verilog_waveforms
+---------------------------------------------------------------------------------
+Dicussion:
+
+PPGEN: PPGEN was designed to be minimal in size because even small its delay
+ should not cause it to be on a critical path. Since the inverter of the  ppgen_en
+ signal drives 32 devices, we made the inverter size large. This caused us to have to
+ split the pmos so our LVS report for ppgen has 1 more pmos than the schematic.
+
+Ripple Carry:
+ A ripple carry was chosen to minimize area. This however made the ripple
+ chain the critical path delay. The carry signals were driven through an
+ inverter larger than base size to help speed up this critical path.
+
+Regfile:
+ The regfile took advantage of our previous assignments D flip flop.
+ Control singals that needed to be inverted were sent through inverters
+ as large as could fit above the D-flops. This module is very dense and
+ tiny movements in the metal layers would cause it to fail DRC.
+
+FSM:
+ Our fsm design was one-hot in order to simplify the logic.
+ The control signals are piped out on metal three to the rest of the circuit.
+ Close observation will note a 4-flop chain for a control signal.
+ When a last minute bug cropped up in the state machine, we had a decision.
+ We could have either ripped up the entire state machine or simply added
+ this four-flop chain to delay an internal signal. We chose the 4-flop chain
+ because doing so did not increase our total chip area.
+
+Shifter:
+ The shifter is implemented as a 32 bit logarithmic shifter.  It was designed
+ hierarchally of 1-bit shifters with upper, lower, and current inputs.  The
+ 1-bit shift units were implemented as a dynamic circuit.  While this passed LVS, 
+ it was found in spectre that the signal degraded too much after going through
+ the complete shifter.  To remedy this, complimentary inverters were added to 
+ boost the signal to a stable state.  This added roughly 11um in one direction of
+ the layout.  We believe this is a minimum cost to ensure proper function of 
+ the shifter unit.
+
+Floor Planning:
+ We broke the design into different modules that could be independently tested.
+ This allowed for maximum reuse and made making global modification quick and convenient.
+ Metal 2 was used primarily for buses, where Metal 3 were used to interconnect the different
+ modules.  Metal 1 and poly were used for the internal signals to each module.  By trying 
+ follow these guidelines, the connectioin at the toplevel went quite smoothly, as we could
+ predict how our inputs/outputs would be connected.  We were also able to share vdd and gnd
+ rails between modules, resulting in less area, and same circuit function.  This did create
+ extra work as the taps between modules had to match up as to not fail DRC, but we believe
+ that the end result justifies the added effort.	

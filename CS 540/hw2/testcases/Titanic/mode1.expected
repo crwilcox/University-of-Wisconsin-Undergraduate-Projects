@@ -1,0 +1,23 @@
+ROOT {SEX?}
+	female {PTYPE?}
+		1st {AGE?}
+			child (yes)
+			adult (yes)
+		2nd {AGE?}
+			child (yes)
+			adult (yes)
+		3rd {AGE?}
+			child (no)
+			adult (no)
+		crew (yes)
+	male {AGE?}
+		child {PTYPE?}
+			1st (yes)
+			2nd (yes)
+			3rd (yes)
+			crew (yes)
+		adult {PTYPE?}
+			1st (no)
+			2nd (no)
+			3rd (no)
+			crew (no)

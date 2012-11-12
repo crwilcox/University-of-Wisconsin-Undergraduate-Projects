@@ -1,0 +1,122 @@
+#=====================================================================
+# template.tcl (This file is a backup of .synopsys_dc.setup to avoid
+# possibly failure to check-in/check-out)
+#   -To be placed in home directory and/or project directory
+#
+# NOTES:
+#   -Order of setup file lookup: system -> home -> project
+#   -Latter setup files override settings in earlier setup files
+#   -System-Wide .synopsys_dc.setup located at $SYNOPSYS/admin/setup
+#   -This TCL script was created by TAs in the ECE551 class.
+#    And has been maintaing by Liang-Kai Wang to work with the underline
+#    HDL codes.
+# Department of Electrical and Computer Engineering
+# University of Wisconsin-Madison
+# $Revision: 1.3 $
+#=====================================================================
+
+# Target Technology Library
+set TECH_LIB gflxp
+set TECH_FILE ${TECH_LIB}_nom.db
+set IO_LIB [string map {d io p io v vio} $TECH_LIB]
+switch $TECH_LIB {
+   lcbg11p {set IO_FILE ${IO_LIB}.db}
+   lcbg11v {set IO_FILE ${IO_LIB}.db}
+   gflxd   {set IO_FILE ${IO_LIB}_nom.db}
+   gflxp   {set IO_FILE ${IO_LIB}_nom.db}
+}
+
+# User Identity
+set designer [get_unix_variable USER]
+set company  "ECE Dept., UW-Madison"
+
+# Search Path
+#Disabling old search path because it loads outdated dw_foundation in the .../syn location
+#set search_path ". /afs/.engr.wisc.edu/apps/eda/synopsys/syn_Z-2007.03-SP3/libraries/syn /afs/.engr.wisc.edu/apps/eda/synopsys/syn_Z-2007.03-SP3/dw/sim_ver"
+set search_path ". /afs/.engr.wisc.edu/apps/eda/synopsys/syn_Z-2007.03-SP3/dw/sim_ver"
+switch $TECH_LIB {
+   lcbg11p {lappend search_path "/afs/engr.wisc.edu/apps/eda/flexstream.2.0/lsi_fs_2.0/lib3p/synopsys/lcbg11p"}
+   lcbg11v {lappend search_path "/afs/engr.wisc.edu/apps/eda/flexstream.2.0/lsi_fs_2.0/lib3p/synopsys/lcbg11v"}
+   gflxd   {lappend search_path "/afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxd /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxio"}
+   gflxp   {lappend search_path "/afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxp /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxio"}
+}
+
+## lcbg11v doesn't have memory file!!
+switch $TECH_LIB {
+   lcbg11p {set MEMORY_FILE lcbg11p_memory.db}
+   lcbg11v {set MEMORY_FILE lcbg11p_memory.db}
+   gflxd   {set MEMORY_FILE gflxd_memory_nom.db}
+   gflxp   {set MEMORY_FILE gflxp_memory_nom.db}
+}
+
+linsert ${search_path} 0 "../../"
+
+# Setup Libraries
+set target_library "$TECH_FILE $IO_FILE $MEMORY_FILE"
+
+# commented as latest 2010 dv has mismatches with old libraries. 
+# set synthetic_library dw_foundation.sldb
+# IMPORTANT: First library listed in link_library is the main library.
+#            Defaults properties are determined from this library.
+#set link_library      "$target_library $synthetic_library *"
+set link_library      "$target_library *"
+set symbol_library    generic.sdb
+
+# HDL Compiler Settings
+set hdlin_translate_off_skip_text true
+set edifout_netlist_only true
+set verilogout_no_tri true
+set hdlin_auto_save_templates true
+set compile_fix_multiple_port_nets true
+
+set hdlin_allow_mixed_blocking_and_nonblocking false
+set hdlin_check_no_latch                       true
+#set hdlin_ff_always_async_set_reset            false
+#set hdlin_ff_always_sync_set_reset             true
+set hdlin_infer_decoders                       true
+#set hdlin_infer_multibit                       default_all
+#set hdlin_infer_mux                            all
+set hdlin_use_carry_in                         true
+set hdlin_use_syn_shifter                      true
+
+# Other Synopsys Settings
+#set compile_auto_ungroup_area_num_cells     30
+#set compile_automatic_clock_phase_inference relaxed
+#set compile_seqmap_enable_output_inversion  true
+set compile_seqmap_propagate_constants      true
+#set compile_sequential_area_recovery        true
+set hlo_resource_implementation             constraint_driven
+set hlo_transform_constant_multiplication   true
+set sh_continue_on_error                    false
+#set sh_source_logging                       true
+set verbose_messages                        false
+
+# Disable Log Files
+set view_command_log_file /dev/null
+if {$dc_shell_mode == "default"} {
+    set command_log_file /dev/null
+} else {  # else dc_shell_mode == "tcl"
+    set sh_command_log_file /dev/null
+}
+
+# Define Work Library Location
+#file mkdir work
+#define_design_lib WORK -path {./work}
+#/****************************************************************/
+#/*  $Author: stsen $ - The last CVS user to commit the fileI */
+#/*  $Date: 2006/12/07 20:53:27 $ - The date of the last commit. */
+#/*  $Name:  $ - The tag name */
+#/*  $Log: .synopsys_dc.setup,v $
+#/*  Revision 1.3  2006/12/07 20:53:27  stsen
+#/*  changed search path from 2003 release to 2006 release
+#/*
+#/*  Revision 1.2  2006/11/30 05:41:19  stsen
+#/*  changed to use incremental model (NOM)
+#/*
+#/*  Revision 1.1.1.1  2006/11/27 04:39:30  stsen
+#/*  scripts to syntheize design
+#/*
+#/*  Revision 1.1.1.1  2006/10/10 14:39:49  lwang
+#/*  initial check-in for the decimal fp adder and multifunction units
+#/* */
+#/*****************************************************************/

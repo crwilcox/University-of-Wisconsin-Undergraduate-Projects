@@ -1,0 +1,866 @@
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 5; Coverage: 0.004660
+6 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 17; Coverage: 0.015843
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 133; Coverage: 0.123952
+29 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 172; Coverage: 0.160298
+3 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 192; Coverage: 0.178938
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 226; Coverage: 0.210624
+24 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 244; Coverage: 0.227400
+6 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 254; Coverage: 0.236719
+9 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 288; Coverage: 0.268406
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 324; Coverage: 0.301957
+14 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  7, Timeframes =  8
+	PRED-DIFF:	Init_tf =  7, Timeframes =  7
+Faults: 1073; Detected: 453; Coverage: 0.422181
+443 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 474; Coverage: 0.441752
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 481; Coverage: 0.448276
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 489; Coverage: 0.455732
+9 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 506; Coverage: 0.471575
+15 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 540; Coverage: 0.503262
+12 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 546; Coverage: 0.508854
+4 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 549; Coverage: 0.511650
+6 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 555; Coverage: 0.517241
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 570; Coverage: 0.531221
+12 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 571; Coverage: 0.532153
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 584; Coverage: 0.544268
+9 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 599; Coverage: 0.558248
+43 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 602; Coverage: 0.561044
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 612; Coverage: 0.570363
+14 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  2
+Faults: 1073; Detected: 617; Coverage: 0.575023
+32 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 622; Coverage: 0.579683
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 628; Coverage: 0.585275
+3 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 629; Coverage: 0.586207
+6 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 644; Coverage: 0.600186
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 647; Coverage: 0.602982
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 649; Coverage: 0.604846
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 651; Coverage: 0.606710
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 677; Coverage: 0.630941
+26 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 679; Coverage: 0.632805
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 687; Coverage: 0.640261
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  4, Timeframes =  5
+	PRED-DIFF:	Init_tf =  4, Timeframes =  4
+Faults: 1073; Detected: 703; Coverage: 0.655172
+106 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 711; Coverage: 0.662628
+27 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  5, Timeframes =  6
+	PRED-DIFF:	Init_tf =  5, Timeframes =  5
+Faults: 1073; Detected: 720; Coverage: 0.671016
+122 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 721; Coverage: 0.671948
+7 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 724; Coverage: 0.674744
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 728; Coverage: 0.678472
+20 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 732; Coverage: 0.682199
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 737; Coverage: 0.686859
+22 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  2
+Faults: 1073; Detected: 747; Coverage: 0.696179
+10 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 750; Coverage: 0.698975
+7 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  1
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 755; Coverage: 0.703635
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  6, Timeframes =  7
+	PRED-DIFF:	Init_tf =  6, Timeframes =  6
+Faults: 1073; Detected: 768; Coverage: 0.715750
+294 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  3, Timeframes =  4
+	PRED-DIFF:	Init_tf =  3, Timeframes =  3
+Faults: 1073; Detected: 775; Coverage: 0.722274
+24 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 780; Coverage: 0.726934
+14 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 783; Coverage: 0.729730
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 786; Coverage: 0.732526
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 787; Coverage: 0.733458
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 789; Coverage: 0.735322
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 792; Coverage: 0.738117
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  1
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 793; Coverage: 0.739049
+9 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 795; Coverage: 0.740913
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 796; Coverage: 0.741845
+13 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 802; Coverage: 0.747437
+26 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 803; Coverage: 0.748369
+35 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 807; Coverage: 0.752097
+14 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  6, Timeframes =  8
+	PRED-DIFF:	Init_tf =  6, Timeframes =  6
+Faults: 1073; Detected: 811; Coverage: 0.755825
+257 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 815; Coverage: 0.759553
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 817; Coverage: 0.761417
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 818; Coverage: 0.762349
+16 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  2
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 820; Coverage: 0.764212
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 822; Coverage: 0.766076
+26 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 824; Coverage: 0.767940
+12 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 825; Coverage: 0.768872
+4 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  2
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 827; Coverage: 0.770736
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 830; Coverage: 0.773532
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 833; Coverage: 0.776328
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 835; Coverage: 0.778192
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 838; Coverage: 0.780988
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 840; Coverage: 0.782852
+11 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 842; Coverage: 0.784716
+15 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  4
+	PRED-DIFF:	Init_tf =  2, Timeframes =  2
+Faults: 1073; Detected: 844; Coverage: 0.786580
+34 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 849; Coverage: 0.791240
+9 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 852; Coverage: 0.794035
+23 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 854; Coverage: 0.795899
+23 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 856; Coverage: 0.797763
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 858; Coverage: 0.799627
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  5, Timeframes =  7
+	PRED-DIFF:	Init_tf =  5, Timeframes =  5
+Faults: 1073; Detected: 861; Coverage: 0.802423
+198 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 862; Coverage: 0.803355
+15 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 865; Coverage: 0.806151
+58 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  0, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 868; Coverage: 0.808947
+12 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  0, Timeframes =  2
+	TEST NONE:	Init_tf =  0, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 871; Coverage: 0.811743
+91 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 873; Coverage: 0.813607
+119 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 875; Coverage: 0.815471
+31 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 876; Coverage: 0.816403
+8 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 878; Coverage: 0.818267
+36 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 879; Coverage: 0.819199
+14 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 881; Coverage: 0.821062
+23 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  7, Timeframes =  8
+	PRED-DIFF:	Init_tf =  6, Timeframes =  6
+Faults: 1073; Detected: 884; Coverage: 0.823858
+445 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  6, Timeframes =  9
+	PRED-DIFF:	Init_tf =  5, Timeframes =  7
+Faults: 1073; Detected: 888; Coverage: 0.827586
+347 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 889; Coverage: 0.828518
+12 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  7, Timeframes =  8
+	PRED-DIFF:	Init_tf =  6, Timeframes =  6
+Faults: 1073; Detected: 893; Coverage: 0.832246
+442 implications; 0.133333 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 894; Coverage: 0.833178
+23 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 896; Coverage: 0.835042
+14 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 899; Coverage: 0.837838
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 900; Coverage: 0.838770
+19 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 901; Coverage: 0.839702
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 906; Coverage: 0.844362
+20 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 914; Coverage: 0.851817
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 916; Coverage: 0.853681
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 917; Coverage: 0.854613
+17 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 918; Coverage: 0.855545
+22 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 920; Coverage: 0.857409
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 921; Coverage: 0.858341
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  2
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 925; Coverage: 0.862069
+6 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 927; Coverage: 0.863933
+17 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 928; Coverage: 0.864865
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 929; Coverage: 0.865797
+15 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 930; Coverage: 0.866729
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 933; Coverage: 0.869525
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  4
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 934; Coverage: 0.870457
+94 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 935; Coverage: 0.871389
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 941; Coverage: 0.876980
+20 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 942; Coverage: 0.877912
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  7, Timeframes =  9
+	PRED-DIFF:	Init_tf =  6, Timeframes =  6
+Faults: 1073; Detected: 944; Coverage: 0.879776
+459 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  6, Timeframes =  8
+	PRED-DIFF:	Init_tf =  5, Timeframes =  5
+Faults: 1073; Detected: 946; Coverage: 0.881640
+377 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 947; Coverage: 0.882572
+22 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 948; Coverage: 0.883504
+15 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  2, Timeframes =  4
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 953; Coverage: 0.888164
+72 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 954; Coverage: 0.889096
+38 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 955; Coverage: 0.890028
+45 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  2
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 956; Coverage: 0.890960
+12 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 957; Coverage: 0.891892
+16 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 958; Coverage: 0.892824
+40 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 959; Coverage: 0.893756
+19 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  8, Timeframes = 10
+	PRED-DIFF:	Init_tf =  7, Timeframes =  7
+Faults: 1073; Detected: 963; Coverage: 0.897484
+509 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 964; Coverage: 0.898416
+18 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 965; Coverage: 0.899348
+15 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 967; Coverage: 0.901212
+19 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 968; Coverage: 0.902144
+31 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 969; Coverage: 0.903075
+19 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  1, Timeframes =  3
+	TEST FOUND:	Init_tf =  1, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 970; Coverage: 0.904007
+19 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 971; Coverage: 0.904939
+31 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  5, Timeframes =  6
+	PRED-DIFF:	Init_tf =  3, Timeframes =  3
+Faults: 1073; Detected: 972; Coverage: 0.905871
+250 implications; 0.033333 sec.
+
+	TEST FOUND:	Init_tf =  7, Timeframes =  8
+	PRED-DIFF:	Init_tf =  5, Timeframes =  5
+Faults: 1073; Detected: 973; Coverage: 0.906803
+345 implications; 0.033333 sec.
+
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST FOUND:	Init_tf =  3, Timeframes =  4
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 974; Coverage: 0.907735
+119 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST FOUND:	Init_tf =  3, Timeframes =  4
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 975; Coverage: 0.908667
+92 implications; 0.000000 sec.
+
+	TEST FOUND:	Init_tf =  2, Timeframes =  3
+	PRED-DIFF:	Init_tf =  0, Timeframes =  0
+Faults: 1073; Detected: 976; Coverage: 0.909599
+30 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST FOUND:	Init_tf =  3, Timeframes =  4
+	PRED-DIFF:	Init_tf =  1, Timeframes =  1
+Faults: 1073; Detected: 978; Coverage: 0.911463
+80 implications; 0.000000 sec.
+
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  3
+	TEST NONE:	Init_tf =  2, Timeframes =  4
+	TEST NONE:	Init_tf =  2, Timeframes =  4
+	TEST NONE:	Init_tf =  3, Timeframes =  4
+	TEST NONE:	Init_tf =  3, Timeframes =  4
+	TEST NONE:	Init_tf =  3, Timeframes =  4
+#
+# [INIT_TF STATISTICS]
+#
+#	[ 0]	86	59.72	59.72
+#	[ 1]	51	35.42	95.14
+#	[ 2]	7	4.86	100.00
+#
+# [INIT_TF PREDICTION STATISTICS]
+#
+#	[ 0]	73	50.69	50.69
+#	[ 1]	47	32.64	83.33
+#	[ 2]	9	6.25	89.58
+#	[ 3]	2	1.39	90.97
+#	[ 4]	1	0.69	91.67
+#	[ 5]	5	3.47	95.14
+#	[ 6]	5	3.47	98.61
+#	[ 7]	2	1.39	100.00
+#
+# [TIMEFRAMES STATISTICS]
+#
+#	[ 1]	56	38.89	38.89
+#	[ 2]	43	29.86	68.75
+#	[ 3]	45	31.25	100.00
+#
+# [TIMEFRAMES PREDICTION STATISTICS]
+#
+#	[ 0]	73	50.69	50.69
+#	[ 1]	45	31.25	81.94
+#	[ 2]	11	7.64	89.58
+#	[ 3]	2	1.39	90.97
+#	[ 4]	1	0.69	91.67
+#	[ 5]	4	2.78	94.44
+#	[ 6]	5	3.47	97.92
+#	[ 7]	3	2.08	100.00
+#
+#	End of hfp.
+#

@@ -1,0 +1,53 @@
+
+To get going on the tests, simply copy two files into your current project directory:
+
+  cp ~cs537-1/testing/p1/run-tests.csh .
+  cp ~cs537-1/testing/p1/generate.py .
+
+To run all the tests, simply type:
+
+  ./run-tests.csh
+
+To run a specific test, type:
+
+  ./run-tests.csh <testNumber>
+
+as in
+
+  ./run-tests.csh 12
+
+Running a specific test may be useful to debug a particular problem you
+are having. 
+
+
+
+Here are some short descriptions of what the tests are supposed to check:
+
+ 0 too many command-line arguments
+ 1 input file: does not exist
+ 2 output file: cannot open
+ 3 input has same name as output
+ 4 input has different name but is actually same file
+
+ 5 simple file: in file and out file
+ 6 simple file: in file (and out to stdout)
+ 7 simple file: (in from stdin and out to stdout)
+
+ 8 empty input file 
+ 9 empty input file (stdout)
+10 empty input file (stdin/stdout)
+
+11 last line has no \n
+12 last line has no \n (stdout)
+13 last line has no \n (stdin/stdout)
+
+14 long file 
+15 long file (stdout)
+16 long file (stdin/stdout)
+
+17 long line 
+18 long line (stdout)
+19 long line (stdin/stdout)
+
+20 malloc fails (sometimes)
+

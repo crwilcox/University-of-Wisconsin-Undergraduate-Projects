@@ -1,0 +1,41 @@
+int main(){
+	// Applying an equality (==, !=) or assignment (=) operator to operands of two 
+	// different types, except that it is possible to compare an int and double, 
+	// as well as assign an int to a double (but not vice versa).
+	
+	int myInt = 5;
+	double myDouble = 6.0;
+	bool myBool = true;
+
+	if( myInt == myDouble ) {
+		myInt = 5;
+	}
+	
+	if( myInt != myDouble ) {
+		myDouble = 6.0;
+	}
+
+	if ( myInt == myBool ) {
+		//Should Error
+	}
+
+	if ( myInt != myBool ) {
+		//Should Error	
+	}
+	
+	if ( myDouble != myBool ) {
+		//Should Error	
+	}
+
+	if ( myDouble != myBool ) {
+		//Should Error	
+	}
+	
+	myDouble = myInt;
+	myBool = myInt; //Should Error
+	myBool = myDouble; //Should Error
+	myInt = myDouble; //Should Error
+		
+	return 1;
+	
+}

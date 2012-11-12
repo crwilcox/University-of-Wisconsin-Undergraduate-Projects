@@ -1,0 +1,16 @@
+#	****************************
+#	FASTEST ver. 6.0
+#	[ATPG] Wed Feb 24 16:48:34 CDT 1993
+#	[FILE:seq_1-output]
+#	****************************
+Total 102770 implications; 0 hrs 16 sec.
+Faults: 1073; Detected: 978; Coverage: 0.911463
+Total Vectors: 425
+Memory used: [165859328/165859328/165859328] 161972K
+#
+# Time : Total       16 sec (Initialization 0 sec)
+#	Total TPG     16 sec(100%)
+#	Scoap          0 sec(  0%)
+#	Simulation     3 sec( 16%)
+#
+Untested Faults: 0

@@ -1,0 +1,33 @@
+# Loading work.partial_counter_tb(fast)
+vsim -novopt work.partial_counter_tb
+# vsim -novopt work.partial_counter_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw2/work.partial_counter_tb
+# Loading work.partial_counter_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw2/work.partial_counter
+# Loading work.partial_counter
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw2/work.dff_async_rst
+# Loading work.dff_async_rst
+run -all
+# Simulation Time: 5    Count: 3    Current State: 0    Reset: 1   
+# Simulation Time: 10   Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 15   Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 25   Count: 4    Current State: 1    Reset: 0   
+# Simulation Time: 35   Count: 5    Current State: 2    Reset: 0   
+# Simulation Time: 45   Count: 6    Current State: 3    Reset: 0   
+# Simulation Time: 55   Count: 7    Current State: 4    Reset: 0   
+# Simulation Time: 65   Count: 8    Current State: 5    Reset: 0   
+# Simulation Time: 75   Count: 9    Current State: 6    Reset: 0   
+# Simulation Time: 85   Count: 10   Current State: 7    Reset: 0   
+# Simulation Time: 95   Count: 11   Current State: 8    Reset: 0   
+# Simulation Time: 105  Count: 12   Current State: 9    Reset: 0   
+# Simulation Time: 115  Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 125  Count: 4    Current State: 1    Reset: 0   
+# Simulation Time: 135  Count: 3    Current State: 0    Reset: 1   
+# Simulation Time: 140  Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 145  Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 155  Count: 4    Current State: 1    Reset: 0   
+# Simulation Time: 165  Count: 5    Current State: 2    Reset: 0   
+# Simulation Time: 175  Count: 6    Current State: 3    Reset: 0   
+# Simulation Time: 185  Count: 7    Current State: 4    Reset: 0   
+# Simulation Time: 195  Count: 8    Current State: 5    Reset: 0   
+# Break in Module partial_counter_tb at /filespace/people/c/cwilcox/courses/ece551/hw2/partial_counter_tb.v line 40

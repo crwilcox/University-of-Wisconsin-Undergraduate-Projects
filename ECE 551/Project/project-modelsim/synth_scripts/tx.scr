@@ -1,0 +1,73 @@
+#Following the specifications given in the homework
+remove_design -design
+
+#files for read in are space delimited...
+read_file -format verilog {../tx.v}
+
+check_design > tx_check_design_pre.txt
+#INPUTS EXCLUDING CLK
+set non_clk_inputs [remove_from_collection [all_inputs] [find port Clk_s]]
+
+# SPECIFY CLOCK
+# 200 MHz
+#create_clock -name "Clk_s" -period 5 -waveform { 0 1 }  { Clk_s  }
+# 800 MHz
+#create_clock -name "Clk_s" -period 1.25 -waveform { 0 1 }  { Clk_s  }
+# 952 MHz
+#create_clock -name "Clk_s" -period 1.05 -waveform { 0 1 }  { Clk_s  }
+# 990 MHz
+#create_clock -name "Clk_s" -period 1.01 -waveform { 0 1 }  { Clk_s  }
+# 995 MHz
+#create_clock -name "Clk_s" -period 1.005 -waveform { 0 1 }  { Clk_s  }
+# 999 MHz
+#create_clock -name "Clk_s" -period 1.001 -waveform { 0 1 }  { Clk_s  }
+# 999.9 MHz
+#create_clock -name "Clk_s" -period 1.0001 -waveform { 0 1 }  { Clk_s  }
+# 999.99 MHz
+#create_clock -name "Clk_s" -period 1.00001 -waveform { 0 1 }  { Clk_s  }
+# 999.999 MHz
+#create_clock -name "Clk_s" -period 1.000001 -waveform { 0 1 }  { Clk_s  }
+# ~1000 MHz
+create_clock -name "Clk_s" -period 1.0000001 -waveform { 0 1 }  { Clk_s  }
+# ~1000 MHz - DOESNT WORK
+#create_clock -name "Clk_s" -period 1.00000001 -waveform { 0 1 }  { Clk_s  }
+# 1000 MHz - DOESNT WORK
+#create_clock -name "Clk_s" -period 1 -waveform { 0 1 }  { Clk_s  }
+
+#INPUT PORT ATTRIBUTES
+set_dont_touch_network [find port Clk_s]
+
+#SET INPUT DELAY
+set_input_delay -clock Clk_s 0 [copy_collection $non_clk_inputs]
+
+#OUTPUT DELAY
+set_output_delay -clock Clk_s 0 [all_outputs]
+
+#WIRE LOAD
+set_wire_load_model -name B1X1 -library gflxp
+
+#OPERATING CONDITIONS
+set_operating_conditions -library gflxp NOM
+
+#DRIVING CELL
+set_driving_cell -lib_cell DDRVLS33 -library gflxio [copy_collection $non_clk_inputs]
+
+#TOP LEVEL CONSTRAINTS
+set_max_area 0.0
+
+#COMPILE
+compile_ultra
+
+#REPORT AREA
+report_area > output/area_report_tx.txt
+
+
+# VERIFY TIMING
+check_timing
+report_timing > output/timing_report_tx.txt
+
+check_design > tx_check_design_post.txt
+#get the netlist
+write -hierarchy -format verilog tx -output output/tx_synth.v
+
+exit

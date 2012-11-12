@@ -1,0 +1,49 @@
+Below you willl find a description of my testcases...
+
+0. Blank_File
+	- expect no output
+	
+1. File_Single_Assignment
+
+2. Functioning_Program
+	- no scoping, no redeclaration, no invalid, just int, double, float
+	
+3. Declarations
+	- file with a slew of different c types being declared and asking for the type
+	- will check to make sure you are not using hard coded names for the types by using obscure types
+	- try to check non existant declarations
+	- do some double checks on certain ones.  Make sure reading isn't destructive or something wacky
+	- try names that are greater than one character
+	- try names that are long
+		- relatively short since c will allow up to 255 chars
+	- try names that are really long 
+		-(255 character limit of c)
+		
+4. Functioning_Program_Brackets
+	- normal closing of brackets
+	
+5. Open_Brackets_No_Closing
+	- open brackets, no closing brackets to scopes.
+	- Accoring to spec, it is fine to just open and never close
+	- assuming a stack implementation, this will just result in us not emptying the stack at the end.
+	
+6. No_Open_Brackets_Closing
+	- no opening brackets w/ closing brackets 
+	- The closing should be ignored, and cause an invalid flag
+	- Misc Closings at end
+	- should result in some invalid being thrown
+
+7. Scoping_Simple
+	- no reassignments, just try different scoping patterns and variable use.
+	- try to use things out of scope to get undeclared
+	
+8. Scoping_Reassign
+	- verify that scoping is occuring.
+	- ask for name of something in larger scope, reassign, and ask for it in the smaller scope
+	- hopefully when we do lookups, it reflects the most recent one, not the first...
+
+9. Random_Whitespace
+	- Could modify Standard Functioning program, normal closing of brackets
+	- add the whitespace before and after line entries just to mess with it
+	- should be able to handle this
+

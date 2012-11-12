@@ -1,0 +1,19 @@
+This program finds looped latches.  Simply run the runProgram.sh script and view the output.  
+Each line contains a sequence that causes a loop.  The first and last element of the list 
+should be the latch for which the loop belongs.
+
+Cycles.java  
+	the cycles class is the worker for this program.  It recursively goes 
+	through the graph of gates to find the loops
+FeedbackCycles.java  
+	the main class for this program
+Node.java 
+	a node class to represent each gate
+ProgramOutputLatchLoops.txt  
+	the output of the program as ran for the report
+runProgram.sh*  
+	a script to run the program
+seq1
+	The sequence file as provided,
+
+

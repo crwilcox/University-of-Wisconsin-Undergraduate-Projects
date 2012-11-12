@@ -1,0 +1,11 @@
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/alignTest.asm SUCCESS CPI:10.4 VALID_CPI:2100.0 CYCLES:21 ICOUNT:2 VALID_ICOUNT:r1, IHITRATE: 66.7 DHITRATE: 0.0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/alignTest2.asm SUCCESS CPI:4.3 VALID_CPI:2600.0 CYCLES:26 ICOUNT:6 VALID_ICOUNT:r1, IHITRATE: 80.0 DHITRATE: 0.0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/alignTest3.asm SUCCESS CPI:4.5 VALID_CPI:4.5 CYCLES:36 ICOUNT:8 VALID_ICOUNT:8 IHITRATE: 80.0 DHITRATE: 400.0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/alignTest4.asm SUCCESS CPI:4.5 VALID_CPI:4.5 CYCLES:36 ICOUNT:8 VALID_ICOUNT:8 IHITRATE: 80.0 DHITRATE: 400.0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/cacheTest.asm SUCCESS CPI:3.6 VALID_CPI:3.0 CYCLES:361 ICOUNT:100 VALID_ICOUNT:122 IHITRATE: 84.5 DHITRATE: 393.5
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/complex_exception_test.asm FAILED
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/extraCreditTest.asm FAILED
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/ldld.asm SUCCESS CPI:4.1 VALID_CPI:3.4 CYCLES:217 ICOUNT:53 VALID_ICOUNT:63 IHITRATE: 95.8 DHITRATE: 157.5
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/ldst.asm SUCCESS CPI:2.9 VALID_CPI:2.7 CYCLES:273 ICOUNT:93 VALID_ICOUNT:103 IHITRATE: 96.4 DHITRATE: 128.8
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/simple-exception-test.asm FAILED
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/complex_demofinal/ultimateTest.asm SUCCESS CPI:2.3 VALID_CPI:1.8 CYCLES:4542 ICOUNT:1938 VALID_ICOUNT:2466 IHITRATE: 99.5 DHITRATE: 248.3

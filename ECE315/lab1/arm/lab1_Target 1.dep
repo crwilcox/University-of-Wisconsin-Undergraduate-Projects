@@ -1,0 +1,5 @@
+Dependencies for Project 'lab1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.s)(0x4B69F913)(--device DARMAD --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files (x86)\Keil\ARM\INC\ADI" --list "main.lst" --xref -o "main.o")
+F (.\ADuC7026.s)(0x4B69F914)(--device DARMAD --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files (x86)\Keil\ARM\INC\ADI" --list "ADuC7026.lst" --xref -o "ADuC7026.o")
+F (.\exceptions.s)(0x4B6B2E14)(--device DARMAD --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files (x86)\Keil\ARM\INC\ADI" --list "exceptions.lst" --xref -o "exceptions.o")
+F (.\IRQ_Handler.s)(0x4B69F913)(--device DARMAD --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files (x86)\Keil\ARM\INC\ADI" --list "IRQ_Handler.lst" --xref -o "IRQ_Handler.o")

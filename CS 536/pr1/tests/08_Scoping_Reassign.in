@@ -1,0 +1,23 @@
+{
+= z char
+? z
+}
+{
+= z int
+? z
+}
+
+{
+= x int
+{
+= y double
+? x
+? y
+= x double
+? x
+}
+? y
+? x
+= x double
+? x
+}

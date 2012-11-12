@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Packet_Queue
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:29:33 2010
+****************************************
+
+Operating Conditions: NOM   Library: gflxp
+Wire Load Model Mode: enclosed
+
+  Startpoint: Write_Ack (input port clocked by Clk_r)
+  Endpoint: Queue_reg[1][1]
+            (falling edge-triggered flip-flop clocked by Clk_r)
+  Path Group: Clk_r
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Packet_Queue       B1X1                  gflxp
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clk_r (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.00       0.00 r
+  Write_Ack (in)                           0.00       0.00 r
+  U389/Z (N1M1P)                           0.03       0.03 f
+  U399/Z (NR2M2P)                          0.11       0.15 r
+  U397/Z (N1M2P)                           0.10       0.25 f
+  U481/Z (OA21M1P)                         0.09       0.34 f
+  U390/Z (OA21M1P)                         0.07       0.41 f
+  U378/Z (N1M3P)                           0.20       0.60 r
+  U484/Z (AOI22M1P)                        0.09       0.70 f
+  U485/Z (OAI21M1P)                        0.04       0.74 r
+  Queue_reg[1][1]/D (FDN1QM1P)             0.00       0.74 r
+  data arrival time                                   0.74
+
+  clock Clk_r (fall edge)                  1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  Queue_reg[1][1]/CPN (FDN1QM1P)           0.00       1.00 f
+  library setup time                      -0.24       0.76
+  data required time                                  0.76
+  -----------------------------------------------------------
+  data required time                                  0.76
+  data arrival time                                  -0.74
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+1

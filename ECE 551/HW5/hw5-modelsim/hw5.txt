@@ -1,0 +1,31 @@
+== Problem 1 ==
+A)
+	made the module fulladd_param.v that needs to be submitted
+B)
+	made the scr hw5_p1_ptb_synth.scr that needs to be submitted
+C)
+	This part we still need to do ultra... table is on google docs
+D)
+	• How does the area taken up by the registers compare to the adder logic?
+		At lower clock speeds, the area taken up by flip flops is about double that of the combinational logice
+		as timing requirements got tighter, the area taken up by the combinational was similar to that of the flip flops.
+
+	• How did the various synthesis options affect your area results?
+		For this particular design, low and uniquify were about equivalent for area.  Both low and uniquify could not meet timing for the 250MHz clock, and uniquify missed 200 MHz.  Ungroup was able to pass all timings, but the area was always larger than that of the low or uniquify version.
+
+	#### HOW DID ULTRA DO????
+
+	• Did you notice any trends as the timing requirement got tighter?
+		As timing requirements got tighter, the area of the design tended to increase.
+	
+
+	• Did you notice a difference in how long it took for synthesis to finish?
+		As we increased the clock speed, it took synthesis longer to finish.  50MHz ran quite quickly, where 250MHz involved a good deal of time.
+
+== Problem 2 ==
+make sure to handin copies of tx and rx as I believe they have both changed, if even slightly
+A)
+
+B)
+
+C)

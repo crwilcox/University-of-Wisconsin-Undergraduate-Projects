@@ -1,0 +1,14 @@
+int main() {
+	int x;
+	double y;
+	bool z;
+	x = 1 + 1;
+	x = 4 - 8;
+	y = 2.0 + 2.0;
+	y = 3.5 - 2.32;
+	y = 4.6 * 5.4e2;
+	z = true;
+	z = true || false;
+	z = true && true;
+	return x;
+}

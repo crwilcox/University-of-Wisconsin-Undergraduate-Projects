@@ -1,0 +1,16 @@
+bool A = false; /*4*/
+bool main(int argc /*4*/) {
+  while(true) {
+    int B = 4; /*4*/
+    if((B/*4:7:L*/ < 3)) {
+      bool A = true; /*4*/
+      int B = 2; /*4*/
+      return (!A/*6:9:L*/);
+    }
+    else {
+      bool A = true; /*4*/
+      int B = 1; /*4*/
+      return A/*11:9:L*/;
+    }
+  }
+}

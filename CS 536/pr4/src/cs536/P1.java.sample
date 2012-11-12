@@ -1,0 +1,68 @@
+package cs536;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+import cs536.staticSemantics.symbolTable.Symbol;
+import cs536.staticSemantics.symbolTable.SymbolTable;
+import cs536.staticSemantics.symbolTable.RedeclarationException;
+import cs536.staticSemantics.symbolTable.EmptyException;
+
+/**
+ * The driver program for Project 1
+ */
+public class P1
+{
+    public static void main(String args[])
+        throws IOException
+    {
+	// Create a BufferedReader so we can actually use System.in
+	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+
+	SymbolTable table = new SymbolTable();
+
+	// Read each line in the file
+	String currentLine;
+	while ((currentLine = in.readLine()) != null) {
+	    // There may be whitespace before it, so cut that off, then
+	    // Split it up into words for the declare and use commands
+	    String[] words = currentLine.trim().split(" ");
+            String command = words[0];
+            
+	    if (command.equals("{")) {
+		table.startScope();
+            }
+            else if (command.equals("}")) {
+		try {
+		    table.endScope();
+		}
+		catch (EmptyException e) {
+		    System.out.println("invalid");
+		}
+            }
+            else if (command.equals("=")) {
+		String name = words[1];
+		String type = words[2];
+		Symbol sym = new Symbol(name, type);
+		try {
+		    table.declare(sym);
+		}
+		catch (RedeclarationException e) {
+		    System.out.println("redeclaration");
+		}
+	    }
+            else if (command.equals("?")) {
+		String name = words[1];
+		Symbol sym = table.lookup(name);
+		if (sym != null) {
+		    System.out.println(sym.getType());
+		}
+		else {
+		    System.out.println("undeclared");
+		}
+	    }
+
+	} // while
+    } // main()
+}

@@ -1,0 +1,37 @@
+vDD vdd! 0 dc 1.8
+vGND gnd! 0 dc 0 
+
+vppgen_en ppgen_en 0 pulse 0 1.8 0n 0.05n 0.05n 40n 80n 
+vB B 0 pulse 0 1.8 0 0.05n 0.05n 10n 20n
+vA<0> A<0> 0 dc 0 
+vA<1> A<1> 0 dc 0 
+vA<2> A<2> 0 dc 0 
+vA<3> A<3> 0 dc 0 
+vA<4> A<4> 0 dc 0 
+vA<5> A<5> 0 dc 0 
+vA<6> A<6> 0 dc 0 
+vA<7> A<7> 0 dc 0 
+vA<8> A<8> 0 dc 0 
+vA<9> A<9> 0 dc 0 
+vA<10> A<10> 0 dc 0 
+vA<11> A<11> 0 dc 0 
+vA<12> A<12> 0 dc 0 
+vA<13> A<13> 0 dc 0 
+vA<14> A<14> 0 dc 0 
+vA<15> A<15> 0 dc 0 
+vA<16> A<16> 0 dc 0 
+vA<17> A<17> 0 dc 0 
+vA<18> A<18> 0 dc 0 
+vA<19> A<19> 0 dc 0 
+vA<20> A<20> 0 dc 0 
+vA<21> A<21> 0 dc 0 
+vA<22> A<22> 0 dc 0 
+vA<23> A<23> 0 dc 0 
+vA<24> A<24> 0 dc 0 
+vA<25> A<25> 0 dc 0 
+vA<26> A<26> 0 dc 0 
+vA<27> A<27> 0 dc 0 
+vA<28> A<28> 0 dc 1.8
+vA<29> A<29> 0 dc 1.8 
+vA<30> A<30> 0 dc 1.8 
+vA<31> A<31> 0 dc 1.8 

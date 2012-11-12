@@ -1,0 +1,26 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : prime_detector_behavioral
+Version: D-2010.03-SP3
+Date   : Mon Nov  8 21:53:07 2010
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gflxp (File: /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxp/gflxp_nom.db)
+
+Number of ports:                4
+Number of nets:                34
+Number of cells:               31
+Number of references:          14
+
+Combinational area:        118.041899
+Noncombinational area:     130.008001
+Net Interconnect area:     307.208951  
+
+Total cell area:           248.049900
+Total area:                555.258851
+1

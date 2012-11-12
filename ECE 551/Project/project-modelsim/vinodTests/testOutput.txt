@@ -1,0 +1,720 @@
+# 
+# **********  LOW CONTENTION TESTS  *********** 
+# waiting for pkts to be received! sent:    1, rcvd:    0
+# Rcvd Pkt: 1102dada to node:          5
+# waiting for pkts to be received! sent:    2, rcvd:    1
+# Rcvd Pkt: 1104dada to node:          5
+# waiting for pkts to be received! sent:    3, rcvd:    2
+# Rcvd Pkt: 1202dada to node:          9
+# waiting for pkts to be received! sent:    4, rcvd:    3
+# Rcvd Pkt: 1202dada to node:          9
+# waiting for pkts to be received! sent:    5, rcvd:    4
+# Rcvd Pkt: 1004dada to node:          1
+# waiting for pkts to be received! sent:    6, rcvd:    5
+# Rcvd Pkt: 2002dada to node:          2
+# waiting for pkts to be received! sent:    7, rcvd:    6
+# Rcvd Pkt: 2304dada to node:         14
+# waiting for pkts to be received! sent:    8, rcvd:    7
+# Rcvd Pkt: 2203dada to node:         10
+# waiting for pkts to be received! sent:    9, rcvd:    8
+# Rcvd Pkt: 0102dada to node:          4
+# waiting for pkts to be received! sent:   10, rcvd:    9
+# Rcvd Pkt: 1103dada to node:          5
+# waiting for pkts to be received! sent:   11, rcvd:   10
+# Rcvd Pkt: 0206dada to node:          8
+# waiting for pkts to be received! sent:   12, rcvd:   11
+# Rcvd Pkt: 1204dada to node:          9
+# waiting for pkts to be received! sent:   13, rcvd:   12
+# Rcvd Pkt: 1304dada to node:         13
+# waiting for pkts to be received! sent:   14, rcvd:   13
+# Rcvd Pkt: 1306dada to node:         13
+# waiting for pkts to be received! sent:   15, rcvd:   14
+# Rcvd Pkt: 1204dada to node:          9
+# waiting for pkts to be received! sent:   16, rcvd:   15
+# Rcvd Pkt: 2302dada to node:         14
+# waiting for pkts to be received! sent:   17, rcvd:   16
+# Rcvd Pkt: 2003dada to node:          2
+# waiting for pkts to be received! sent:   18, rcvd:   17
+# Rcvd Pkt: 0104dada to node:          4
+# waiting for pkts to be received! sent:   19, rcvd:   18
+# Rcvd Pkt: 3105dada to node:          7
+# waiting for pkts to be received! sent:   20, rcvd:   19
+# Rcvd Pkt: 2202dada to node:         10
+# waiting for pkts to be received! sent:   21, rcvd:   20
+# Rcvd Pkt: 3205dada to node:         11
+# waiting for pkts to be received! sent:   22, rcvd:   21
+# Rcvd Pkt: 3104dada to node:          7
+# waiting for pkts to be received! sent:   23, rcvd:   22
+# Rcvd Pkt: 2202dada to node:         10
+# waiting for pkts to be received! sent:   24, rcvd:   23
+# Rcvd Pkt: 1002dada to node:          1
+# waiting for pkts to be received! sent:   25, rcvd:   24
+# Rcvd Pkt: 3002dada to node:          3
+# waiting for pkts to be received! sent:   26, rcvd:   25
+# Rcvd Pkt: 3004dada to node:          3
+# waiting for pkts to be received! sent:   27, rcvd:   26
+# Rcvd Pkt: 3004dada to node:          3
+# waiting for pkts to be received! sent:   28, rcvd:   27
+# Rcvd Pkt: 0103dada to node:          4
+# waiting for pkts to be received! sent:   29, rcvd:   28
+# Rcvd Pkt: 2102dada to node:          6
+# waiting for pkts to be received! sent:   30, rcvd:   29
+# Rcvd Pkt: 0202dada to node:          8
+# waiting for pkts to be received! sent:   31, rcvd:   30
+# Rcvd Pkt: 2102dada to node:          6
+# waiting for pkts to be received! sent:   32, rcvd:   31
+# Rcvd Pkt: 1104dada to node:          5
+# waiting for pkts to be received! sent:   33, rcvd:   32
+# Rcvd Pkt: 1303dada to node:         13
+# waiting for pkts to be received! sent:   34, rcvd:   33
+# Rcvd Pkt: 1303dada to node:         13
+# waiting for pkts to be received! sent:   35, rcvd:   34
+# Rcvd Pkt: 0205dada to node:          8
+# waiting for pkts to be received! sent:   36, rcvd:   35
+# Rcvd Pkt: 0204dada to node:          8
+# waiting for pkts to be received! sent:   37, rcvd:   36
+# Rcvd Pkt: 3202dada to node:         11
+# waiting for pkts to be received! sent:   38, rcvd:   37
+# Rcvd Pkt: 3304dada to node:         15
+# waiting for pkts to be received! sent:   39, rcvd:   38
+# Rcvd Pkt: 3004dada to node:          3
+# waiting for pkts to be received! sent:   40, rcvd:   39
+# Rcvd Pkt: 2202dada to node:         10
+# waiting for pkts to be received! sent:   41, rcvd:   40
+# Rcvd Pkt: 2103dada to node:          6
+# waiting for pkts to be received! sent:   42, rcvd:   41
+# Rcvd Pkt: 3103dada to node:          7
+# waiting for pkts to be received! sent:   43, rcvd:   42
+# Rcvd Pkt: 0004dada to node:          0
+# waiting for pkts to be received! sent:   44, rcvd:   43
+# Rcvd Pkt: 2302dada to node:         14
+# waiting for pkts to be received! sent:   45, rcvd:   44
+# Rcvd Pkt: 1203dada to node:          9
+# waiting for pkts to be received! sent:   46, rcvd:   45
+# Rcvd Pkt: 2204dada to node:         10
+# waiting for pkts to be received! sent:   47, rcvd:   46
+# Rcvd Pkt: 2203dada to node:         10
+# waiting for pkts to be received! sent:   48, rcvd:   47
+# Rcvd Pkt: 0102dada to node:          4
+# waiting for pkts to be received! sent:   49, rcvd:   48
+# Rcvd Pkt: 0303dada to node:         12
+# waiting for pkts to be received! sent:   50, rcvd:   49
+# Rcvd Pkt: 1302dada to node:         13
+# waiting for pkts to be received! sent:   51, rcvd:   50
+# Rcvd Pkt: 2103dada to node:          6
+# waiting for pkts to be received! sent:   52, rcvd:   51
+# Rcvd Pkt: 1202dada to node:          9
+# waiting for pkts to be received! sent:   53, rcvd:   52
+# Rcvd Pkt: 3003dada to node:          3
+# waiting for pkts to be received! sent:   54, rcvd:   53
+# Rcvd Pkt: 0004dada to node:          0
+# waiting for pkts to be received! sent:   55, rcvd:   54
+# Rcvd Pkt: 3105dada to node:          7
+# waiting for pkts to be received! sent:   56, rcvd:   55
+# Rcvd Pkt: 0006dada to node:          0
+# waiting for pkts to be received! sent:   57, rcvd:   56
+# Rcvd Pkt: 0104dada to node:          4
+# waiting for pkts to be received! sent:   58, rcvd:   57
+# Rcvd Pkt: 1203dada to node:          9
+# waiting for pkts to be received! sent:   59, rcvd:   58
+# Rcvd Pkt: 3003dada to node:          3
+# waiting for pkts to be received! sent:   60, rcvd:   59
+# Rcvd Pkt: 2102dada to node:          6
+# waiting for pkts to be received! sent:   61, rcvd:   60
+# Rcvd Pkt: 1202dada to node:          9
+# waiting for pkts to be received! sent:   62, rcvd:   61
+# Rcvd Pkt: 0205dada to node:          8
+# waiting for pkts to be received! sent:   63, rcvd:   62
+# Rcvd Pkt: 1203dada to node:          9
+# waiting for pkts to be received! sent:   64, rcvd:   63
+# Rcvd Pkt: 0202dada to node:          8
+# waiting for pkts to be received! sent:   65, rcvd:   64
+# Rcvd Pkt: 3302dada to node:         15
+# waiting for pkts to be received! sent:   66, rcvd:   65
+# Rcvd Pkt: 1102dada to node:          5
+# waiting for pkts to be received! sent:   67, rcvd:   66
+# Rcvd Pkt: 2102dada to node:          6
+# waiting for pkts to be received! sent:   68, rcvd:   67
+# Rcvd Pkt: 1103dada to node:          5
+# waiting for pkts to be received! sent:   69, rcvd:   68
+# Rcvd Pkt: 1102dada to node:          5
+# waiting for pkts to be received! sent:   70, rcvd:   69
+# Rcvd Pkt: 3305dada to node:         15
+# waiting for pkts to be received! sent:   71, rcvd:   70
+# Rcvd Pkt: 2204dada to node:         10
+# waiting for pkts to be received! sent:   72, rcvd:   71
+# Rcvd Pkt: 1103dada to node:          5
+# waiting for pkts to be received! sent:   73, rcvd:   72
+# Rcvd Pkt: 3203dada to node:         11
+# waiting for pkts to be received! sent:   74, rcvd:   73
+# Rcvd Pkt: 1202dada to node:          9
+# waiting for pkts to be received! sent:   75, rcvd:   74
+# Rcvd Pkt: 1005dada to node:          1
+# waiting for pkts to be received! sent:   76, rcvd:   75
+# Rcvd Pkt: 3204dada to node:         11
+# waiting for pkts to be received! sent:   77, rcvd:   76
+# Rcvd Pkt: 2303dada to node:         14
+# waiting for pkts to be received! sent:   78, rcvd:   77
+# Rcvd Pkt: 1004dada to node:          1
+# waiting for pkts to be received! sent:   79, rcvd:   78
+# Rcvd Pkt: 3002dada to node:          3
+# waiting for pkts to be received! sent:   80, rcvd:   79
+# Rcvd Pkt: 2202dada to node:         10
+# waiting for pkts to be received! sent:   81, rcvd:   80
+# Rcvd Pkt: 0104dada to node:          4
+# waiting for pkts to be received! sent:   82, rcvd:   81
+# Rcvd Pkt: 1203dada to node:          9
+# waiting for pkts to be received! sent:   83, rcvd:   82
+# Rcvd Pkt: 3205dada to node:         11
+# waiting for pkts to be received! sent:   84, rcvd:   83
+# Rcvd Pkt: 1304dada to node:         13
+# waiting for pkts to be received! sent:   85, rcvd:   84
+# Rcvd Pkt: 3102dada to node:          7
+# waiting for pkts to be received! sent:   86, rcvd:   85
+# Rcvd Pkt: 2004dada to node:          2
+# waiting for pkts to be received! sent:   87, rcvd:   86
+# Rcvd Pkt: 0204dada to node:          8
+# waiting for pkts to be received! sent:   88, rcvd:   87
+# Rcvd Pkt: 2302dada to node:         14
+# waiting for pkts to be received! sent:   89, rcvd:   88
+# Rcvd Pkt: 0105dada to node:          4
+# waiting for pkts to be received! sent:   90, rcvd:   89
+# Rcvd Pkt: 2104dada to node:          6
+# waiting for pkts to be received! sent:   91, rcvd:   90
+# Rcvd Pkt: 0305dada to node:         12
+# waiting for pkts to be received! sent:   92, rcvd:   91
+# Rcvd Pkt: 3203dada to node:         11
+# waiting for pkts to be received! sent:   93, rcvd:   92
+# Rcvd Pkt: 3002dada to node:          3
+# waiting for pkts to be received! sent:   94, rcvd:   93
+# Rcvd Pkt: 0102dada to node:          4
+# waiting for pkts to be received! sent:   95, rcvd:   94
+# Rcvd Pkt: 1102dada to node:          5
+# waiting for pkts to be received! sent:   96, rcvd:   95
+# Rcvd Pkt: 0105dada to node:          4
+# waiting for pkts to be received! sent:   97, rcvd:   96
+# Rcvd Pkt: 3002dada to node:          3
+# waiting for pkts to be received! sent:   98, rcvd:   97
+# Rcvd Pkt: 2004dada to node:          2
+# waiting for pkts to be received! sent:   99, rcvd:   98
+# Rcvd Pkt: 2204dada to node:         10
+# waiting for pkts to be received! sent:  100, rcvd:   99
+# Rcvd Pkt: 1102dada to node:          5
+# Rcvd pkts: 100  Send pkts: 100  Dropped:         0 Drop Rate:0.000000 throughput:inf
+# 
+# **********  MED CONTENTION TESTS  *********** 
+# starttime:     28498
+# random nodes generated are:0010101100101011
+# waiting for pkts to be received! sent:    8, rcvd:    0
+# Rcvd Pkt: 2202dada to node:         10
+# Rcvd Pkt: 1103dada to node:          5
+# Rcvd Pkt: 0303dada to node:         12
+# Rcvd Pkt: 1303dada to node:         13
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 1103dada to node:          5
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 1104dada to node:          5
+# endtime:     28878
+# starttime:     28878
+# random nodes generated are:0100001001111100
+# waiting for pkts to be received! sent:   15, rcvd:    8
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 3003dada to node:          3
+# Rcvd Pkt: 0103dada to node:          4
+# Rcvd Pkt: 2204dada to node:         10
+# Rcvd Pkt: 2004dada to node:          2
+# Rcvd Pkt: 1004dada to node:          1
+# Rcvd Pkt: 0005dada to node:          0
+# endtime:     29386
+# starttime:     29386
+# random nodes generated are:0110101010110000
+# waiting for pkts to be received! sent:   22, rcvd:   15
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 1202dada to node:          9
+# Rcvd Pkt: 3102dada to node:          7
+# Rcvd Pkt: 1103dada to node:          5
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 1304dada to node:         13
+# endtime:     29774
+# starttime:     29774
+# random nodes generated are:0111101100101100
+# waiting for pkts to be received! sent:   31, rcvd:   22
+# Rcvd Pkt: 1102dada to node:          5
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 1202dada to node:          9
+# Rcvd Pkt: 1003dada to node:          1
+# Rcvd Pkt: 1103dada to node:          5
+# Rcvd Pkt: 2304dada to node:         14
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 2305dada to node:         14
+# Rcvd Pkt: 0205dada to node:          8
+# endtime:     30286
+# starttime:     30286
+# random nodes generated are:1101001001111011
+# waiting for pkts to be received! sent:   41, rcvd:   31
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 0103dada to node:          4
+# Rcvd Pkt: 1304dada to node:         13
+# Rcvd Pkt: 1004dada to node:          1
+# Rcvd Pkt: 0204dada to node:          8
+# Rcvd Pkt: 0105dada to node:          4
+# Rcvd Pkt: 3005dada to node:          3
+# Rcvd Pkt: 0205dada to node:          8
+# Rcvd Pkt: 3307dada to node:         15
+# endtime:     30946
+# starttime:     30946
+# random nodes generated are:1011110010101010
+# waiting for pkts to be received! sent:   50, rcvd:   41
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 3204dada to node:         11
+# Rcvd Pkt: 2204dada to node:         10
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 1205dada to node:          9
+# Rcvd Pkt: 3105dada to node:          7
+# Rcvd Pkt: 0006dada to node:          0
+# endtime:     31586
+# starttime:     31586
+# random nodes generated are:0101000000101100
+# waiting for pkts to be received! sent:   55, rcvd:   50
+# Rcvd Pkt: 0302dada to node:         12
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 3003dada to node:          3
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 1205dada to node:          9
+# endtime:     32062
+# starttime:     32062
+# random nodes generated are:0110010111001001
+# waiting for pkts to be received! sent:   63, rcvd:   55
+# Rcvd Pkt: 3002dada to node:          3
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 2303dada to node:         14
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 3005dada to node:          3
+# Rcvd Pkt: 1006dada to node:          1
+# endtime:     32698
+# starttime:     32698
+# random nodes generated are:1001110100111010
+# waiting for pkts to be received! sent:   72, rcvd:   63
+# Rcvd Pkt: 3202dada to node:         11
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 3303dada to node:         15
+# Rcvd Pkt: 3003dada to node:          3
+# Rcvd Pkt: 0103dada to node:          4
+# Rcvd Pkt: 2003dada to node:          2
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 1104dada to node:          5
+# endtime:     33122
+# starttime:     33122
+# random nodes generated are:0011010111001111
+# waiting for pkts to be received! sent:   82, rcvd:   72
+# Rcvd Pkt: 3102dada to node:          7
+# Rcvd Pkt: 1002dada to node:          1
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 0203dada to node:          8
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 1303dada to node:         13
+# Rcvd Pkt: 0306dada to node:         12
+# Rcvd Pkt: 3006dada to node:          3
+# Rcvd Pkt: 3006dada to node:          3
+# endtime:     33842
+# starttime:     33842
+# random nodes generated are:1000101111011011
+# waiting for pkts to be received! sent:   92, rcvd:   82
+# Rcvd Pkt: 0002dada to node:          0
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 2003dada to node:          2
+# Rcvd Pkt: 2303dada to node:         14
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 1305dada to node:         13
+# Rcvd Pkt: 2005dada to node:          2
+# Rcvd Pkt: 1005dada to node:          1
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 0006dada to node:          0
+# endtime:     34514
+# starttime:     34514
+# random nodes generated are:0101001001110111
+# waiting for pkts to be received! sent:  101, rcvd:   92
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 2102dada to node:          6
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 3302dada to node:         15
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 0204dada to node:          8
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 0105dada to node:          4
+# Rcvd Pkt: 3105dada to node:          7
+# endtime:     35022
+# starttime:     35022
+# random nodes generated are:0010110100010011
+# waiting for pkts to be received! sent:  108, rcvd:  101
+# Rcvd Pkt: 2102dada to node:          6
+# Rcvd Pkt: 2102dada to node:          6
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 2004dada to node:          2
+# Rcvd Pkt: 1305dada to node:         13
+# Rcvd Pkt: 1105dada to node:          5
+# endtime:     35542
+# starttime:     35542
+# random nodes generated are:0000000011001001
+# waiting for pkts to be received! sent:  112, rcvd:  108
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 3105dada to node:          7
+# Rcvd Pkt: 2006dada to node:          2
+# endtime:     36186
+# starttime:     36186
+# random nodes generated are:1101111001101010
+# waiting for pkts to be received! sent:  122, rcvd:  112
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 2303dada to node:         14
+# Rcvd Pkt: 0303dada to node:         12
+# Rcvd Pkt: 0203dada to node:          8
+# Rcvd Pkt: 1304dada to node:         13
+# Rcvd Pkt: 0303dada to node:         12
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 3005dada to node:          3
+# endtime:     36698
+# starttime:     36698
+# random nodes generated are:1110001001110101
+# waiting for pkts to be received! sent:  131, rcvd:  122
+# Rcvd Pkt: 1002dada to node:          1
+# Rcvd Pkt: 2102dada to node:          6
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 1003dada to node:          1
+# Rcvd Pkt: 0204dada to node:          8
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 1005dada to node:          1
+# Rcvd Pkt: 3006dada to node:          3
+# Rcvd Pkt: 1006dada to node:          1
+# endtime:     37374
+# starttime:     37374
+# random nodes generated are:1011011000001101
+# waiting for pkts to be received! sent:  139, rcvd:  131
+# Rcvd Pkt: 1002dada to node:          1
+# Rcvd Pkt: 1002dada to node:          1
+# Rcvd Pkt: 1102dada to node:          5
+# Rcvd Pkt: 0104dada to node:          4
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 2005dada to node:          2
+# Rcvd Pkt: 0007dada to node:          0
+# endtime:     38142
+# starttime:     38142
+# random nodes generated are:1001110010011110
+# waiting for pkts to be received! sent:  148, rcvd:  139
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 0303dada to node:         12
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 2104dada to node:          6
+# Rcvd Pkt: 2004dada to node:          2
+# Rcvd Pkt: 1004dada to node:          1
+# Rcvd Pkt: 2205dada to node:         10
+# Rcvd Pkt: 2006dada to node:          2
+# endtime:     38774
+# starttime:     38774
+# random nodes generated are:0110010101101111
+# waiting for pkts to be received! sent:  158, rcvd:  148
+# Rcvd Pkt: 1102dada to node:          5
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 0003dada to node:          0
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 2203dada to node:         10
+# Rcvd Pkt: 2203dada to node:         10
+# Rcvd Pkt: 1004dada to node:          1
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 1005dada to node:          1
+# endtime:     39338
+# starttime:     39338
+# random nodes generated are:1101010111000011
+# waiting for pkts to be received! sent:  167, rcvd:  158
+# Rcvd Pkt: 1202dada to node:          9
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 3302dada to node:         15
+# Rcvd Pkt: 3303dada to node:         15
+# Rcvd Pkt: 0203dada to node:          8
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 0307dada to node:         12
+# endtime:     40062
+# starttime:     40062
+# random nodes generated are:1111110110000010
+# waiting for pkts to be received! sent:  176, rcvd:  167
+# Rcvd Pkt: 1002dada to node:          1
+# Rcvd Pkt: 2204dada to node:         10
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 2204dada to node:         10
+# Rcvd Pkt: 2004dada to node:          2
+# Rcvd Pkt: 0104dada to node:          4
+# Rcvd Pkt: 3104dada to node:          7
+# Rcvd Pkt: 3006dada to node:          3
+# Rcvd Pkt: 0306dada to node:         12
+# endtime:     40706
+# starttime:     40706
+# random nodes generated are:0011101110110101
+# waiting for pkts to be received! sent:  186, rcvd:  176
+# Rcvd Pkt: 2202dada to node:         10
+# Rcvd Pkt: 3002dada to node:          3
+# Rcvd Pkt: 1202dada to node:          9
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 1103dada to node:          5
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 2305dada to node:         14
+# Rcvd Pkt: 2005dada to node:          2
+# Rcvd Pkt: 0006dada to node:          0
+# Rcvd Pkt: 0307dada to node:         12
+# endtime:     41434
+# starttime:     41434
+# random nodes generated are:0011011000000011
+# waiting for pkts to be received! sent:  192, rcvd:  186
+# Rcvd Pkt: 2202dada to node:         10
+# Rcvd Pkt: 2203dada to node:         10
+# Rcvd Pkt: 0003dada to node:          0
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 1005dada to node:          1
+# Rcvd Pkt: 0206dada to node:          8
+# endtime:     42038
+# starttime:     42038
+# random nodes generated are:0000100111110011
+# waiting for pkts to be received! sent:  200, rcvd:  192
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 3303dada to node:         15
+# Rcvd Pkt: 3303dada to node:         15
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 2005dada to node:          2
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 3306dada to node:         15
+# Rcvd Pkt: 0006dada to node:          0
+# endtime:     42650
+# starttime:     42650
+# random nodes generated are:0001011011001001
+# waiting for pkts to be received! sent:  207, rcvd:  200
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 3003dada to node:          3
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 3007dada to node:          3
+# endtime:     43390
+# Rcvd pkts: 207  Send pkts: 207  Dropped:         0 Drop Rate:0.000000 throughput:0.279730
+# 
+# **********  HIGH CONTENTION TESTS  *********** 
+# starttime:     43658
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 1003dada to node:          1
+# Rcvd Pkt: 0103dada to node:          4
+# Rcvd Pkt: 3202dada to node:         11
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 3102dada to node:          7
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 2302dada to node:         14
+# Rcvd Pkt: 2104dada to node:          6
+# Rcvd Pkt: 2203dada to node:         10
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 0203dada to node:          8
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 1303dada to node:         13
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 2203dada to node:         10
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 2303dada to node:         14
+# Rcvd Pkt: 1002dada to node:          1
+# Rcvd Pkt: 2204dada to node:         10
+# Rcvd Pkt: 1306dada to node:         13
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 0105dada to node:          4
+# Rcvd Pkt: 3106dada to node:          7
+# Rcvd Pkt: 0205dada to node:          8
+# Rcvd Pkt: 1303dada to node:         13
+# Rcvd Pkt: 2105dada to node:          6
+# Rcvd Pkt: 2006dada to node:          2
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 0007dada to node:          0
+# Rcvd Pkt: 3307dada to node:         15
+# Rcvd Pkt: 0206dada to node:          8
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 2104dada to node:          6
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 0112dada to node:          4
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 0105dada to node:          4
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 3210dada to node:         11
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 0307dada to node:         12
+# Rcvd Pkt: 2003dada to node:          2
+# Rcvd Pkt: 2303dada to node:         14
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 3102dada to node:          7
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 3204dada to node:         11
+# Rcvd Pkt: 2205dada to node:         10
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 2002dada to node:          2
+# Rcvd Pkt: 0212dada to node:          8
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 3106dada to node:          7
+# Rcvd Pkt: 1003dada to node:          1
+# Rcvd Pkt: 0206dada to node:          8
+# Rcvd Pkt: 1005dada to node:          1
+# Rcvd Pkt: 3211dada to node:         11
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 3203dada to node:         11
+# Rcvd Pkt: 0212dada to node:          8
+# Rcvd Pkt: 3106dada to node:          7
+# Rcvd Pkt: 0105dada to node:          4
+# Rcvd Pkt: 3213dada to node:         11
+# Rcvd Pkt: 0103dada to node:          4
+# Rcvd Pkt: 0304dada to node:         12
+# Rcvd Pkt: 0102dada to node:          4
+# Rcvd Pkt: 0203dada to node:          8
+# Rcvd Pkt: 020bdada to node:          8
+# Rcvd Pkt: 0206dada to node:          8
+# Rcvd Pkt: 3202dada to node:         11
+# Rcvd Pkt: 2203dada to node:         10
+# Rcvd Pkt: 3105dada to node:          7
+# Rcvd Pkt: 3307dada to node:         15
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 3106dada to node:          7
+# Rcvd Pkt: 0104dada to node:          4
+# Rcvd Pkt: 0004dada to node:          0
+# Rcvd Pkt: 2204dada to node:         10
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 020ddada to node:          8
+# Rcvd Pkt: 3307dada to node:         15
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 0113dada to node:          4
+# Rcvd Pkt: 0007dada to node:          0
+# Rcvd Pkt: 3106dada to node:          7
+# Rcvd Pkt: 310edada to node:          7
+# Rcvd Pkt: 3314dada to node:         15
+# Rcvd Pkt: 1203dada to node:          9
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 130adada to node:         13
+# Rcvd Pkt: 2311dada to node:         14
+# Rcvd Pkt: 3111dada to node:          7
+# Rcvd Pkt: 330cdada to node:         15
+# Rcvd Pkt: 3004dada to node:          3
+# Rcvd Pkt: 2311dada to node:         14
+# Rcvd Pkt: 2207dada to node:         10
+# Rcvd Pkt: 0105dada to node:          4
+# Rcvd Pkt: 2107dada to node:          6
+# Rcvd Pkt: 2104dada to node:          6
+# Rcvd Pkt: 0107dada to node:          4
+# Rcvd Pkt: 0007dada to node:          0
+# Rcvd Pkt: 3207dada to node:         11
+# Rcvd Pkt: 300edada to node:          3
+# Rcvd Pkt: 1004dada to node:          1
+# Rcvd Pkt: 200ddada to node:          2
+# Rcvd Pkt: 020ddada to node:          8
+# Rcvd Pkt: 0108dada to node:          4
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 1205dada to node:          9
+# Rcvd Pkt: 2003dada to node:          2
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 0007dada to node:          0
+# Rcvd Pkt: 2306dada to node:         14
+# Rcvd Pkt: 0202dada to node:          8
+# waiting for pkts to be received! sent:  200, rcvd:  124
+# Rcvd Pkt: 3105dada to node:          7
+# Rcvd Pkt: 010edada to node:          4
+# Rcvd Pkt: 2312dada to node:         14
+# Rcvd Pkt: 230adada to node:         14
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 110bdada to node:          5
+# Rcvd Pkt: 1316dada to node:         13
+# Rcvd Pkt: 0307dada to node:         12
+# Rcvd Pkt: 2104dada to node:          6
+# Rcvd Pkt: 320bdada to node:         11
+# Rcvd Pkt: 130ddada to node:         13
+# Rcvd Pkt: 300adada to node:          3
+# Rcvd Pkt: 010edada to node:          4
+# Rcvd Pkt: 2306dada to node:         14
+# Rcvd Pkt: 2312dada to node:         14
+# Rcvd Pkt: 0212dada to node:          8
+# Rcvd Pkt: 1317dada to node:         13
+# Rcvd Pkt: 2103dada to node:          6
+# Rcvd Pkt: 0106dada to node:          4
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 0111dada to node:          4
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 2311dada to node:         14
+# Rcvd Pkt: 3307dada to node:         15
+# Rcvd Pkt: 2106dada to node:          6
+# Rcvd Pkt: 110edada to node:          5
+# Rcvd Pkt: 100cdada to node:          1
+# Rcvd Pkt: 3008dada to node:          3
+# Rcvd Pkt: 1104dada to node:          5
+# Rcvd Pkt: 1302dada to node:         13
+# Rcvd Pkt: 010bdada to node:          4
+# Rcvd Pkt: 1306dada to node:         13
+# Rcvd Pkt: 020ddada to node:          8
+# Rcvd Pkt: 200fdada to node:          2
+# Rcvd Pkt: 310ddada to node:          7
+# Rcvd Pkt: 0206dada to node:          8
+# Rcvd Pkt: 1003dada to node:          1
+# Rcvd Pkt: 000edada to node:          0
+# Rcvd Pkt: 0014dada to node:          0
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 310adada to node:          7
+# Rcvd Pkt: 0205dada to node:          8
+# Rcvd Pkt: 3304dada to node:         15
+# Rcvd Pkt: 2011dada to node:          2
+# Rcvd Pkt: 1103dada to node:          5
+# Rcvd Pkt: 3205dada to node:         11
+# Rcvd Pkt: 0014dada to node:          0
+# Rcvd Pkt: 0109dada to node:          4
+# Rcvd Pkt: 2311dada to node:         14
+# Rcvd Pkt: 3007dada to node:          3
+# Rcvd Pkt: 0202dada to node:          8
+# Rcvd Pkt: 3109dada to node:          7
+# Rcvd Pkt: 100cdada to node:          1
+# Rcvd Pkt: 0206dada to node:          8
+# Rcvd Pkt: 1204dada to node:          9
+# Rcvd Pkt: 3103dada to node:          7
+# Rcvd Pkt: 0014dada to node:          0
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 2317dada to node:         14
+# Rcvd Pkt: 2306dada to node:         14
+# Rcvd Pkt: 030cdada to node:         12
+# Rcvd Pkt: 3307dada to node:         15
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 0014dada to node:          0
+# Rcvd Pkt: 1105dada to node:          5
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 2017dada to node:          2
+# Rcvd Pkt: 310ddada to node:          7
+# Rcvd Pkt: 2207dada to node:         10
+# Rcvd Pkt: 1006dada to node:          1
+# Rcvd Pkt: 2305dada to node:         14
+# Rcvd Pkt: 131edada to node:         13
+# Rcvd Pkt: 031cdada to node:         12
+# Rcvd Pkt: 2205dada to node:         10
+# Rcvd Pkt: 2305dada to node:         14
+# Rcvd Pkt: 3011dada to node:          3
+# endtime:     46678
+# Rcvd pkts: 200  Send pkts: 200  Dropped:         0 Drop Rate:0.000000 throughput:0.066225
+# Break in Module tb_RouterCore4x4 at /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/tb_RouterCoreFinal.v line 169

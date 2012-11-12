@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=PongTableProject.PrjPcb
+[Project2]
+ProjectPath=tlc5940nt_orcad\Imported Orcad Libraries.LIBPKG\Orcad Libraries.LIBPKG

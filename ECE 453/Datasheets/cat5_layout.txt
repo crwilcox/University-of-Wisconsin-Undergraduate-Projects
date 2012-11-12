@@ -1,0 +1,8 @@
+Cat5 wire layout:
+
+Orange: Power
+Orange-white: Red
+Blue: Blue
+Blue-white: Green
+Green: Power (Photoresistor)
+Green-white: Photoresistor read

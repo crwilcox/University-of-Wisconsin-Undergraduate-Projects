@@ -1,0 +1,6 @@
+vDD vdd! 0 dc 1.8
+vGND gnd! 0 dc 0 
+
+vrst rst 0 pulse 0 1.8 0 0.05n 0.05n 12n 6000n
+vclk clk 0 pulse 0 1.8 10n 0.05n 0.05n 5n 10n
+vstart start 0 pulse 0 1.8 12n 0.05n 0.05n 10n 6000n

@@ -1,0 +1,22 @@
+module modulo_6_tb();
+   
+   reg [3:0]	original_value = 4'b0000;
+   wire [2:0]	mod6_value;
+
+  
+   modulo_6 DUT(
+				.original_value(original_value[2:0]),
+				.mod6_value(mod6_value)
+				);
+				
+	initial
+	begin
+		for( original_value = 4'b0000; original_value < 4'b1000; original_value = original_value + 1)
+		begin
+			$display("Original Value = %d, mod6 Value = %d", original_value, mod6_value);
+			#10;
+		end
+	end
+	$stop;
+	
+endmodule

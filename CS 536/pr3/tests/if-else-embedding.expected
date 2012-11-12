@@ -1,0 +1,3 @@
+bool cond1 = false;
+bool cond2 = true;
+int x = 0;

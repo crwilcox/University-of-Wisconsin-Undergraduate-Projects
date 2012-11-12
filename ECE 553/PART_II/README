@@ -1,0 +1,10 @@
+This contains all of the files for Part II
+
+findFeedbackCycles
+	Files used to find feedback cycles of the LATCHs
+fullScan/
+	Files for the full scan
+partialScan/
+	Files for the partial scan of the circuit
+unmodified
+	Files for the unmodified scan of the circuit

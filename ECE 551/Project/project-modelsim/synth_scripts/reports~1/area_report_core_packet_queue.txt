@@ -1,0 +1,26 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : Packet_Queue
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:29:33 2010
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gflxp (File: /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxp/gflxp_nom.db)
+
+Number of ports:               70
+Number of nets:               569
+Number of cells:              533
+Number of references:          21
+
+Combinational area:       2134.664512
+Noncombinational area:    3815.264044
+Net Interconnect area:    6576.458115  
+
+Total cell area:          5949.928555
+Total area:               12526.386670
+1

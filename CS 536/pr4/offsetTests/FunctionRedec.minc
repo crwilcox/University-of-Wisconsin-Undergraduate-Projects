@@ -1,0 +1,13 @@
+void Function() {
+  int Do;
+  int Some;
+  int Stuff; 
+}
+
+Function();
+
+void Function() {
+  int Redec;
+} 
+
+Function();

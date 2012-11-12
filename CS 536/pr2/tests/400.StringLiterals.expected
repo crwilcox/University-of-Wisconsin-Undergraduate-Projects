@@ -1,0 +1,15 @@
+1:1:STRING_LIT: "A Standard String"
+2:1:STRING_LIT: ""
+3:1:STRING_LIT: "\n"
+4:1:STRING_LIT: "\t"
+5:1:STRING_LIT: "\\"
+6:1:STRING_LIT: "\""
+7:1:STRING_LIT: "The Quick Fox Jumps Over the Brown Dog !@#$%^&*(){}|[]\\:\"<>?;',.//`~"
+8:1:Illegal escape sequence: \:
+9:1:Illegal escape sequence: \$
+10:1:Illegal string character
+11:1:Unterminated string: "goodbutmultipleline
+12:1:Unterminated string: "
+13:1:Unterminated string: "multiple line fake out \"
+14:1:Unterminated string: "
+15:1:Unterminated string: "goodbutEOF

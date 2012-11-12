@@ -1,0 +1,116 @@
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST tests/errors/ArithANDEqualityOperators.minc: PASSED
+TEST tests/errors/bad_compare_or_assign.minc: PASSED
+TEST tests/errors/CallFunction_WrongNumArgs.minc: PASSED
+TEST tests/errors/CallFunction_WrongTypeANDNumArgs.minc: PASSED
+TEST tests/errors/DerefNonPointer.minc: PASSED
+TEST tests/errors/EmptyReturnNonVoidFunction.minc: PASSED
+TEST tests/errors/globalError.minc: PASSED
+TEST tests/errors/IncrDecrErrors.minc: PASSED
+TEST tests/errors/logical_operator_non_bool.minc: PASSED
+TEST tests/errors/MinusNonNumber.minc: PASSED
+TEST tests/errors/misuse_of_array_subscript.minc: PASSED
+TEST tests/errors/ReturnValVoidFunction.minc: PASSED
+TEST tests/errors/ReturnWrongTypeFromFunction.minc: PASSED
+TEST tests/errors/rvalue_address.minc: PASSED
+TEST tests/errors/rvalue_and_type_mismatch.minc: PASSED
+TEST tests/errors/rvalue_illegal_modification.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST tests/normalOperation/arrayOps.minc: PASSED
+TEST tests/normalOperation/declWithAssign.minc: PASSED
+TEST tests/normalOperation/doubleAssign.minc: PASSED
+TEST tests/normalOperation/functionCallReturnType.minc: PASSED
+TEST tests/normalOperation/globalVarDecl.minc: PASSED
+TEST tests/normalOperation/ifStatements.minc: PASSED
+TEST tests/normalOperation/implicitTypeCast.minc: PASSED
+TEST tests/normalOperation/intAssign.minc: PASSED
+TEST tests/normalOperation/pointerOps.minc: PASSED
+TEST tests/normalOperation/stringOps.minc: PASSED
+TEST tests/normalOperation/typeTest.minc: PASSED
+TEST tests/normalOperation/validIncrDecr.minc: PASSED
+TEST tests/normalOperation/validNonVoidReturns.minc: PASSED
+TEST tests/normalOperation/validVoidReturn.minc: PASSED
+TEST tests/normalOperation/whileLoops.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST driscollTests/cascade/arith-one-deep-error.minc: PASSED
+TEST driscollTests/cascade/deep-string-error.minc: PASSED
+TEST driscollTests/cascade/function-sync.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST driscollTests/exprs/arith-match-double.minc: PASSED
+TEST driscollTests/exprs/arith-match-int.minc: PASSED
+TEST driscollTests/exprs/bad-array.minc: PASSED
+TEST driscollTests/exprs/bad-basic-arith-mismatch.minc: PASSED
+TEST driscollTests/exprs/bad-decr.minc: PASSED
+TEST driscollTests/exprs/bad-deref.minc: PASSED
+TEST driscollTests/exprs/bad-double-mod.minc: PASSED
+TEST driscollTests/exprs/bad-extra-derefs2.minc: PASSED
+TEST driscollTests/exprs/bad-extra-derefs.minc: PASSED
+TEST driscollTests/exprs/bad-incr.minc: PASSED
+TEST driscollTests/exprs/bad-rel-string.minc: PASSED
+TEST driscollTests/exprs/bad-string-deref.minc: PASSED
+TEST driscollTests/exprs/bad-uminus-string.minc: PASSED
+TEST driscollTests/exprs/check-void.minc: PASSED
+TEST driscollTests/exprs/correct-add-type.minc: PASSED
+TEST driscollTests/exprs/correct-arith-type.minc: PASSED
+TEST driscollTests/exprs/good-array.minc: PASSED
+TEST driscollTests/exprs/good-deref.minc: PASSED
+TEST driscollTests/exprs/good-incr.minc: PASSED
+TEST driscollTests/exprs/good-int-mod.minc: PASSED
+TEST driscollTests/exprs/good-multi-deref.minc: PASSED
+TEST driscollTests/exprs/good-rel-double.minc: PASSED
+TEST driscollTests/exprs/good-rel-int.minc: PASSED
+TEST driscollTests/exprs/good-uminus-double.minc: PASSED
+TEST driscollTests/exprs/good-uminus-int.minc: PASSED
+TEST driscollTests/exprs/incorrect-add-type.minc: PASSED
+TEST driscollTests/exprs/incorrect-arith-type.minc: PASSED
+TEST driscollTests/exprs/invalid-lognot.minc: PASSED
+TEST driscollTests/exprs/invalid-log-op.minc: PASSED
+TEST driscollTests/exprs/no-arith-pointer.minc: PASSED
+TEST driscollTests/exprs/no-arith-string.minc: PASSED
+TEST driscollTests/exprs/valid-lognot.minc: PASSED
+TEST driscollTests/exprs/valid-log-op.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST driscollTests/funcs/bad-param-type.minc: PASSED
+TEST driscollTests/funcs/bad-return-val-from-void.minc: PASSED
+TEST driscollTests/funcs/bad-void-return.minc: PASSED
+TEST driscollTests/funcs/good-return.minc: PASSED
+TEST driscollTests/funcs/invalid-return.minc: PASSED
+TEST driscollTests/funcs/not-enough-params.minc: PASSED
+TEST driscollTests/funcs/too-many-params.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST driscollTests/lval/addr-of-lit.minc: PASSED
+TEST driscollTests/lval/addr-of-param.minc: PASSED
+TEST driscollTests/lval/addr-of-temp.minc: PASSED
+TEST driscollTests/lval/assign-to-lval.minc: PASSED
+TEST driscollTests/lval/assign-to-rval.minc: PASSED
+TEST driscollTests/lval/deref-is-lval.minc: PASSED
+TEST driscollTests/lval/incr-lval.minc: PASSED
+TEST driscollTests/lval/incr-rval.minc: PASSED
+TEST driscollTests/lval/lval-ident.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 
+TEST driscollTests/stmts/if-condition.minc: PASSED
+TEST driscollTests/stmts/invalid-if-condition.minc: PASSED
+TEST driscollTests/stmts/invalid-initializer.minc: PASSED
+TEST driscollTests/stmts/invalid-pointer-init.minc: PASSED
+TEST driscollTests/stmts/invalid-while-cond.minc: PASSED
+TEST driscollTests/stmts/read-double.minc: PASSED
+TEST driscollTests/stmts/read-int.minc: PASSED
+TEST driscollTests/stmts/read-string.minc: PASSED
+TEST driscollTests/stmts/valid-initializer.minc: PASSED
+TEST driscollTests/stmts/valid-pointer-init.minc: PASSED
+TEST driscollTests/stmts/valid-pointer-null-init.minc: PASSED
+TEST driscollTests/stmts/while-cond.minc: PASSED
+TEST driscollTests/stmts/write-bool.minc: PASSED
+TEST driscollTests/stmts/write-double.minc: PASSED
+TEST driscollTests/stmts/write-int.minc: PASSED
+TEST driscollTests/stmts/write-pointer.minc: PASSED
+TEST driscollTests/stmts/write-string.minc: PASSED
+~/public/cs536/pr5 ~/public/cs536/pr5 
+~/public/cs536/pr5 

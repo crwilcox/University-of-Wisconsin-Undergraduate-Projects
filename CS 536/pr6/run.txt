@@ -1,0 +1,253 @@
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-enhancements/basic-pointers/assign-null: PASSED
+TEST tests/basic-enhancements/basic-pointers/assign-through-pointer: PASSED
+TEST tests/basic-enhancements/basic-pointers/compare-pointers: PASSED
+TEST tests/basic-enhancements/basic-pointers/pointer-to-local: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-enhancements/globals/decl: PASSED
+TEST tests/basic-enhancements/globals/globals-are-really-global: PASSED
+TEST tests/basic-enhancements/globals/globals-with-fancy-initializer: PASSED
+TEST tests/basic-enhancements/globals/globals-with-initializer: PASSED
+TEST tests/basic-enhancements/globals/use-global: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-enhancements/io/read-bool: PASSED
+TEST tests/basic-enhancements/io/read-bool-fancy: PASSED
+TEST tests/basic-enhancements/io/read-int: PASSED
+TEST tests/basic-enhancements/io/write-bool: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-enhancements/logical-ops/and: PASSED
+TEST tests/basic-enhancements/logical-ops/and-short-circuit: PASSED
+TEST tests/basic-enhancements/logical-ops/not: PASSED
+TEST tests/basic-enhancements/logical-ops/or: PASSED
+TEST tests/basic-enhancements/logical-ops/or-short-circuit: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-enhancements/other-arithmetic/decrs-change-var: PASSED
+TEST tests/basic-enhancements/other-arithmetic/incrs-change-var: PASSED
+TEST tests/basic-enhancements/other-arithmetic/mult-div-mod: PASSED
+TEST tests/basic-enhancements/other-arithmetic/post-gives-old-value: PASSED
+TEST tests/basic-enhancements/other-arithmetic/pre-gives-new-value: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-enhancements/smaller-bool/alignment-check: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/basic-functions/args-pass-by-value: PASSED
+TEST tests/basic-functions/arguments-are-passed: PASSED
+TEST tests/basic-functions/function-is-run: PASSED
+TEST tests/basic-functions/functions-return: PASSED
+TEST tests/basic-functions/larger: PASSED
+TEST tests/basic-functions/plain-call-args: PASSED
+TEST tests/basic-functions/plain-call: PASSED
+TEST tests/basic-functions/plain-call-returns: PASSED
+TEST tests/basic-functions/recursion: PASSED
+TEST tests/basic-functions/return-value-works: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/fancy-functions/fallthrough: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/fancy-functions/by-ref/alias-test: PASSED
+TEST tests/fancy-functions/by-ref/basic-test: PASSED
+TEST tests/fancy-functions/by-ref/chain-function: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/floating-point/basic-arith: PASSED
+TEST tests/floating-point/conversion-call: FAILED
+** Expected:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+42.0
+** Got:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+The following symbols are undefined:
+main
+
+[0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+
+** Diff file (which should be empty) instead contains:
+6,10c6
+< The following symbols are undefined:
+< main
+< 
+< [0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+< 
+---
+> 42.0
+
+TEST tests/floating-point/conversions: FAILED
+** Expected:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+42.4242.0
+** Got:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+
+** Diff file (which should be empty) instead contains:
+6c6
+< 
+---
+> 42.4242.0
+
+TEST tests/floating-point/global: PASSED
+TEST tests/floating-point/local: PASSED
+TEST tests/floating-point/mul-div: PASSED
+TEST tests/floating-point/relational: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/fundamentals/arithmetic: PASSED
+TEST tests/fundamentals/chained-assign: PASSED
+TEST tests/fundamentals/complex-expressions: PASSED
+TEST tests/fundamentals/complex-locals: PASSED
+TEST tests/fundamentals/conditions: PASSED
+TEST tests/fundamentals/else-if: PASSED
+TEST tests/fundamentals/if: PASSED
+TEST tests/fundamentals/locals: PASSED
+TEST tests/fundamentals/locals-initializer: PASSED
+TEST tests/fundamentals/loop: PASSED
+TEST tests/fundamentals/loop-with-if: PASSED
+TEST tests/fundamentals/main: PASSED
+TEST tests/fundamentals/pop-stack-after-stmt: PASSED
+TEST tests/fundamentals/write: PASSED
+~/public/cs536/pr6 ~/public/cs536/pr6 
+~/public/cs536/pr6 
+TEST tests/strings/output-literal: PASSED
+TEST tests/strings/output-variable: PASSED
+TEST tests/strings/read-string: PASSED
+TEST tests/strings/read-string-fresh-mem: PASSED
+TEST tests/strings/subscript-strings: FAILED
+** Expected:
+*p***
+** Got:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+The following symbols are undefined:
+main
+
+[0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+
+** Diff file (which should be empty) instead contains:
+1,10c1
+< SPIM Version 7.3. of August 28, 2006
+< Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+< All Rights Reserved.
+< See the file README for a full copyright notice.
+< Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+< The following symbols are undefined:
+< main
+< 
+< [0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+< 
+---
+> *p***
+
+TEST tests/strings/subscript-with-bounds-checks: FAILED
+** Expected:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+I DONT KNOW WHAT TO DO HERE (OUT OF BOUNDS)
+void main()
+{
+    string s;
+    s = "Did you know that 2 * 3 is 6?";
+    write s[30];
+}
+
+** Got:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+The following symbols are undefined:
+main
+
+[0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+
+** Diff file (which should be empty) instead contains:
+6,9c6,12
+< The following symbols are undefined:
+< main
+< 
+< [0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+---
+> I DONT KNOW WHAT TO DO HERE (OUT OF BOUNDS)
+> void main()
+> {
+>     string s;
+>     s = "Did you know that 2 * 3 is 6?";
+>     write s[30];
+> }
+
+TEST tests/strings/subscript-with-bounds-checks-negative: FAILED
+** Expected:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+I DONT KNOW WHAT WE SHOULD DO HERE
+Also, Strings need subscripting
+void main()
+{
+    string s;
+    s = "Did you know that 2 * 3 is 6?";
+    write s[-1];
+}
+
+** Got:
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+The following symbols are undefined:
+main
+
+[0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+
+** Diff file (which should be empty) instead contains:
+6,9c6,13
+< The following symbols are undefined:
+< main
+< 
+< [0x00400014]	0x0c000000  jal 0x00000000 [main]           ; 180: jal main
+---
+> I DONT KNOW WHAT WE SHOULD DO HERE
+> Also, Strings need subscripting
+> void main()
+> {
+>     string s;
+>     s = "Did you know that 2 * 3 is 6?";
+>     write s[-1];
+> }
+
+PASSED: 61
+FAILED: 5
+

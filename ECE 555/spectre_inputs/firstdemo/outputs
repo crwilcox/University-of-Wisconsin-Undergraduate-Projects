@@ -1,0 +1,1479 @@
+_outputList = nil
+ _envSaveOptions = nil
+savedComponent = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->inLastSet = nil
+tmp1->name = nil
+tmp1->expression = nil
+tmp1->signal = "/busen"
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->origin = nil
+tmp1->type = 'net
+tmp1->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y4"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->index = 1
+(unless tmp2
+tmp2 = make_sevOutputStruct()
+)
+(unless tmp2
+tmp2 = (ncons nil)
+)
+tmp2->inLastSet = nil
+tmp2->name = nil
+tmp2->expression = nil
+tmp2->signal = "/done"
+tmp2->scriptFile = nil
+tmp2->type2 = nil
+tmp2->masterScriptFile = nil
+tmp2->saveScriptFile = nil
+tmp2->saveMasterScriptFile = nil
+tmp2->origin = nil
+tmp2->type = 'net
+tmp2->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y2"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp2->value = nil
+tmp2->plot = 't
+tmp2->save = nil
+tmp2->march = nil
+tmp2->index = 2
+(unless tmp3
+tmp3 = make_sevOutputStruct()
+)
+(unless tmp3
+tmp3 = (ncons nil)
+)
+tmp3->inLastSet = nil
+tmp3->name = nil
+tmp3->expression = nil
+tmp3->signal = "/rst"
+tmp3->scriptFile = nil
+tmp3->type2 = nil
+tmp3->masterScriptFile = nil
+tmp3->saveScriptFile = nil
+tmp3->saveMasterScriptFile = nil
+tmp3->origin = nil
+tmp3->type = 'net
+tmp3->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y5"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp3->value = nil
+tmp3->plot = 't
+tmp3->save = nil
+tmp3->march = nil
+tmp3->index = 3
+(unless tmp4
+tmp4 = make_sevOutputStruct()
+)
+(unless tmp4
+tmp4 = (ncons nil)
+)
+tmp4->inLastSet = nil
+tmp4->name = nil
+tmp4->expression = nil
+tmp4->signal = "/start"
+tmp4->scriptFile = nil
+tmp4->type2 = nil
+tmp4->masterScriptFile = nil
+tmp4->saveScriptFile = nil
+tmp4->saveMasterScriptFile = nil
+tmp4->origin = nil
+tmp4->type = 'net
+tmp4->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y6"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp4->value = nil
+tmp4->plot = 't
+tmp4->save = nil
+tmp4->march = nil
+tmp4->index = 4
+(unless tmp5
+tmp5 = make_sevOutputStruct()
+)
+(unless tmp5
+tmp5 = (ncons nil)
+)
+tmp5->inLastSet = nil
+tmp5->name = nil
+tmp5->expression = nil
+tmp5->signal = "/clk"
+tmp5->scriptFile = nil
+tmp5->type2 = nil
+tmp5->masterScriptFile = nil
+tmp5->saveScriptFile = nil
+tmp5->saveMasterScriptFile = nil
+tmp5->origin = nil
+tmp5->type = 'net
+tmp5->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y3"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp5->value = nil
+tmp5->plot = 't
+tmp5->save = nil
+tmp5->march = nil
+tmp5->index = 5
+(unless tmp6
+tmp6 = make_sevOutputStruct()
+)
+(unless tmp6
+tmp6 = (ncons nil)
+)
+tmp6->inLastSet = nil
+tmp6->name = nil
+tmp6->expression = nil
+tmp6->signal = "/A<0>"
+tmp6->scriptFile = nil
+tmp6->type2 = nil
+tmp6->masterScriptFile = nil
+tmp6->saveScriptFile = nil
+tmp6->saveMasterScriptFile = nil
+tmp6->origin = nil
+tmp6->type = 'net
+tmp6->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y7"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp6->value = nil
+tmp6->plot = 't
+tmp6->save = nil
+tmp6->march = nil
+tmp6->index = 6
+(unless tmp7
+tmp7 = make_sevOutputStruct()
+)
+(unless tmp7
+tmp7 = (ncons nil)
+)
+tmp7->inLastSet = nil
+tmp7->name = nil
+tmp7->expression = nil
+tmp7->signal = "/A<1>"
+tmp7->scriptFile = nil
+tmp7->type2 = nil
+tmp7->masterScriptFile = nil
+tmp7->saveScriptFile = nil
+tmp7->saveMasterScriptFile = nil
+tmp7->origin = nil
+tmp7->type = 'net
+tmp7->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y8"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp7->value = nil
+tmp7->plot = 't
+tmp7->save = nil
+tmp7->march = nil
+tmp7->index = 7
+(unless tmp8
+tmp8 = make_sevOutputStruct()
+)
+(unless tmp8
+tmp8 = (ncons nil)
+)
+tmp8->inLastSet = nil
+tmp8->name = nil
+tmp8->expression = nil
+tmp8->signal = "/A<2>"
+tmp8->scriptFile = nil
+tmp8->type2 = nil
+tmp8->masterScriptFile = nil
+tmp8->saveScriptFile = nil
+tmp8->saveMasterScriptFile = nil
+tmp8->origin = nil
+tmp8->type = 'net
+tmp8->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y9"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp8->value = nil
+tmp8->plot = 't
+tmp8->save = nil
+tmp8->march = nil
+tmp8->index = 8
+(unless tmp9
+tmp9 = make_sevOutputStruct()
+)
+(unless tmp9
+tmp9 = (ncons nil)
+)
+tmp9->inLastSet = nil
+tmp9->name = nil
+tmp9->expression = nil
+tmp9->signal = "/A<4>"
+tmp9->scriptFile = nil
+tmp9->type2 = nil
+tmp9->masterScriptFile = nil
+tmp9->saveScriptFile = nil
+tmp9->saveMasterScriptFile = nil
+tmp9->origin = nil
+tmp9->type = 'net
+tmp9->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y4"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp9->value = nil
+tmp9->plot = 't
+tmp9->save = nil
+tmp9->march = nil
+tmp9->index = 9
+(unless tmp10
+tmp10 = make_sevOutputStruct()
+)
+(unless tmp10
+tmp10 = (ncons nil)
+)
+tmp10->inLastSet = nil
+tmp10->name = nil
+tmp10->expression = nil
+tmp10->signal = "/A<3>"
+tmp10->scriptFile = nil
+tmp10->type2 = nil
+tmp10->masterScriptFile = nil
+tmp10->saveScriptFile = nil
+tmp10->saveMasterScriptFile = nil
+tmp10->origin = nil
+tmp10->type = 'net
+tmp10->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y8"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp10->value = nil
+tmp10->plot = 't
+tmp10->save = nil
+tmp10->march = nil
+tmp10->index = 10
+(unless tmp11
+tmp11 = make_sevOutputStruct()
+)
+(unless tmp11
+tmp11 = (ncons nil)
+)
+tmp11->inLastSet = nil
+tmp11->name = nil
+tmp11->expression = nil
+tmp11->signal = "/A<5>"
+tmp11->scriptFile = nil
+tmp11->type2 = nil
+tmp11->masterScriptFile = nil
+tmp11->saveScriptFile = nil
+tmp11->saveMasterScriptFile = nil
+tmp11->origin = nil
+tmp11->type = 'net
+tmp11->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y9"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp11->value = nil
+tmp11->plot = 't
+tmp11->save = nil
+tmp11->march = nil
+tmp11->index = 11
+(unless tmp12
+tmp12 = make_sevOutputStruct()
+)
+(unless tmp12
+tmp12 = (ncons nil)
+)
+tmp12->inLastSet = nil
+tmp12->name = nil
+tmp12->expression = nil
+tmp12->signal = "/A<6>"
+tmp12->scriptFile = nil
+tmp12->type2 = nil
+tmp12->masterScriptFile = nil
+tmp12->saveScriptFile = nil
+tmp12->saveMasterScriptFile = nil
+tmp12->origin = nil
+tmp12->type = 'net
+tmp12->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y5"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp12->value = nil
+tmp12->plot = 't
+tmp12->save = nil
+tmp12->march = nil
+tmp12->index = 12
+(unless tmp13
+tmp13 = make_sevOutputStruct()
+)
+(unless tmp13
+tmp13 = (ncons nil)
+)
+tmp13->inLastSet = nil
+tmp13->name = nil
+tmp13->expression = nil
+tmp13->signal = "/A<7>"
+tmp13->scriptFile = nil
+tmp13->type2 = nil
+tmp13->masterScriptFile = nil
+tmp13->saveScriptFile = nil
+tmp13->saveMasterScriptFile = nil
+tmp13->origin = nil
+tmp13->type = 'net
+tmp13->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y6"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp13->value = nil
+tmp13->plot = 't
+tmp13->save = nil
+tmp13->march = nil
+tmp13->index = 13
+(unless tmp14
+tmp14 = make_sevOutputStruct()
+)
+(unless tmp14
+tmp14 = (ncons nil)
+)
+tmp14->inLastSet = nil
+tmp14->name = nil
+tmp14->expression = nil
+tmp14->signal = "/A<8>"
+tmp14->scriptFile = nil
+tmp14->type2 = nil
+tmp14->masterScriptFile = nil
+tmp14->saveScriptFile = nil
+tmp14->saveMasterScriptFile = nil
+tmp14->origin = nil
+tmp14->type = 'net
+tmp14->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y3"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp14->value = nil
+tmp14->plot = 't
+tmp14->save = nil
+tmp14->march = nil
+tmp14->index = 14
+(unless tmp15
+tmp15 = make_sevOutputStruct()
+)
+(unless tmp15
+tmp15 = (ncons nil)
+)
+tmp15->inLastSet = nil
+tmp15->name = nil
+tmp15->expression = nil
+tmp15->signal = "/A<9>"
+tmp15->scriptFile = nil
+tmp15->type2 = nil
+tmp15->masterScriptFile = nil
+tmp15->saveScriptFile = nil
+tmp15->saveMasterScriptFile = nil
+tmp15->origin = nil
+tmp15->type = 'net
+tmp15->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y7"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp15->value = nil
+tmp15->plot = 't
+tmp15->save = nil
+tmp15->march = nil
+tmp15->index = 15
+(unless tmp16
+tmp16 = make_sevOutputStruct()
+)
+(unless tmp16
+tmp16 = (ncons nil)
+)
+tmp16->inLastSet = nil
+tmp16->name = nil
+tmp16->expression = nil
+tmp16->signal = "/A<10>"
+tmp16->scriptFile = nil
+tmp16->type2 = nil
+tmp16->masterScriptFile = nil
+tmp16->saveScriptFile = nil
+tmp16->saveMasterScriptFile = nil
+tmp16->origin = nil
+tmp16->type = 'net
+tmp16->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y8"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp16->value = nil
+tmp16->plot = 't
+tmp16->save = nil
+tmp16->march = nil
+tmp16->index = 16
+(unless tmp17
+tmp17 = make_sevOutputStruct()
+)
+(unless tmp17
+tmp17 = (ncons nil)
+)
+tmp17->inLastSet = nil
+tmp17->name = nil
+tmp17->expression = nil
+tmp17->signal = "/A<11>"
+tmp17->scriptFile = nil
+tmp17->type2 = nil
+tmp17->masterScriptFile = nil
+tmp17->saveScriptFile = nil
+tmp17->saveMasterScriptFile = nil
+tmp17->origin = nil
+tmp17->type = 'net
+tmp17->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y9"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp17->value = nil
+tmp17->plot = 't
+tmp17->save = nil
+tmp17->march = nil
+tmp17->index = 17
+(unless tmp18
+tmp18 = make_sevOutputStruct()
+)
+(unless tmp18
+tmp18 = (ncons nil)
+)
+tmp18->inLastSet = nil
+tmp18->name = nil
+tmp18->expression = nil
+tmp18->signal = "/A<12>"
+tmp18->scriptFile = nil
+tmp18->type2 = nil
+tmp18->masterScriptFile = nil
+tmp18->saveScriptFile = nil
+tmp18->saveMasterScriptFile = nil
+tmp18->origin = nil
+tmp18->type = 'net
+tmp18->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y4"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp18->value = nil
+tmp18->plot = 't
+tmp18->save = nil
+tmp18->march = nil
+tmp18->index = 18
+(unless tmp19
+tmp19 = make_sevOutputStruct()
+)
+(unless tmp19
+tmp19 = (ncons nil)
+)
+tmp19->inLastSet = nil
+tmp19->name = nil
+tmp19->expression = nil
+tmp19->signal = "/A<13>"
+tmp19->scriptFile = nil
+tmp19->type2 = nil
+tmp19->masterScriptFile = nil
+tmp19->saveScriptFile = nil
+tmp19->saveMasterScriptFile = nil
+tmp19->origin = nil
+tmp19->type = 'net
+tmp19->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y2"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp19->value = nil
+tmp19->plot = 't
+tmp19->save = nil
+tmp19->march = nil
+tmp19->index = 19
+(unless tmp20
+tmp20 = make_sevOutputStruct()
+)
+(unless tmp20
+tmp20 = (ncons nil)
+)
+tmp20->inLastSet = nil
+tmp20->name = nil
+tmp20->expression = nil
+tmp20->signal = "/A<14>"
+tmp20->scriptFile = nil
+tmp20->type2 = nil
+tmp20->masterScriptFile = nil
+tmp20->saveScriptFile = nil
+tmp20->saveMasterScriptFile = nil
+tmp20->origin = nil
+tmp20->type = 'net
+tmp20->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y5"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp20->value = nil
+tmp20->plot = 't
+tmp20->save = nil
+tmp20->march = nil
+tmp20->index = 20
+(unless tmp21
+tmp21 = make_sevOutputStruct()
+)
+(unless tmp21
+tmp21 = (ncons nil)
+)
+tmp21->inLastSet = nil
+tmp21->name = nil
+tmp21->expression = nil
+tmp21->signal = "/A<15>"
+tmp21->scriptFile = nil
+tmp21->type2 = nil
+tmp21->masterScriptFile = nil
+tmp21->saveScriptFile = nil
+tmp21->saveMasterScriptFile = nil
+tmp21->origin = nil
+tmp21->type = 'net
+tmp21->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y6"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp21->value = nil
+tmp21->plot = 't
+tmp21->save = nil
+tmp21->march = nil
+tmp21->index = 21
+(unless tmp22
+tmp22 = make_sevOutputStruct()
+)
+(unless tmp22
+tmp22 = (ncons nil)
+)
+tmp22->inLastSet = nil
+tmp22->name = nil
+tmp22->expression = nil
+tmp22->signal = "/A<16>"
+tmp22->scriptFile = nil
+tmp22->type2 = nil
+tmp22->masterScriptFile = nil
+tmp22->saveScriptFile = nil
+tmp22->saveMasterScriptFile = nil
+tmp22->origin = nil
+tmp22->type = 'net
+tmp22->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y4"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp22->value = nil
+tmp22->plot = 't
+tmp22->save = nil
+tmp22->march = nil
+tmp22->index = 22
+(unless tmp23
+tmp23 = make_sevOutputStruct()
+)
+(unless tmp23
+tmp23 = (ncons nil)
+)
+tmp23->inLastSet = nil
+tmp23->name = nil
+tmp23->expression = nil
+tmp23->signal = "/A<17>"
+tmp23->scriptFile = nil
+tmp23->type2 = nil
+tmp23->masterScriptFile = nil
+tmp23->saveScriptFile = nil
+tmp23->saveMasterScriptFile = nil
+tmp23->origin = nil
+tmp23->type = 'net
+tmp23->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y2"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp23->value = nil
+tmp23->plot = 't
+tmp23->save = nil
+tmp23->march = nil
+tmp23->index = 23
+(unless tmp24
+tmp24 = make_sevOutputStruct()
+)
+(unless tmp24
+tmp24 = (ncons nil)
+)
+tmp24->inLastSet = nil
+tmp24->name = nil
+tmp24->expression = nil
+tmp24->signal = "/A<18>"
+tmp24->scriptFile = nil
+tmp24->type2 = nil
+tmp24->masterScriptFile = nil
+tmp24->saveScriptFile = nil
+tmp24->saveMasterScriptFile = nil
+tmp24->origin = nil
+tmp24->type = 'net
+tmp24->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y5"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp24->value = nil
+tmp24->plot = 't
+tmp24->save = nil
+tmp24->march = nil
+tmp24->index = 24
+(unless tmp25
+tmp25 = make_sevOutputStruct()
+)
+(unless tmp25
+tmp25 = (ncons nil)
+)
+tmp25->inLastSet = nil
+tmp25->name = nil
+tmp25->expression = nil
+tmp25->signal = "/A<19>"
+tmp25->scriptFile = nil
+tmp25->type2 = nil
+tmp25->masterScriptFile = nil
+tmp25->saveScriptFile = nil
+tmp25->saveMasterScriptFile = nil
+tmp25->origin = nil
+tmp25->type = 'net
+tmp25->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y6"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp25->value = nil
+tmp25->plot = 't
+tmp25->save = nil
+tmp25->march = nil
+tmp25->index = 25
+(unless tmp26
+tmp26 = make_sevOutputStruct()
+)
+(unless tmp26
+tmp26 = (ncons nil)
+)
+tmp26->inLastSet = nil
+tmp26->name = nil
+tmp26->expression = nil
+tmp26->signal = "/A<20>"
+tmp26->scriptFile = nil
+tmp26->type2 = nil
+tmp26->masterScriptFile = nil
+tmp26->saveScriptFile = nil
+tmp26->saveMasterScriptFile = nil
+tmp26->origin = nil
+tmp26->type = 'net
+tmp26->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y3"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp26->value = nil
+tmp26->plot = 't
+tmp26->save = nil
+tmp26->march = nil
+tmp26->index = 26
+(unless tmp27
+tmp27 = make_sevOutputStruct()
+)
+(unless tmp27
+tmp27 = (ncons nil)
+)
+tmp27->inLastSet = nil
+tmp27->name = nil
+tmp27->expression = nil
+tmp27->signal = "/A<21>"
+tmp27->scriptFile = nil
+tmp27->type2 = nil
+tmp27->masterScriptFile = nil
+tmp27->saveScriptFile = nil
+tmp27->saveMasterScriptFile = nil
+tmp27->origin = nil
+tmp27->type = 'net
+tmp27->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y7"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp27->value = nil
+tmp27->plot = 't
+tmp27->save = nil
+tmp27->march = nil
+tmp27->index = 27
+(unless tmp28
+tmp28 = make_sevOutputStruct()
+)
+(unless tmp28
+tmp28 = (ncons nil)
+)
+tmp28->inLastSet = nil
+tmp28->name = nil
+tmp28->expression = nil
+tmp28->signal = "/A<22>"
+tmp28->scriptFile = nil
+tmp28->type2 = nil
+tmp28->masterScriptFile = nil
+tmp28->saveScriptFile = nil
+tmp28->saveMasterScriptFile = nil
+tmp28->origin = nil
+tmp28->type = 'net
+tmp28->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y8"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp28->value = nil
+tmp28->plot = 't
+tmp28->save = nil
+tmp28->march = nil
+tmp28->index = 28
+(unless tmp29
+tmp29 = make_sevOutputStruct()
+)
+(unless tmp29
+tmp29 = (ncons nil)
+)
+tmp29->inLastSet = nil
+tmp29->name = nil
+tmp29->expression = nil
+tmp29->signal = "/A<23>"
+tmp29->scriptFile = nil
+tmp29->type2 = nil
+tmp29->masterScriptFile = nil
+tmp29->saveScriptFile = nil
+tmp29->saveMasterScriptFile = nil
+tmp29->origin = nil
+tmp29->type = 'net
+tmp29->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y9"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp29->value = nil
+tmp29->plot = 't
+tmp29->save = nil
+tmp29->march = nil
+tmp29->index = 29
+(unless tmp30
+tmp30 = make_sevOutputStruct()
+)
+(unless tmp30
+tmp30 = (ncons nil)
+)
+tmp30->inLastSet = nil
+tmp30->name = nil
+tmp30->expression = nil
+tmp30->signal = "/A<24>"
+tmp30->scriptFile = nil
+tmp30->type2 = nil
+tmp30->masterScriptFile = nil
+tmp30->saveScriptFile = nil
+tmp30->saveMasterScriptFile = nil
+tmp30->origin = nil
+tmp30->type = 'net
+tmp30->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y4"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp30->value = nil
+tmp30->plot = 't
+tmp30->save = nil
+tmp30->march = nil
+tmp30->index = 30
+(unless tmp31
+tmp31 = make_sevOutputStruct()
+)
+(unless tmp31
+tmp31 = (ncons nil)
+)
+tmp31->inLastSet = nil
+tmp31->name = nil
+tmp31->expression = nil
+tmp31->signal = "/A<25>"
+tmp31->scriptFile = nil
+tmp31->type2 = nil
+tmp31->masterScriptFile = nil
+tmp31->saveScriptFile = nil
+tmp31->saveMasterScriptFile = nil
+tmp31->origin = nil
+tmp31->type = 'net
+tmp31->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y2"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp31->value = nil
+tmp31->plot = 't
+tmp31->save = nil
+tmp31->march = nil
+tmp31->index = 31
+(unless tmp32
+tmp32 = make_sevOutputStruct()
+)
+(unless tmp32
+tmp32 = (ncons nil)
+)
+tmp32->inLastSet = nil
+tmp32->name = nil
+tmp32->expression = nil
+tmp32->signal = "/A<26>"
+tmp32->scriptFile = nil
+tmp32->type2 = nil
+tmp32->masterScriptFile = nil
+tmp32->saveScriptFile = nil
+tmp32->saveMasterScriptFile = nil
+tmp32->origin = nil
+tmp32->type = 'net
+tmp32->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y5"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp32->value = nil
+tmp32->plot = 't
+tmp32->save = nil
+tmp32->march = nil
+tmp32->index = 32
+(unless tmp33
+tmp33 = make_sevOutputStruct()
+)
+(unless tmp33
+tmp33 = (ncons nil)
+)
+tmp33->inLastSet = nil
+tmp33->name = nil
+tmp33->expression = nil
+tmp33->signal = "/A<27>"
+tmp33->scriptFile = nil
+tmp33->type2 = nil
+tmp33->masterScriptFile = nil
+tmp33->saveScriptFile = nil
+tmp33->saveMasterScriptFile = nil
+tmp33->origin = nil
+tmp33->type = 'net
+tmp33->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y6"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp33->value = nil
+tmp33->plot = 't
+tmp33->save = nil
+tmp33->march = nil
+tmp33->index = 33
+(unless tmp34
+tmp34 = make_sevOutputStruct()
+)
+(unless tmp34
+tmp34 = (ncons nil)
+)
+tmp34->inLastSet = nil
+tmp34->name = nil
+tmp34->expression = nil
+tmp34->signal = "/A<28>"
+tmp34->scriptFile = nil
+tmp34->type2 = nil
+tmp34->masterScriptFile = nil
+tmp34->saveScriptFile = nil
+tmp34->saveMasterScriptFile = nil
+tmp34->origin = nil
+tmp34->type = 'net
+tmp34->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y3"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp34->value = nil
+tmp34->plot = 't
+tmp34->save = nil
+tmp34->march = nil
+tmp34->index = 34
+(unless tmp35
+tmp35 = make_sevOutputStruct()
+)
+(unless tmp35
+tmp35 = (ncons nil)
+)
+tmp35->inLastSet = nil
+tmp35->name = nil
+tmp35->expression = nil
+tmp35->signal = "/A<29>"
+tmp35->scriptFile = nil
+tmp35->type2 = nil
+tmp35->masterScriptFile = nil
+tmp35->saveScriptFile = nil
+tmp35->saveMasterScriptFile = nil
+tmp35->origin = nil
+tmp35->type = 'net
+tmp35->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y7"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp35->value = nil
+tmp35->plot = 't
+tmp35->save = nil
+tmp35->march = nil
+tmp35->index = 35
+(unless tmp36
+tmp36 = make_sevOutputStruct()
+)
+(unless tmp36
+tmp36 = (ncons nil)
+)
+tmp36->inLastSet = nil
+tmp36->name = nil
+tmp36->expression = nil
+tmp36->signal = "/A<30>"
+tmp36->scriptFile = nil
+tmp36->type2 = nil
+tmp36->masterScriptFile = nil
+tmp36->saveScriptFile = nil
+tmp36->saveMasterScriptFile = nil
+tmp36->origin = nil
+tmp36->type = 'net
+tmp36->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y8"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp36->value = nil
+tmp36->plot = 't
+tmp36->save = nil
+tmp36->march = nil
+tmp36->index = 36
+(unless tmp37
+tmp37 = make_sevOutputStruct()
+)
+(unless tmp37
+tmp37 = (ncons nil)
+)
+tmp37->inLastSet = nil
+tmp37->definedIn = "XYZ"
+tmp37->name = nil
+tmp37->expression = nil
+tmp37->signal = "/A<31>"
+tmp37->scriptFile = ""
+tmp37->type2 = nil
+tmp37->masterScriptFile = nil
+tmp37->saveScriptFile = nil
+tmp37->saveMasterScriptFile = nil
+tmp37->origin = nil
+tmp37->type = 'net
+tmp37->selectionDetail = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'color
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = "y9"
+tmp2 = "drawing"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+tmp37->value = nil
+tmp37->plot = 't
+tmp37->save = nil
+tmp37->march = nil
+tmp37->index = 37
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37)
+)
+_outputList = nconc( _outputList savedComponent) 
+_envSaveOptions = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'assertsInfo
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'subcktsInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'primitivesInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = 'outputParamInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = 'elementInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = 'modelParamInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = 'separator3
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = 'saveahdlvars
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = 'separator2
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp10 = (let
+(tmp1 tmp2)
+tmp1 = 'useprobes
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp11 = (let
+(tmp1 tmp2)
+tmp1 = 'subcktprobelvl
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp12 = (let
+(tmp1 tmp2)
+tmp1 = 'currents
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp13 = (let
+(tmp1 tmp2)
+tmp1 = 'separator1
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp14 = (let
+(tmp1 tmp2)
+tmp1 = 'nestlvl
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp15 = (let
+(tmp1 tmp2)
+tmp1 = 'pwr
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp16 = (let
+(tmp1 tmp2)
+tmp1 = 'save
+tmp2 = "allpub"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16)
+)
+savedComponent = list( _outputList _envSaveOptions ) 
+_outputList = 'unbound
+ _envSaveOptions = 'unbound

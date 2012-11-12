@@ -1,0 +1,6 @@
+void main()
+{
+    int[10] array;
+    array[7];
+}
+

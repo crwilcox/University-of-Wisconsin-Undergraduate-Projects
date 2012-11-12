@@ -1,0 +1,2 @@
+CLK to rdenA2 and rdenB3
+	60.1706 ns - 60.025 ns = .1456 ns = 145.6 ps

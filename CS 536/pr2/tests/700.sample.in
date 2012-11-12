@@ -1,0 +1,8 @@
+int main()
+{
+  int a* = malloc(40);
+  if(a[2] > 0.0)
+    return 01;
+  string s = ""
+  return 1;
+}

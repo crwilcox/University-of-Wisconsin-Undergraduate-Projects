@@ -1,0 +1,59 @@
+# //  ModelSim SE 6.3 May  4 2007 Linux 2.6.32-bpo.5-amd64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project HW2
+# Compile of modulo_6.v was successful.
+# Compile of modulo_6_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector.v was successful.
+# Compile of prime_detector_tb.v was successful.
+# Compile of decoder_2_to_4_139.v was successful.
+# Compile of decoder_2_to_4_139_tb.v was successful.
+# Compile of decoder_3_to_8.v was successful.
+# Compile of decoder_3_to_8_tb.v was successful.
+# Compile of partial_counter.v was successful.
+# Compile of partial_counter_tb.v was successful.
+# 11 compiles, 0 failed with no errors. 
+vsim work.partial_counter_tb
+# vsim work.partial_counter_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.partial_counter_tb(fast)
+vsim -novopt work.partial_counter_tb
+# vsim -novopt work.partial_counter_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw2/work.partial_counter_tb
+# Loading work.partial_counter_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw2/work.partial_counter
+# Loading work.partial_counter
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw2/work.dff_async_rst
+# Loading work.dff_async_rst
+run -all
+# Simulation Time: 5    Count: 3    Current State: 0    Reset: 1   
+# Simulation Time: 10   Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 15   Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 25   Count: 4    Current State: 1    Reset: 0   
+# Simulation Time: 35   Count: 5    Current State: 2    Reset: 0   
+# Simulation Time: 45   Count: 6    Current State: 3    Reset: 0   
+# Simulation Time: 55   Count: 7    Current State: 4    Reset: 0   
+# Simulation Time: 65   Count: 8    Current State: 5    Reset: 0   
+# Simulation Time: 75   Count: 9    Current State: 6    Reset: 0   
+# Simulation Time: 85   Count: 10   Current State: 7    Reset: 0   
+# Simulation Time: 95   Count: 11   Current State: 8    Reset: 0   
+# Simulation Time: 105  Count: 12   Current State: 9    Reset: 0   
+# Simulation Time: 115  Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 125  Count: 4    Current State: 1    Reset: 0   
+# Simulation Time: 135  Count: 3    Current State: 0    Reset: 1   
+# Simulation Time: 140  Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 145  Count: 3    Current State: 0    Reset: 0   
+# Simulation Time: 155  Count: 4    Current State: 1    Reset: 0   
+# Simulation Time: 165  Count: 5    Current State: 2    Reset: 0   
+# Simulation Time: 175  Count: 6    Current State: 3    Reset: 0   
+# Simulation Time: 185  Count: 7    Current State: 4    Reset: 0   
+# Simulation Time: 195  Count: 8    Current State: 5    Reset: 0   
+# Break in Module partial_counter_tb at /filespace/people/c/cwilcox/courses/ece551/hw2/partial_counter_tb.v line 40

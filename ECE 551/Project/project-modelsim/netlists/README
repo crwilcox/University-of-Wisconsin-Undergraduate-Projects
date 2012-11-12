@@ -1,0 +1,8 @@
+CoreWithTxRx_Post.v                 : Post-Synthesis CoreWithTxRx Module
+core_link_control_synth.v           : Post-Synthesis of Link_Control
+core_node_manager_synth.v           : Post-Synthesis of Node_Manager
+core_packet_queue_synth.v           : Post-Synthesis of Packet_Queue
+core_routing_state_machine_synth.v  : Post-Synthesis of Routing_State_Machine
+core_synth.v                        : Post-Synthesis of core
+rx_synth.v                          : Post-Synthesis of rx
+tx_synth.v                          : Post-Synthesis of tx

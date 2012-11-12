@@ -1,0 +1,53 @@
+#files for read in are space delimited...
+read_file -format verilog {./prime_detector_structural.v ./dff_async_rst.v }
+
+#INPUTS EXCLUDING CLK
+set non_clk_inputs [remove_from_collection [all_inputs] [find port clk]]
+
+
+# SPECIFY CLOCK
+create_clock -name "clk" -period 2.5 -waveform { 0 1 }  { clk  }
+
+
+
+#SET INPUT DELAY
+set_input_delay -clock clk 0 [copy_collection $non_clk_inputs]
+
+
+#OUTPUT DELAY
+set_output_delay -clock clk .5 [all_outputs]
+
+
+#WIRE LOAD
+set_wire_load_model -name B1X1 -library gflxp
+
+
+#OPERATING CONDITIONS
+set_operating_conditions -library gflxp NOM
+
+
+#DRIVING CELL
+set_driving_cell -lib_cell DDRVLS33 -library gflxio [copy_collection $non_clk_inputs]
+
+
+#TOP LEVEL CONSTRAINTS
+set_max_area 0.0
+#set_max_dynamic_power 10
+#set_max_transition 0.25 [current_design]
+
+#OUTPUT PORT ATTRIBUTES
+#set_unconnected { signalname }
+
+#INPUT PORT ATTRIBUTES
+#set_dont_touch_network [find port clk]
+
+#PORT PAD ATTRIBUTES: NOT NEEDED FOR 551, AND SHOULD NOT BE USED
+
+#COMPILE AND GENERATE LOG FILES
+compile -map_effort high
+report_area > area_report_prime_detector_structural.txt
+#report_timing -path full -delay max -nworst 1
+#report_timing -path full -delay min -nworst 1
+
+#get the netlist
+write -hierarchy -format verilog prime_detector_structural -output prime_detector_structural_netlist.v

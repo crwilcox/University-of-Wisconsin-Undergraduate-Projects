@@ -1,0 +1,12 @@
+Core:0_0 Data:22_FF_0000
+Core:0_1 Data:22_FF_0001
+Core:0_2 Data:22_FF_0002
+Core:0_3 Data:22_FF_0003
+Core:3_0 Data:22_FF_0030
+Core:3_1 Data:22_FF_0031
+Core:3_2 Data:22_FF_0032
+Core:3_3 Data:22_FF_0033
+Core:1_0 Data:22_FF_0010
+Core:2_0 Data:22_FF_0020
+Core:1_3 Data:22_FF_0013
+Core:2_3 Data:22_FF_0023

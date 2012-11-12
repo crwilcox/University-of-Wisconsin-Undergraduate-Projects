@@ -1,0 +1,16 @@
+void main() {
+bool TEST = true;
+
+TEST++;
+++TEST;
+--TEST;
+TEST--;
+
+string TEST2 = "STRING";
+
+TEST2++;
+++TEST2;
+--TEST2;
+TEST2--;
+return;
+}

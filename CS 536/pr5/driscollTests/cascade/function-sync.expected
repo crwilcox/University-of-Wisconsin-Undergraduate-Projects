@@ -1,0 +1,6 @@
+int f(int z) {
+  return (2 * z);
+}
+void main(int y) {
+  (y + (3 * (3.0 + f(y)))); /* double */
+}

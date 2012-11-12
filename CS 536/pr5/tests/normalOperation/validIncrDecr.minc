@@ -1,0 +1,21 @@
+void main()
+{
+	int x;
+	x = 1;
+	x--;
+	x++;
+	++x;
+	--x;
+	double y;
+	y = 1.0;
+	y--;
+	y++;
+	++y;
+	--y;
+	int* z;
+	z++;
+	z--;
+	++z;
+	--z;
+	return;
+}

@@ -1,0 +1,2 @@
+DEFINE ece555_projectlib ./ece555_projectlib
+ASSIGN ece555_projectlib libMode shared

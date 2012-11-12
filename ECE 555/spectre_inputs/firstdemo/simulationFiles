@@ -1,0 +1,9 @@
+stimulusFile ("/filespace/people/e/enharris/ece555/ece555/spectre_inputs/demo_num1.txt")
+EVcdFile ""
+VcdInfoFile ""
+definitionFiles nil
+hlcheck "off"
+EVcdInfoFile ""
+includePath ""
+VectorFile ("")
+VcdFile ""

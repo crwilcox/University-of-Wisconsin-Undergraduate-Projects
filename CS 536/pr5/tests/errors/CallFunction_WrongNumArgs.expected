@@ -1,0 +1,5 @@
+20:2:ASweetFunction expects 3 arguments; given 2
+23:2:ASweetFunction expects 3 arguments; given 4
+26:2:ASweetFunction expects 3 arguments; given 0
+30:2:AnotherFunction expects 0 arguments; given 1
+31:2:AnotherFunction expects 0 arguments; given 8

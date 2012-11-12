@@ -1,0 +1,114 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CoreWithTxRx
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:32:38 2010
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NOM   Library: gflxp
+Wire Load Model Mode: enclosed
+
+  Startpoint: routerCore/routing_state_machine/TxQueue_Write_reg[1]
+              (rising edge-triggered flip-flop clocked by Clk_r)
+  Endpoint: routerCore/W_Link_Control/TxQueue/Queue_reg[0][0]
+            (falling edge-triggered flip-flop clocked by Clk_r)
+  Path Group: Clk_r
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CoreWithTxRx       B1X1                  gflxp
+  core               B0.5X0.5              gflxp
+  Packet_Queue_4     B0.2X0.2              gflxp
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock Clk_r (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  routerCore/routing_state_machine/TxQueue_Write_reg[1]/CP (FD2QM1P)
+                                                          0.00 #     0.00 r
+  routerCore/routing_state_machine/TxQueue_Write_reg[1]/Q (FD2QM1P)
+                                                          0.13       0.13 r
+  routerCore/routing_state_machine/TxQueue_Write_W (Routing_State_Machine)
+                                                          0.00       0.13 r
+  routerCore/W_Link_Control/TxQueue_Write (Link_Control_1)
+                                                          0.00       0.13 r
+  routerCore/W_Link_Control/TxQueue/Write_Ack (Packet_Queue_4)
+                                                          0.00       0.13 r
+  routerCore/W_Link_Control/TxQueue/U14/Z (BUFM6P)        0.09       0.22 r
+  routerCore/W_Link_Control/TxQueue/U7/Z (N1M1P)          0.04       0.26 f
+  routerCore/W_Link_Control/TxQueue/U25/Z (NR2M2P)        0.08       0.34 r
+  routerCore/W_Link_Control/TxQueue/U23/Z (ND2M1P)        0.06       0.40 f
+  routerCore/W_Link_Control/TxQueue/U188/Z (OAI21M1P)     0.08       0.48 r
+  routerCore/W_Link_Control/TxQueue/U77/Z (OAI211M1P)     0.09       0.57 f
+  routerCore/W_Link_Control/TxQueue/U3/Z (BUFM2P)         0.15       0.71 f
+  routerCore/W_Link_Control/TxQueue/U190/Z (OAI21M1P)     0.04       0.76 r
+  routerCore/W_Link_Control/TxQueue/Queue_reg[0][0]/D (FDN1QM1P)
+                                                          0.00       0.76 r
+  data arrival time                                                  0.76
+
+  clock Clk_r (fall edge)                                 1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  routerCore/W_Link_Control/TxQueue/Queue_reg[0][0]/CPN (FDN1QM1P)
+                                                          0.00       1.00 f
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -0.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: W_rx/receivedPacket_reg[28]
+              (rising edge-triggered flip-flop clocked by Clk_s)
+  Endpoint: W_rx/RxData_reg[17]
+            (rising edge-triggered flip-flop clocked by Clk_s)
+  Path Group: Clk_s
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CoreWithTxRx       B1X1                  gflxp
+  rx_3               B0.2X0.2              gflxp
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock Clk_s (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  W_rx/receivedPacket_reg[28]/CP (FD4QM1P)                0.00       0.00 r
+  W_rx/receivedPacket_reg[28]/Q (FD4QM1P)                 0.14       0.14 r
+  W_rx/U15/Z (N1M2P)                                      0.03       0.17 f
+  W_rx/U158/Z (AOI22M1P)                                  0.08       0.25 r
+  W_rx/U157/Z (EOFM1P)                                    0.05       0.31 r
+  W_rx/U150/Z (EOFM1P)                                    0.07       0.38 r
+  W_rx/U149/Z (ENFM1P)                                    0.06       0.44 r
+  W_rx/U148/Z (ENFM1P)                                    0.06       0.50 r
+  W_rx/U20/Z (ND2FM2P)                                    0.05       0.55 f
+  W_rx/U11/Z (NR2FM2P)                                    0.04       0.59 r
+  W_rx/U18/Z (ND2FM3P)                                    0.04       0.63 f
+  W_rx/U16/Z (N1M6P)                                      0.04       0.67 r
+  W_rx/U17/Z (N1M6P)                                      0.04       0.70 f
+  W_rx/U6/Z (MUX21LM1P)                                   0.06       0.76 f
+  W_rx/RxData_reg[17]/D (FD2QM1P)                         0.00       0.76 f
+  data arrival time                                                  0.76
+
+  clock Clk_s (rise edge)                                 1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  W_rx/RxData_reg[17]/CP (FD2QM1P)                        0.00       1.00 r
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -0.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

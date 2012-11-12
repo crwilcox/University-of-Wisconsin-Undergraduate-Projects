@@ -1,0 +1,5 @@
+int G = 0;
+void main(int argc) {
+  int L = G;
+  return L;
+}

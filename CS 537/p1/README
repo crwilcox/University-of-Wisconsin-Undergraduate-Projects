@@ -1,0 +1,16 @@
+********************************************************************
+Name: 	reverse (reverse.c)
+Author: Christopher Wilcox (cwilcox@wisc.edu)
+Date: 	January 25, 2010
+********************************************************************
+DESCRIPTION:
+	reverse <input> <output>
+	reverse takes in userinput through the console, or a specified
+	text file.  It then reverses the lines of the file, and returns
+	the output to the console, or to a specified file.
+********************************************************************
+NOTES:
+	To my knowledge, the file 'reverse.c' behaves as expected. 
+
+********************************************************************
+

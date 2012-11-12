@@ -1,0 +1,64 @@
+Before running:
+------------------------
+1) Copy test.csh, run_all_tests.csh to your project directory.
+2) Make sure the test.csh, run_all_tests.csh have the execute permission.
+   Otherwise, use
+   $$$]% chmod +x ./test.csh
+   $$$]% chmod +x ./run_all_tests.csh
+3) Edit test.csh and set "test_input_dir" to
+   	/u/t/h/thanhdo/public/share/cs537/p3/test_data/
+      
+
+Usage:
+------
+$$$]% ./run_all_tests.csh 
+        --> to run all the tests and generate the "grade.txt"
+$$$]% ./test.csh <test_nr> 
+        --> to run a particular test 
+
+
+
+Following are test cases 
+
+Basic Tests :
+1     : existence of "makefile" and "readme"
+2     : if "make" create "libmem.so" in current directory
+3     : if your proram uses "malloc()", you should not use global array also
+
+4     : Mem_Init - sizeOfRegion is zero
+5     : Mem_Init - sizeOfRegion is negative
+6     : Mem_Init - invalid debug mode
+7     : Mem_Init - simple successful call
+8     : Mem_Init - two consecutive calls
+9     : Mem_Init - round up memory region in pagesize
+
+10    : Mem_Alloc - round up to 4-byte pointer 
+11    : Mem_Alloc - not enough free memory
+12    : Mem_Alloc - zero size
+
+13    : Mem_Free - null pointer
+14    : Mem_Free - bogus pointer
+15    : Mem_Free - simple successful call
+
+16    : Mem_Alloc and Mem_Free - series of call (1)
+17    : Mem_Alloc and Mem_Free - series of call (2)
+
+18    : BF - only BF works, no other policies should fail
+19    : BF - only BF fails, other should work
+        
+20    : Debug - correct padding with
+21    : Debug - correct free space pattern
+22    : Debug - stale padding
+23    : Debug - stale free space
+24    : Debug - simple successful call 
+25    : Debug - not enough memory (but it works in non-debug mode)
+26    : Debug - Mem_Free with pointer out of scope
+27    : Debug - simple merging of free memmory chunks
+
+28    : more complicated merging
+29    : Rigorous stress test with rounds of alloc and free
+30    : Performance test - see ./out for your time, your prog should not crash
+
+31    : Debug - stale padding again
+32    : Debug - stale padding again :)
+33    : Debug - stale free space again

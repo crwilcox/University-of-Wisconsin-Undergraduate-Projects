@@ -1,0 +1,8 @@
+- assuming you have liblist.so ready
+- make sure you have neccessary header (i.e YOUR list.h, and so on)
+- make will generate the runTest to test your lib only
+  it will not generate your lib.
+
+To do:
+- make
+- ./runTest

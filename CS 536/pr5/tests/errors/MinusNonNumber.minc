@@ -1,0 +1,10 @@
+void main() {
+string S = "STRING";
+bool B = true;
+int* P;
+
+-S;
+-B;
+-P;
+return;
+}

@@ -1,0 +1,1 @@
+Notes. We began developing our speedpath in order to sweep potential sizes but it quickly became apparent that sizing was heaviy layout dependent. Some ideal sizes would vastly increase total chip area for just a little speed boost. Thus our speed path analysis was mostly abandoned.

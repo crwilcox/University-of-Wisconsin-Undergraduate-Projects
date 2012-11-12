@@ -1,0 +1,5 @@
+int argc;
+
+void main() {
+  return argc;
+}

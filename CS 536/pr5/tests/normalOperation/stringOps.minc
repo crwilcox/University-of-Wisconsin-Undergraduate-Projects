@@ -1,0 +1,8 @@
+void main()
+{
+	string a;
+	string b;
+	a = "my\n";
+	b = a;
+	return b;
+}

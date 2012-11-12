@@ -1,0 +1,50 @@
+/filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/t_shifter.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/t_shifter.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module t_shifter
+
+Top level modules:
+	t_shifter
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_pass.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_pass.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module shift_pass
+
+Top level modules:
+	shift_pass
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_1bit.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_1bit.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module shift_1bit
+
+Top level modules:
+	shift_1bit
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shifter.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shifter.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_inv.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_inv.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module shift_inv
+
+Top level modules:
+	shift_inv
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_signals.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_signals.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module shift_signals
+
+Top level modules:
+	shift_signals
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_inv_signals.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece555/project/fsm_verilog/shift_inv_signals.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module shift_inv_signals
+
+Top level modules:
+	shift_inv_signals
+
+} {} {}}

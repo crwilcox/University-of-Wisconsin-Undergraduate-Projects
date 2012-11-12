@@ -1,0 +1,60 @@
+run -all
+# Initializing Testbench
+# TESTING: Writing in data to registers 0 through 7
+#     Write to reg          0: Expect: 00000001
+#     Write to reg          1: Expect: 00000010
+#     Write to reg          2: Expect: 00000100
+#     Write to reg          3: Expect: 00001000
+#     Write to reg          4: Expect: 00010000
+#     Write to reg          5: Expect: 00100000
+#     Write to reg          6: Expect: 01000000
+#     Write to reg          7: Expect: 10000000
+# TESTING: Writing in data to registers 8 through 15
+#     Write to reg          0: Expect: 11111111
+#     Write to reg          1: Expect: 11111110
+#     Write to reg          2: Expect: 11111100
+#     Write to reg          3: Expect: 11111000
+#     Write to reg          4: Expect: 11110000
+#     Write to reg          5: Expect: 11100000
+#     Write to reg          6: Expect: 11000000
+#     Write to reg          7: Expect: 10000000
+# TESTING: Verifying data was written to registers and can be read on the out
+#     Reading reg 0:  Result: 00000001
+#     Reading reg 1:  Result: 00000010
+#     Reading reg 2:  Result: 00000100
+#     Reading reg 3:  Result: 00001000
+#     Reading reg 4:  Result: 00010000
+#     Reading reg 5:  Result: 00100000
+#     Reading reg 6:  Result: 01000000
+#     Reading reg 7:  Result: 10000000
+#     Reading reg 8:  Result: 11111111
+#     Reading reg 9:  Result: 11111110
+#     Reading reg10:  Result: 11111100
+#     Reading reg11:  Result: 11111000
+#     Reading reg12:  Result: 11110000
+#     Reading reg13:  Result: 11100000
+#     Reading reg14:  Result: 11000000
+#     Reading reg15:  Result: 10000000
+# TESTING: Verifying that data cannot be written without the enable being held
+#    Attempt to Write to reg0: 8'b0001_0001 with enable off
+#        Expect reg0 contains: 8'b0000_0010  Result: 00000010
+#    Attempt to Write to reg0: 8'b0001_0001 with enable off
+#        Expect reg8 contains: 8'b1111_1111  Result: 11111111
+# TESTING: Verifying that rst is asynchronous and that it clears all entries
+#     Reading reg          0: Expecting: 00000000 Result: 00000000
+#     Reading reg          1: Expecting: 00000000 Result: 00000000
+#     Reading reg          2: Expecting: 00000000 Result: 00000000
+#     Reading reg          3: Expecting: 00000000 Result: 00000000
+#     Reading reg          4: Expecting: 00000000 Result: 00000000
+#     Reading reg          5: Expecting: 00000000 Result: 00000000
+#     Reading reg          6: Expecting: 00000000 Result: 00000000
+#     Reading reg          7: Expecting: 00000000 Result: 00000000
+#     Reading reg          8: Expecting: 00000000 Result: 00000000
+#     Reading reg          9: Expecting: 00000000 Result: 00000000
+#     Reading reg         10: Expecting: 00000000 Result: 00000000
+#     Reading reg         11: Expecting: 00000000 Result: 00000000
+#     Reading reg         12: Expecting: 00000000 Result: 00000000
+#     Reading reg         13: Expecting: 00000000 Result: 00000000
+#     Reading reg         14: Expecting: 00000000 Result: 00000000
+#     Reading reg         15: Expecting: 00000000 Result: 00000000
+# Break in Module register_file_16_tb at /filespace/people/c/cwilcox/courses/ece551/hw3/register_file_16_tb.v line 118

@@ -1,0 +1,36 @@
+./testbenches:
+core_synth_tb.v                     : Post-Syntheis testbench of core
+core_tb.v                           : Pre-Synthesis testbench of core
+CoreWithTxRx_tb/                    : Folder containing all the content needed for the CoreWithTxRx Testbench
+link_control_synth_tb.v             : Post-Syntheis testbench of link_control
+link_control_tb.v                   : Pre-Synthesis testbench of link_control
+Node_Manager_synth_tb.v             : Post-Syntheis testbench of Node_Manager
+Node_Manager_tb.v                   : Pre-Synthesis testbench of Node_Manager
+queue_tb.v                          : Pre-Synthesis testbench of queue_tb
+queue_synth_tb.v                    : Post-Synthesis testbench of queue_tb
+Routing_State_Machine_synth_tb.v    : Post-Syntheis testbench of Routing_State_Machine
+Routing_State_Machine_tb.v          : Pre-Synthesis testbench of Routing_State_Machine
+rx_synth_tb.v                       : Post-Syntheis testbench of rx
+rx_tb.v                             : Pre-Synthesis testbench of rx
+txrx_synth_tb.v                     : Post-Syntheis testbench of the interaction of tx and rx
+txrx_tb.v                           : Pre-Synthesis testbench of the interaction of tx and rx
+tx_synth_tb.v                       : Post-Syntheis testbench of tx
+tx_tb.v                             : Pre-Synthesis testbench of tx
+
+./testbenches/CoreWithTxRx_tb:
+CoreWithTxRx_Post_tb.v              : Post-Syntheis testbench of CoreWithTxRx
+CoreWithTxRx_tb.v                   : Pre-Synthesis testbench of CoreWithTxRx
+input_files/                        : The input files for the testbench
+runAllTests.sh*                     : This script runs all of the input files against the testbench
+run_CoreWithTxRx_Post_tb.do         : do file for the Post-Synthesis DUT
+run_CoreWithTxRx_tb.do              : do file for the Pre-Synthesis DUT
+runOneTest.sh*                      : This script sets the environment and runs the do file.  
+
+./testbenches/CoreWithTxRx_tb/input_files:
+crossPaths.txt                      : Two nodes fire multiple packets at each other
+multipleToCenter.txt                : The outer most nodes send packets to the center
+sendFromMultipleToOne1.txt          : A test of multiple nodes sending to one node
+sendFromMultipleToOne2.txt          : A test of multiple nodes sending to one node
+sendFromMultipleToOne3.txt          : A test of multiple nodes sending to one node
+sendFromOneToMultiple.txt           : A test of one node sending to multiple nodes
+sendToSelf.txt                      : A test showing nodes sending to themselves

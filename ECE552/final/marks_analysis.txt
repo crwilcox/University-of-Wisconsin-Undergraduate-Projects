@@ -1,0 +1,20 @@
+552marks analysis
+
+target clk period - 1ns
+worst case slack - .27ns
+
+functional clk period - 1.27ns
+clk rate - 787.40MHz
+
+Primes:        37399 cycles	47.50us
+sequences:     47276 cycles	60.04us
+bubbleSort:    40936 cycles	51.99us
+treeSort:      66243 cycles	84.13us
+
+	       Refernce		Ours		Ratio	       
+Primes:        64.73		47.50		1.36
+sequences:     92.01		61.04		1.51
+bubbleSort:    76.21		51.99		1.47
+treeSort:      121.04		84.13		1.44
+
+Mean Ratio: 1.44

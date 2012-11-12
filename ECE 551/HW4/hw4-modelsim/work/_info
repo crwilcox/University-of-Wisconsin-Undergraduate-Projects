@@ -1,0 +1,368 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/filespace/people/c/cwilcox/courses/ece551/project
+T_opt
+VAlWMh;ij^Y8:f?=WH@D772
+04 11 4 work p1_mealy_tb fast 0
+=1-0019b93ece19-4cd5df05-4a11f-68e5
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.3;37
+vdff_async_rst
+IVfGIU^LLil3:iO@En8cGD1
+VCEN9GXdz[08KS>BbZ<Q4U1
+Z1 d/filespace/people/c/cwilcox/courses/ece551/hw4
+w1289266416
+8/filespace/people/c/cwilcox/courses/ece551/hw4/dff_async_rst.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/dff_async_rst.v
+L0 1
+Z2 OE;L;6.3;37
+r1
+31
+Z3 o-work work -nocovercells -L mtiAvm
+!s85 0
+vdff_async_rst_0
+IBkZMD`<B]MOVoOPb_=_EZ3
+VDVjWDTo8VHoo[1P`aSJoF1
+R1
+Z4 w1289275339
+Z5 8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v
+Z6 F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v
+L0 3
+R2
+r1
+31
+R3
+!s85 0
+vdff_async_rst_1
+IXhFL1jdcAWY:JBca7E=`62
+V0i88aQh_Fn@`V`]jO0P4f0
+R1
+R4
+R5
+R6
+L0 13
+R2
+r1
+31
+R3
+!s85 0
+vdff_async_rst_2
+IW<1jB;Cdb8S06Dz2cD`oP1
+V`D<_XB8X5?mm6YFO9`lM<3
+R1
+R4
+R5
+R6
+L0 23
+R2
+r1
+31
+R3
+!s85 0
+vdff_async_rst_3
+IcWRma`03XcOK;G^P97Wga0
+VdliMUC9@Q5BYJXH]NPiad1
+R1
+R4
+R5
+R6
+L0 33
+R2
+r1
+31
+R3
+!s85 0
+vfulladd_120bit
+VM8Yd<36<J>UP45N1Y:gH`0
+r1
+31
+IjKIoaVm;YY[CAG[V=K=;52
+R1
+w1289278306
+8/filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v
+L0 1
+R2
+R3
+!s85 0
+vfulladd_2bit
+V_3L;6O];5=2`7<3?Q4[iC2
+r1
+31
+IGTlKe@A8bh;nBK<cf=73V2
+R1
+w1289253908
+8/filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_2bit.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_2bit.v
+L0 1
+R2
+R3
+!s85 0
+vp1_mealy
+IHMBUaoWATcSzfZHdSiTTb2
+VaOoY7>zQ=RAgkQoNSXjS]0
+R1
+w1289070713
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vp1_mealy_tb
+IVOI:ciP8H?fk;8=n51:F02
+VRN1Lc4`TMOFc1T3S1CTN;3
+R1
+w1289084608
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy_tb.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vp2_2bit_adder
+I1CKH@^8_T[XN5[dkUm<j`1
+VPUB9K[NbKWJ`EG<D7ON2P1
+w1289248475
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p2_2bit_adder.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p2_2bit_adder.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vp2_tb
+VGG5NFcK2UBQR701<:CG2m1
+r1
+31
+IDmDQUkRBiFhPEjUH6NVhB1
+R1
+w1289279143
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v
+L0 1
+R2
+R3
+!s85 0
+vp2a_adder
+I]f1QcLWam2N1cGFF[C_BY1
+VQW>J1:kj8?R8E:aYVhj_40
+w1289252963
+Z7 8/filespace/people/c/cwilcox/courses/ece551/hw4/p2ab_adder.v
+Z8 F/filespace/people/c/cwilcox/courses/ece551/hw4/p2ab_adder.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vp2ab_adder
+VWFU2]JkcA8d:fOBkj1]Q80
+r1
+31
+I?eZ2;d4bNCngL_ze?<QzX2
+R1
+w1289279095
+R7
+R8
+L0 1
+R2
+R3
+!s85 0
+vp2b_adder
+IjWgbdG9^FO2kCjPZ<iEzD2
+V>4d`CWDD=TbSoHno4lIUh2
+w1289248477
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p2b_adder.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p2b_adder.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vp2c_tb
+I325O`jnLj4ozB`MM]@gXL1
+V6]Y0]@zd6L0iaLMWCgaM_3
+w1289248467
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p2c_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p2c_tb.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vp8_exam1_solution
+VXg>fORbf;]zLlf:]a[hH?3
+r1
+31
+ISigP2LnHWNOl@n0hozD;E2
+w1289253546
+8/filespace/people/c/cwilcox/courses/ece551/hw4/p8_exam1_solution.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/p8_exam1_solution.v
+L0 1
+R2
+R3
+!s85 0
+vprime_detector_behavioral
+IE:22nUBD7ejH`gEVSoHW82
+V;[CgGPbTQH^OiSC_95zQX0
+R1
+Z9 w1289265665
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vprime_detector_behavioral_netlist
+I^HM?UUoF0ziDPg;@I5VAg3
+VCk<nkElab4_X2TOk6P>1J1
+R1
+w1289275407
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v
+L0 3
+R2
+r1
+31
+R3
+!s85 0
+vprime_detector_behavioral_noglitch_tb
+IBT6>^l_2RiV<Tnzhg_WJ32
+VNID=K_S4onVh>5=8T]X^g0
+R1
+w1289277592
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_noglitch_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_noglitch_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+vprime_detector_behavioral_structural_netlist_tb
+IO]VzXZzccL8<RknbJ1OYU3
+Vn>?3bNaI6VAH4oh@6d;KX3
+R1
+w1289276236
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_structural_netlist_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_structural_netlist_tb.v
+L0 4
+R2
+r1
+31
+R3
+!s85 0
+vprime_detector_behavioral_structural_tb
+V1D2VYL]nQW;Nli:g:WKVi0
+r1
+31
+Im4C^JLR<n9_m;KiO>0<z=0
+R1
+w1289275405
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_structural_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_structural_tb.v
+L0 4
+R2
+R3
+!s85 0
+vprime_detector_behavioral_tb
+I^a5G@;8lGjV=2VoLPFE:b0
+Vc=F@@o;CfbAGFL4zI3ecL2
+R1
+w1289276445
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_tb.v
+L0 4
+R2
+r1
+31
+R3
+!s85 0
+vprime_detector_structural
+ID4^namLZfIhP6O`]bGzR03
+VPBXP>cFKT80<Q]AQll<3C1
+R1
+R9
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural.v
+L0 1
+R2
+r1
+31
+R3
+!s85 0
+vprime_detector_structural_netlist
+IY9WGNhiLaGiM]hNJo9Fb62
+VMf<dg5NDck_0iQAXg?9>^2
+R1
+R4
+R5
+R6
+L0 43
+R2
+r1
+31
+R3
+!s85 0
+vprime_detector_structural_tb
+IDCDZi=W4`@0<E;<2mS@7b1
+VgS7ahZAWDD_^>1ez4o?l;3
+R1
+w1289276394
+8/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_tb.v
+L0 4
+R2
+r1
+31
+R3
+!s85 0
+vrx
+I^S<`dhjNFNKl4F8JSil<_0
+VzGCUPnNkVe8fG81;P;2[i2
+w1288727341
+8/filespace/people/c/cwilcox/courses/ece551/project/rx.v
+F/filespace/people/c/cwilcox/courses/ece551/project/rx.v
+L0 7
+R2
+r1
+31
+R3
+!s85 0
+vtx
+Vz432G3I@o:[[]dh_OXMV=3
+r1
+31
+I@2>j1>XON2ADg9`EPKO>m3
+w1288736195
+8/filespace/people/c/cwilcox/courses/ece551/project/tx.v
+F/filespace/people/c/cwilcox/courses/ece551/project/tx.v
+L0 7
+R2
+R3
+!s85 0
+vtx_tb
+V80BEi<7<T@S?f3gIT6Bg80
+r1
+31
+IX7MC0_m8U@D@_?WE0jC]V1
+w1288737946
+8/filespace/people/c/cwilcox/courses/ece551/project/tx_tb.v
+F/filespace/people/c/cwilcox/courses/ece551/project/tx_tb.v
+L0 1
+R2
+R3
+!s85 0

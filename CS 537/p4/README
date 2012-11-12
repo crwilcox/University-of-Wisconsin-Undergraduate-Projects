@@ -1,0 +1,16 @@
+///////////////////////////////////////////////////////////////////////////////
+// Title:            Intro to Threads
+// Files:            README
+// Semester:         Spring 2010
+//
+// Authors:          Tyler Lee Tucker - Tyler_DOT_LTucker_AT_gmail_DOT_com
+//                   Christopher Wilcox - cwilcox@wisc.edu
+// Course:           UW-Madison CS 537 - Introduction to Operating Systems
+// Instructor:       Prof. Remzi Arpaci-Dusseau
+//
+//////////////////////////// 80 columns wide //////////////////////////////////
+
+All appears to work well... Our graphs are in the handin as .png files
+
+We have also included a script called runTests.sh.  this script will pull the most recent tests to a directory called tests
+it will then make our files, place the library files in the necessary directories and run the tests...

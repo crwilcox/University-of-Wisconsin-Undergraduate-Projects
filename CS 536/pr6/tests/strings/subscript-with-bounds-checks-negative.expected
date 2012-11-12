@@ -1,0 +1,14 @@
+SPIM Version 7.3. of August 28, 2006
+Copyright 1990-2004 by James R. Larus (larus@cs.wisc.edu).
+All Rights Reserved.
+See the file README for a full copyright notice.
+Loaded: /s/spim-7.3/i386_rhel5/lib/exceptions.s
+I DONT KNOW WHAT WE SHOULD DO HERE
+Also, Strings need subscripting
+void main()
+{
+    string s;
+    s = "Did you know that 2 * 3 is 6?";
+    write s[-1];
+}
+

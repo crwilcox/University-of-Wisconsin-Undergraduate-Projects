@@ -1,0 +1,77 @@
+# //  ModelSim SE 6.3 May  4 2007 Linux 2.6.32-bpo.5-amd64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project hw3
+# Compile of register_file_16.v was successful.
+# Compile of register_file_16_tb.v was successful.
+# Compile of ud_counter.v was successful.
+# Compile of ud_counter_tb.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_structural_tb.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of JKFF.v failed with 1 errors.
+# Compile of priority_encoder_10_to_4_74HC.v was successful.
+# 10 compiles, 1 failed with 1 error. 
+# Compile of register_file_16.v was successful.
+# Compile of register_file_16_tb.v was successful.
+# Compile of ud_counter.v was successful.
+# Compile of ud_counter_tb.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_structural_tb.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of JKFF.v was successful.
+# Compile of priority_encoder_10_to_4_74HC.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -novopt work.JKFF
+# vsim -novopt work.JKFF 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw3/work.JKFF
+# Loading work.JKFF
+add wave \
+{sim:/JKFF/j } \
+{sim:/JKFF/k } \
+{sim:/JKFF/clk } \
+{sim:/JKFF/rst_n } \
+{sim:/JKFF/q } \
+{sim:/JKFF/q_n } 
+run
+run
+run
+force -freeze sim:/JKFF/rst_n 1 0
+force -drive sim:/JKFF/rst_n St1 0
+force -freeze sim:/JKFF/clk 1 0
+run
+run
+run
+run
+force -drive sim:/JKFF/k 1 0
+force -freeze sim:/JKFF/j 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/JKFF/rst_n 0 0
+run -all
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/JKFF/j 1 0
+run
+run
+run
+run
+run
+run

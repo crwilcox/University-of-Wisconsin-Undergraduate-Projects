@@ -1,0 +1,33 @@
+= a int
+= b double
+= c float
+= d char
+= e FILE
+? f
+= f pid_t
+? f
+? e
+? c
+? e
+? b
+? a
+? d
+= apple int
+= bad double
+= child char
+? apple
+? child
+? bad
+
+= ThisIsAReallyReallySuperExtraSpecialVariableName int
+? ThisIsAReallyReallySuperExtraSpecialVariableName
+
+= ThisIsAReallyReallySuperExtraSpecialVariableName2 double
+? ThisIsAReallyReallySuperExtraSpecialVariableName2
+
+= ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_0123456789 float
+? ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_0123456789
+
+? ThisIsAReallyReallySuperExtraSpecialVariableName
+? ThisIsAReallyReallySuperExtraSpecialVariableName2
+? ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_ThisIsAReallyReallySuperExtraSpecialVariableName_0123456789

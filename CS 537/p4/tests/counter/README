@@ -1,0 +1,20 @@
+
+Basic idea:
+- testcount.c stress test your libcounter.so
+- if your lib is thread-safe, you should get a "congrats" message
+- if not, you will get an "argghh" message
+- run runTest on machine that has more than one processor
+
+Do this first:
+- before compiling and running this program, please
+  copy all these files into your working directory
+- make sure you have your own *.h
+
+Run:
+
+% ssh best-emperor
+% cd [go to your working directory]
+% make clean
+% make
+% ./runTest
+

@@ -1,0 +1,291 @@
+ppgen_1bit (instance "I3", library "ece555_projectlib")
+Parsing drcExtractRules of "/afs/engr.wisc.edu/apps/cadence-2008/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d/divaEXT.rul"...
+Optimizing rules...
+Extraction started at Wed Dec  8 13:51:40 2010
+Validating hierarchy instantiation for:
+library: ece555_projectlib
+cell:    ppgen_32
+view:    layout
+Rules come from library NCSU_TechLib_tsmc02d.
+Rules path is divaEXT.rul.
+Inclusion limit is set to 1000.
+Switches used: Extract_parasitic_caps.
+Parsing drcExtractRules of "/afs/engr.wisc.edu/apps/cadence-2008/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d/divaEXT.rul"...
+ivIf( (switch "drc?")
+info: If short location check is desired later on, check the saveInterconnect
+ statement for correctness:
+ Interconnect layer nwell, pwell, pBulk, via5metalcap, metalcap not saved.
+ Interconnect layers merged on save: polySRes, polyRes, nwellRes.
+ Interconnect layers merged on save: cp, pDiffContact, nDiffContact, pOhmicContact, nOhmicContact.
+ Interconnect layers merged on save: pDiff, nDiff, pOhmic, nOhmic.
+ 
+Optimizing rules...
+removing unused task: metal6_ext = geomAndNot(metal6 geomOr(nolpe cap_id))
+removing unused task: metal6_ext = geomAnd(metal6 cap_id)
+removing unused task: sGateWidthCheck = geomSize(geomSize(geomAnd(Gate sblock) -2.9) 2.9)
+removing unused task: m6m5Cap = geomAnd(geomAnd(metal5 metal6) cap_id)
+removing unused task: m5m4Cap = geomAnd(geomAnd(metal4 metal5) cap_id)
+removing unused task: m4m3Cap = geomAnd(geomAnd(metal3 metal4) cap_id)
+removing unused task: m3m2Cap = geomAnd(geomAnd(metal2 metal3) cap_id)
+removing unused task: m2m1Cap = geomAnd(geomAnd(metal1 metal2) cap_id)
+removing unused task: m1sCap = geomAnd(geomAndNot(metal1 poly) cap_id)
+removing unused task: m1pCap = geomAnd(geomAnd(poly metal1) cap_id)
+removing unused task: pChannelCap = geomButting(pChannel pDiff (keep == 1))
+removing unused task: nChannelCap = geomButting(nChannel nDiff (keep == 1))
+removing unused task: Space = geomNot(geomOr(active poly))
+removing unused task: pad = geomOr(geomAndNot(("pad" "drawing") nodrc))
+removing unused task: glass = geomOr(geomAndNot(("glass" "drawing") nodrc))
+removing unused task: gselect = geomOr(geomAndNot(("gselect" "drawing") nodrc))
+removing unused task: gwell = geomOr(geomAndNot(("gwell" "drawing") nodrc))
+removing unused task: bkgnd = geomBkgnd()
+Running layout Extraction analysis
+flat mode
+Full checking.
+executing: nodrc = geomEmpty()
+executing: nwell = geomOr(geomAndNot(("nwell" "drawing") nodrc))
+executing: pwell = geomOr(geomAndNot(("pwell" "drawing") nodrc))
+executing: nactive = geomOr(geomAndNot(("nactive" "drawing") nodrc))
+executing: pactive = geomOr(geomAndNot(("pactive" "drawing") nodrc))
+executing: active = geomOr(geomAndNot(("active" "drawing") nodrc) nactive pactive)
+executing: nselect = geomOr(geomAndNot(("nselect" "drawing") nodrc))
+executing: pselect = geomOr(geomAndNot(("pselect" "drawing") nodrc))
+executing: poly = geomOr(geomAndNot(("poly" "drawing") nodrc))
+executing: metal1 = geomOr(geomAndNot(("metal1" "drawing") nodrc))
+executing: cc = geomOr(geomAndNot(("cc" "drawing") nodrc))
+executing: metal2 = geomOr(geomAndNot(("metal2" "drawing") nodrc))
+executing: via = geomOr(geomAndNot(("via" "drawing") nodrc))
+executing: nolpe = geomOr("nolpe")
+executing: cap_id = geomOr("cap_id")
+executing: res_id = geomOr("res_id")
+executing: dio_id = geomOr("dio_id")
+executing: metal3 = geomOr(geomAndNot(("metal3" "drawing") nodrc))
+executing: via2 = geomOr(geomAndNot(("via2" "drawing") nodrc))
+executing: metal4 = geomOr(geomAndNot(("metal4" "drawing") nodrc))
+executing: via3 = geomOr(geomAndNot(("via3" "drawing") nodrc))
+executing: metal5 = geomOr(geomAndNot(("metal5" "drawing") nodrc))
+executing: via4 = geomOr(geomAndNot(("via4" "drawing") nodrc))
+executing: metal6 = geomOr(geomAndNot(("metal6" "drawing") nodrc))
+executing: via5 = geomOr(geomAndNot(("via5" "drawing") nodrc))
+executing: metalcap = geomOr(geomAndNot(("metalcap" "drawing") nodrc))
+executing: sblock = geomOr(geomAndNot(("sblock" "drawing") nodrc))
+executing: cp = geomOr(geomOr(geomAndNot(("cp" "drawing") nodrc)) geomAnd(cc poly))
+executing: ca = geomOr(geomOr(geomAndNot(("ca" "drawing") nodrc)) geomAnd(cc geomAndNot(active ...
+executing: nActive = geomAnd(active nselect)
+executing: pActive = geomAnd(active pselect)
+executing: tactive = geomOr(geomAndNot(("tactive" "drawing") nodrc))
+executing: nBulk = geomOr(nwell)
+executing: pBulk = geomOr(geomNot(nwell) geomAndNot(pwell nwell))
+executing: nOhmic = geomAnd(nActive nwell)
+           nNotOhmic = geomAndNot(nActive nwell)
+executing: pOhmic = geomAndNot(pActive nwell)
+           pNotOhmic = geomAnd(pActive nwell)
+executing: nDiff = geomAndNot(nNotOhmic poly)
+           nChannel = geomAnd(nNotOhmic poly)
+executing: pDiff = geomAndNot(pNotOhmic poly)
+           pChannel = geomAnd(pNotOhmic poly)
+executing: nChannelTran = geomButting(nChannel nDiff (keep == 2))
+executing: pChannelTran = geomButting(pChannel pDiff (keep == 2))
+executing: hvnChannelTran = geomAnd(nChannelTran tactive)
+executing: nChannelTran = geomAndNot(nChannelTran hvnChannelTran)
+executing: hvpChannelTran = geomAnd(pChannelTran tactive)
+executing: pChannelTran = geomAndNot(pChannelTran hvpChannelTran)
+executing: nDiffContact = geomAnd(ca nDiff)
+executing: pDiffContact = geomAnd(ca pDiff)
+executing: nOhmicContact = geomAnd(ca nOhmic)
+executing: pOhmicContact = geomAnd(ca pOhmic)
+executing: Gate = geomAnd(geomOr(nNotOhmic pNotOhmic) poly)
+executing: fieldPoly = geomAvoiding(poly Gate)
+executing: metalcapBottom = geomStraddle(metal5 metalcap)
+executing: metalcapCap = geomAnd(metalcap metal5)
+executing: via5metalcap = geomAnd(via5 metalcapBottom)
+executing: via5 = geomAndNot(via5 via5metalcap)
+executing: NPdiode = geomAnd(dio_id geomOutside(nNotOhmic poly))
+executing: PNdiode = geomAnd(dio_id geomOutside(pNotOhmic poly))
+executing: NwPdiode = geomAnd(dio_id geomOutside(nwell pNotOhmic))
+executing: fieldPoly = geomAndNot(fieldPoly geomOr(sblock res_id))
+executing: polySRes = geomButting(geomAnd(sblock poly) fieldPoly (keep == 2))
+executing: polyRes = geomButting(geomAndNot(geomAnd(res_id poly) polySRes) fieldPoly (keep == 2))
+executing: poly = geomAndNot(poly geomOr(sblock res_id))
+executing: nBulk = geomAndNot(nBulk res_id)
+executing: nwell = geomAndNot(nwell res_id)
+executing: nwellRes = geomButting(geomAnd(res_id nwell) nBulk (keep == 2))
+executing: geomConnect((via nOhmicContact nOhmic nwell nBulk metal1) (via pOhmicContact pOhmic ...
+executing: extractMOS(nChannelTran (poly "G") (nDiff "S" "D") (pBulk "B") "nmos4 ivpcell NCSU_A...
+For layer nChannelTran :
+    129  shapes encountered.
+    129  nmos4 ivpcell NCSU_Analog_Parts devices well formed.
+executing: saveProperty(nChannelTran "model" strcat(modelPrefix NCSU_modelSuffix["nmos"]))
+executing: extractMOS(pChannelTran (poly "G") (pDiff "S" "D") (nBulk "B") "pmos4 ivpcell NCSU_A...
+For layer pChannelTran :
+    130  shapes encountered.
+    130  pmos4 ivpcell NCSU_Analog_Parts devices well formed.
+executing: saveProperty(pChannelTran "model" strcat(modelPrefix NCSU_modelSuffix["pmos"]))
+executing: extractMOS(hvnChannelTran (poly "G") (nDiff "S" "D") (pBulk "B") "nmos4_hv ivpcell N...
+executing: saveProperty(hvnChannelTran "model" strcat(modelPrefix NCSU_modelSuffix["nmos_hv"]))
+executing: extractMOS(hvpChannelTran (poly "G") (pDiff "S" "D") (nBulk "B") "pmos4_hv ivpcell N...
+executing: saveProperty(hvpChannelTran "model" strcat(modelPrefix NCSU_modelSuffix["pmos_hv"]))
+executing: nDiffArea = measureParasitic(area (nDiff not_over nolpe) 1e-12 figure)
+executing: attachParasitic(nDiffArea ("as" "S") ("ad" "D") nChannelTran shared)
+executing: pDiffArea = measureParasitic(area (pDiff not_over nolpe) 1e-12 figure)
+executing: attachParasitic(pDiffArea ("as" "S") ("ad" "D") pChannelTran shared)
+executing: attachParasitic(nDiffArea ("as" "S") ("ad" "D") hvnChannelTran shared)
+executing: attachParasitic(pDiffArea ("as" "S") ("ad" "D") hvpChannelTran shared)
+executing: nDiffPerimeter = measureParasitic(length (nDiff outside poly not_over nolpe) 1e-06 f...
+executing: attachParasitic(nDiffPerimeter ("ps" "S") ("pd" "D") nChannelTran shared)
+executing: pDiffPerimeter = measureParasitic(length (pDiff outside poly not_over nolpe) 1e-06 f...
+executing: attachParasitic(pDiffPerimeter ("ps" "S") ("pd" "D") pChannelTran shared)
+executing: attachParasitic(nDiffPerimeter ("ps" "S") ("pd" "D") hvnChannelTran shared)
+executing: attachParasitic(pDiffPerimeter ("ps" "S") ("pd" "D") hvpChannelTran shared)
+executing: extractDevice(polyRes (poly "PLUS" "MINUS") "res ivpcell NCSU_Analog_Parts")
+executing: extractDevice(polySRes (poly "PLUS" "MINUS") "res ivpcell NCSU_Analog_Parts")
+executing: extractDevice(nwellRes (nBulk "PLUS" "MINUS") "res ivpcell NCSU_Analog_Parts")
+executing: resWidth = measureParameter(length (polyRes butting poly) 1e-06)
+           resPerim = measureParameter(perimeter polyRes 1e-06)
+executing: resLength = calculateParameter(((resPerim - resWidth) / 2.0))
+executing: fullCorners = measureParameter(bends_full polyRes)
+executing: res = calculateParameter((sheetRes * ((resLength / (resWidth / 2.0)) - (fullCorners ...
+executing: saveParameter(res "r")
+executing: resWidth = measureParameter(length (polySRes butting poly) 1e-06)
+           resPerim = measureParameter(perimeter polySRes 1e-06)
+executing: resLength = calculateParameter(((resPerim - resWidth) / 2.0))
+executing: fullCorners = measureParameter(bends_full polySRes)
+executing: res = calculateParameter((sheetRes * ((resLength / (resWidth / 2.0)) - (fullCorners ...
+executing: saveParameter(res "r")
+executing: resWidth = measureParameter(length (nwellRes butting nBulk) 1e-06)
+           resPerim = measureParameter(perimeter nwellRes 1e-06)
+executing: resLength = calculateParameter(((resPerim - resWidth) / 2.0))
+executing: fullCorners = measureParameter(bends_full nwellRes)
+executing: res = calculateParameter((sheetRes * ((resLength / (resWidth / 2.0)) - (fullCorners ...
+executing: saveParameter(res "r")
+executing: extractDevice(metalcapCap (metalcap "PLUS") (metal5 "MINUS") "cap ivpcell NCSU_Analo...
+executing: saveRecognition(metalcapCap "metalcap")
+executing: capacitance = measureParameter(area metalcapCap (1e-18 * areaCap))
+executing: saveParameter(capacitance "c")
+executing: metal5_ext = geomAnd(metal5 cap_id)
+executing: metal4_ext = geomAnd(metal4 cap_id)
+executing: metal3_ext = geomAnd(metal3 cap_id)
+executing: metal2_ext = geomAnd(metal2 cap_id)
+executing: metal1_ext = geomAnd(metal1 cap_id)
+executing: poly_ext = geomAnd(poly cap_id)
+executing: nDiff_ext = geomAnd(nDiff cap_id)
+executing: pDiff_ext = geomAnd(pDiff cap_id)
+executing: nOhmic_ext = geomAnd(nOhmic cap_id)
+executing: pOhmic_ext = geomAnd(pOhmic cap_id)
+executing: nNotOhmic_ext = geomAnd(nNotOhmic cap_id)
+executing: pNotOhmic_ext = geomAnd(pNotOhmic cap_id)
+executing: nBulk_ext = geomAnd(nBulk cap_id)
+executing: pBulk_ext = geomAnd(pBulk cap_id)
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "cap ivpcell NCSU_Analog_Parts")
+0 cap ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "cap ivpcell NCSU_Analog_Parts")
+0 cap ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "cap ivpcell NCSU_Analog_Parts")
+0 cap ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "cap ivpcell NCSU_Analog_Parts")
+0 cap ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "cap ivpcell NCSU_Analog_Parts")
+0 cap ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "cap ivpcell NCSU_Analog_Parts")
+0 cap ivpcell NCSU_Analog_Parts parasitics created.
+executing: metal5_ext = geomAndNot(metal5 geomOr(nolpe cap_id))
+executing: metal4_ext = geomAndNot(metal4 geomOr(nolpe cap_id))
+executing: metal3_ext = geomAndNot(metal3 geomOr(nolpe cap_id))
+executing: metal2_ext = geomAndNot(metal2 geomOr(nolpe cap_id))
+executing: metal1_ext = geomAndNot(metal1 geomOr(nolpe cap_id))
+executing: poly_ext = geomAndNot(poly geomOr(nolpe cap_id))
+executing: nDiff_ext = geomAndNot(nDiff geomOr(nolpe cap_id))
+executing: pDiff_ext = geomAndNot(pDiff geomOr(nolpe cap_id))
+executing: nOhmic_ext = geomAndNot(nOhmic geomOr(nolpe cap_id))
+executing: pOhmic_ext = geomAndNot(pOhmic geomOr(nolpe cap_id))
+executing: nNotOhmic_ext = geomAndNot(nNotOhmic geomOr(nolpe cap_id))
+executing: pNotOhmic_ext = geomAndNot(pNotOhmic geomOr(nolpe cap_id))
+executing: nBulk_ext = geomAndNot(nBulk geomOr(nolpe cap_id))
+executing: pBulk_ext = geomAndNot(pBulk geomOr(nolpe cap_id))
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "pcapacitor ivpcell NCSU_Analog_Parts")
+0 pcapacitor ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "pcapacitor ivpcell NCSU_Analog_Parts")
+0 pcapacitor ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "pcapacitor ivpcell NCSU_Analog_Parts")
+407 pcapacitor ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "pcapacitor ivpcell NCSU_Analog_Parts")
+545 pcapacitor ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "pcapacitor ivpcell NCSU_Analog_Parts")
+292 pcapacitor ivpcell NCSU_Analog_Parts parasitics created.
+executing: capacitance = multiLevelParasitic((layers pBulk_ext nBulk_ext pNotOhmic_ext nNotOhmi...
+executing: saveParasitic(capacitance "PLUS" "MINUS" "c" "pcapacitor ivpcell NCSU_Analog_Parts")
+166 pcapacitor ivpcell NCSU_Analog_Parts parasitics created.
+executing: extractDevice(NwPdiode (pBulk "PLUS") (nwell "MINUS") "diode ivpcell NCSU_Analog_Par...
+executing: saveProperty(NwPdiode "model" strcat(modelPrefix NCSU_modelSuffix["nwpdiode"]))
+executing: nwpArea = measureParameter(area NwPdiode 1e-12)
+           nwpPerimeter = measureParameter(perimeter NwPdiode 1e-12)
+executing: saveParameter(nwpArea "area")
+executing: saveParameter(nwpPerimeter "pj")
+executing: extractDevice(NPdiode (pBulk "PLUS") (nDiff "MINUS") "diode ivpcell NCSU_Analog_Parts")
+executing: saveProperty(NPdiode "model" strcat(modelPrefix NCSU_modelSuffix["npdiode"]))
+executing: npArea = measureParameter(area NPdiode 1e-12)
+           npPerimeter = measureParameter(perimeter NPdiode 1e-12)
+executing: saveParameter(npArea "area")
+executing: saveParameter(npPerimeter "pj")
+executing: extractDevice(PNdiode (pDiff "PLUS") (nBulk "MINUS") "diode ivpcell NCSU_Analog_Parts")
+executing: saveProperty(PNdiode "model" strcat(modelPrefix NCSU_modelSuffix["pndiode"]))
+executing: pnArea = measureParameter(area PNdiode 1e-12)
+           pnPerimeter = measureParameter(perimeter PNdiode 1e-12)
+executing: saveParameter(pnArea "area")
+executing: saveParameter(pnPerimeter "pj")
+executing: saveRecognition(nChannelTran "poly")
+executing: saveRecognition(pChannelTran "poly")
+executing: saveRecognition(hvnChannelTran "poly")
+executing: saveRecognition(hvpChannelTran "poly")
+executing: saveInterconnect((nBulk "nwell"))
+executing: saveInterconnect((nOhmic "active"))
+executing: saveInterconnect((pOhmic "active"))
+executing: saveInterconnect((nDiff "active"))
+executing: saveInterconnect((pDiff "active"))
+executing: saveInterconnect((poly "poly"))
+executing: saveInterconnect((metal1 "metal1"))
+executing: saveInterconnect((nOhmicContact "cc"))
+executing: saveInterconnect((pOhmicContact "cc"))
+executing: saveInterconnect((nDiffContact "cc"))
+executing: saveInterconnect((pDiffContact "cc"))
+executing: saveInterconnect((cp "cc"))
+executing: saveInterconnect((metal2 "metal2"))
+executing: saveInterconnect((via "via"))
+executing: saveInterconnect((metal3 "metal3"))
+executing: saveInterconnect((via2 "via2"))
+executing: saveInterconnect((metal4 "metal4"))
+executing: saveInterconnect((via3 "via3"))
+executing: saveInterconnect((metal5 "metal5"))
+executing: saveInterconnect((via4 "via4"))
+executing: saveInterconnect((metal6 "metal6"))
+executing: saveInterconnect((via5 "via5"))
+executing: saveInterconnect((nwellRes "res_id"))
+executing: saveInterconnect((polyRes "res_id"))
+executing: saveInterconnect((polySRes "res_id"))
+executing: saveDerived(metal1 ("metal1" "net") cell_view)
+executing: saveDerived(metal2 ("metal2" "net") cell_view)
+executing: saveDerived(via ("via" "net") cell_view)
+executing: saveDerived(metal3 ("metal3" "net") cell_view)
+executing: saveDerived(via2 ("via2" "net") cell_view)
+executing: saveDerived(metal4 ("metal4" "net") cell_view)
+executing: saveDerived(via3 ("via3" "net") cell_view)
+executing: saveDerived(metal5 ("metal5" "net") cell_view)
+executing: saveDerived(via4 ("via4" "net") cell_view)
+executing: saveDerived(metal6 ("metal6" "net") cell_view)
+executing: saveDerived(via5 ("via5" "net") cell_view)
+Extraction started.......Wed Dec  8 13:51:40 2010
+           completed ....Wed Dec  8 13:51:43 2010
+    CPU TIME = 00:00:02  TOTAL TIME = 00:00:03
+*********   Summary of rule violations for cell "ppgen_32 layout"   *********
+   Total errors found: 0
+

@@ -1,0 +1,13 @@
+The build system for this skeleton project is Apache Ant.  You
+shouldn't need to modify anything in the build file or support scripts
+to have them work, provided the ant command is in your path.  On
+CSL-supported workstations, it can be found in /s/std/bin.
+
+You will need to add the Antlr JAR files to your CLASSPATH and .ant/lib
+directory as described at
+http://pages.cs.wisc.edu/~cs536-1/projects/pr2/antlr.html.
+
+The build file defines three targets:
+ * clean (removes all compiled .class files)
+ * compile (default, builds the project)
+

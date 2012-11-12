@@ -1,0 +1,9 @@
+1) assuming you have libhash.so ready
+2) make sure you have neccessary header (YOUR own header)
+3) you may want to modify makefile to add target to compile your lib
+4) REMEMBER: testhash.c is the program to test the libhash, 
+   so the make file assume you have libhash.so
+
+To do:
+- make
+- ./runTest

@@ -1,0 +1,6 @@
+int main() {
+	int x;
+	x = 1 + 1;
+	x = 4 - 8;
+	return x;
+}

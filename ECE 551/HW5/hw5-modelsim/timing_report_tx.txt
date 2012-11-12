@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : tx
+Version: D-2010.03-SP3
+Date   : Tue Dec  7 00:19:39 2010
+****************************************
+
+Operating Conditions: NOM   Library: gflxp
+Wire Load Model Mode: enclosed
+
+  Startpoint: bitCount_reg[1]
+              (rising edge-triggered flip-flop clocked by Clk_s)
+  Endpoint: zeroCount_reg[1]
+            (rising edge-triggered flip-flop clocked by Clk_s)
+  Path Group: Clk_s
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  tx                 B1X1                  gflxp
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clk_s (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  bitCount_reg[1]/CP (FD2QM8P)             0.00       0.00 r
+  bitCount_reg[1]/Q (FD2QM8P)              0.19       0.19 r
+  U212/Z (ND2BNM3P)                        0.11       0.30 r
+  U242/Z (ND2BNM1P)                        0.07       0.36 r
+  U241/Z (OAI22M1P)                        0.06       0.43 f
+  U195/Z (NR2M2P)                          0.05       0.47 r
+  U201/Z (ND4FM2P)                         0.06       0.53 f
+  U200/Z (NR2FM1P)                         0.05       0.59 r
+  U211/Z (ND4DNFM4P)                       0.05       0.64 f
+  U190/Z (ND2BNM2P)                        0.07       0.71 f
+  U219/Z (ND2M1P)                          0.03       0.74 r
+  U218/Z (AOI22M1P)                        0.04       0.78 f
+  zeroCount_reg[1]/D (FD4QM1P)             0.00       0.78 f
+  data arrival time                                   0.78
+
+  clock Clk_s (rise edge)                  1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  zeroCount_reg[1]/CP (FD4QM1P)            0.00       1.00 r
+  library setup time                      -0.22       0.78
+  data required time                                  0.78
+  -----------------------------------------------------------
+  data required time                                  0.78
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

@@ -1,0 +1,28 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'CoreWithTxRx' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : area
+Design : CoreWithTxRx
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:32:37 2010
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'CoreWithTxRx' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    gflxp (File: /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxp/gflxp_nom.db)
+
+Number of ports:               94
+Number of nets:               363
+Number of cells:                9
+Number of references:           9
+
+Combinational area:       32182.781757
+Noncombinational area:    57588.849577
+Net Interconnect area:    43134.682824 
+
+Total cell area:          89771.631334
+Total area:               132906.314159
+1

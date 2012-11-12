@@ -1,0 +1,8 @@
+int i = 1;
+double d = 3.1415;
+void main() {
+  (i++); /* int */
+  (d = (d + 1.0)); /* double */
+  return;
+}
+

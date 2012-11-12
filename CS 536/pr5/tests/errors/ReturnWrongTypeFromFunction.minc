@@ -1,0 +1,19 @@
+int IntFunction()
+{
+	return 2.0;
+}
+
+double DoubleFunction()
+{
+	return "String";
+}
+
+string StringFunction()
+{
+	return 666;
+}
+
+bool BoolFunction()
+{
+	return 123;
+}

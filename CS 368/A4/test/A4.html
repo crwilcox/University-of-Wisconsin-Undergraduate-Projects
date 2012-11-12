@@ -1,0 +1,224 @@
+<HTML>
+<HEAD>
+<TITLE>CS 368, Assignment 4</TITLE>
+</HEAD>
+
+<BODY>
+
+<center><h1> Assignment 4</h1></center>
+<center><h1>CS 368, Spring 2010</h1></center>
+<HR>
+<H3>Send e-mail questions to Aaron, <a HREF="mailto:xfeng@cs.wisc.edu">xfeng@cs.wisc.edu</A>
+<br> Due Wednesday March 17, by 12 noon.</H3>
+
+<HR> <!-- ----------------------------------------------------- -->
+<H3>Collaboration Policy</H3>
+<p>
+For this assignment,
+you may work in pairs (2 people).
+All students (whether working in a pair or not) must individually
+turn in the assignment by individually running the <i>handin</i> program.
+Therefore, 2 copies of the assignment will be turned in
+for those working as a pair.
+The grader will choose to grade only one copy of a pair's work,
+and assign the same score to both students.
+<p>
+If working in a pair, the names of BOTH students
+must appear at the top of the turned in assignment.
+<HR> <!-- ----------------------------------------------------- -->
+
+<H2>Program</H2>
+
+<p>The purpose of this program is to write some C++ code,
+as part of a program
+that uses pointers, structures, objects, and needs a copy constructor.
+</p>
+
+<H3>Program Statement</H3>
+
+<p>
+We have written most of a C++ program for you.
+It implements a <code>Queue</code> class, and elements of the queue
+are the toy implementation of <code>Process</code> objects.
+</p>
+
+<p>
+The main program is a vehicle for testing the <code>Queue</code> and
+<code>Process</code> classes,
+so it manipulates <code>Queue</code>
+objects as well as the <code>Process</code> objects that a
+queue holds.
+</p>
+
+<p>
+The code for this programming assignment are in the 5 files:
+<ul>
+<li> <code>/p/course/cs368-smoler/public/html/assignments/A4/main.cpp</code>
+<li> <code>/p/course/cs368-smoler/public/html/assignments/A4/Queue.cpp</code>
+<li> <code>/p/course/cs368-smoler/public/html/assignments/A4/Queue.h</code>
+<li> <code>/p/course/cs368-smoler/public/html/assignments/A4/Process.cpp</code>
+<li> <code>/p/course/cs368-smoler/public/html/assignments/A4/Process.h</code>
+</ul>
+</p>
+
+<p>
+Copy each of these files to your own directory.
+You will modify <code>Queue.cpp</code> and <code>main.cpp</code>
+for this assignment.
+Do not change any files other than these two, as you will not be turning
+in the other files, and your code must work with the other files in their
+original form.
+Missing from the program are implementations (definitions)
+of 3 <code>Queue</code> member functions:
+<code>enqueue</code>,
+<code>dequeue</code>, and the copy constructor.
+Add them, and modify <code>main()</code> such that it tests
+all 3 of these completed functions.
+</p>
+
+<p>
+Note that we are completely ignoring proper memory management
+for this program.
+This assignment is intended only to give practice programming
+in C++, and using pointers.
+You will get your chance to properly implement memory managment
+in assignment 6.
+</p>
+
+<h3>Notes</h3>
+<ol>
+<li>
+For this assignment, do all your work (especially compilation)
+on the instructional Unix machines.
+Be a bit careful, as code compiled on one of the 64-bit machines
+may not execute on the 32-bit machines, and visa versa.
+Perhaps it is best to choose one flavor, and do the entire
+assignment on that flavor.
+</li>
+<li>
+To compile a C++ program, use the compiler accessed with
+<code>g++</code> on the instructional Unix machines.
+Your program is expected to compile without warnings or errors
+when using <code>g++</code>.
+If the name of a single C++ source code program were
+<code>p1.cpp</code>, then the
+Unix command
+<br>
+<code>
+g++ p1.cpp
+</code>
+<br>
+will compile this program, placing the executable program
+in the file <code>a.out</code>.
+Note that this command (given in this manner)
+must be executed while your current working directory
+(often abbreviated cwd) is the one
+containing the C++ source code file.
+To place the executable in a file other than <code>a.out</code>,
+add another option and argument to the command line:
+<br>
+<code>
+g++ p1.cpp -o executablename
+</code>
+<br> <br>
+To compile a multifile program, list all the <code>.cpp</code>
+files in the compilation command.
+So, to compile the this  assignment's program, you may use the
+command
+<pre>
+g++ main.cpp Process.cpp Queue.cpp -o tryit
+</pre>
+where your executable will then be named <code>tryit</code>.
+<br> <br>
+And, if you know lots about compilers, please do not set any
+flags or other options when compiling.
+We want to see no warnings or errors when we compile
+with <code>g++</code>.
+</li>
+<li>
+To run a program, the name of the executable becomes
+the command.
+If your executable is named <code>a.out</code>, then
+the Unix command to execute this program will be
+<br>
+<code>
+  a.out
+</code>
+<br>
+or
+<br>
+<code>
+  ./a.out
+</code>
+</li>
+<li>
+A note to those very few students who do not read carefully:
+the machine <b>route66</b> is <i>NOT</i> one of the instructional
+machines assigned for use by this class.  In fact, it is
+a different platform, and its compilers are linked differently.
+</li>
+</ol>
+
+<h3>Grading</h3>
+To receive the grade of <b>Credit</b> for this class,
+this program must receive a minimum score of 70/100.
+To achieve the 70% score, the program <i>must</i>
+compile without errors, such that it can be executed.
+<p>
+It should also mostly
+<ul>
+  <li>Have proper inline documentation of the 3 added functions.
+  Follow CS 302 or CS 367 guidelines, if you need an indication of
+  what constitutes proper inline documentation.
+  <li>Have at least partially working implementations of the
+  3 added functions.
+  <li>Have code added to <code>main()</code> that intends to test
+  the functionality of <code>Queue</code>'s copy constructor.
+</ul>
+
+<h3>Handing In the Program</h3>
+
+<p>We are using the lab-supported <i>handin</i> program,
+to turn in programs online.
+
+<p>You are modifying and turning in two files.
+We have all the other files, and we will use our copies 
+when compiling and testing your program.
+
+<p>Your source code files turned in will be
+<code>Queue.cpp</code> and <code>main.cpp</code>.
+Turn in your program by running the lab-supported handin program.
+Instead of following the lab's directions, use this exact command
+<p>
+<pre>
+<code>
+  /s/handin/bin/handin -c cs368-1 -a a4 -d . 
+</code>
+</pre>
+while your current working directory is
+the one containing the two source code files.
+This program copies the specifically named file to
+a directory accessible by the instructor and TA.
+<p>
+Some advice, as this is the first assignment turned in online:
+<ul>
+<li>Try running the <i>handin</i> program well before the 
+assignment due date.
+We will not accept programs turned in by e-mail,
+and excuses will likely not help.
+<li>A successful hand in will print a message of the form:
+<pre>
+The following files where handed in successfully:
+main.cpp
+Queue.cpp
+</pre>
+If one or both of the files are <i>not</i> listed,
+then something has gone wrong, and you have not yet turned
+in the program.
+<li>Subsequent executions of the <i>handin</i> program 
+overwrite the files turned in with an earlier execution
+of the <i>handin</i> program.
+</ul>
+
+</BODY>
+</HTML>

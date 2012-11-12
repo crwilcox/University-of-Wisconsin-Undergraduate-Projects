@@ -1,0 +1,9 @@
+void main()
+{
+	int x = 4;
+	int y = 5;
+	double a = 4.0;
+	double b = 5.5e4;
+	bool d = true;
+	return;
+}

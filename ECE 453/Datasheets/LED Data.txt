@@ -1,0 +1,26 @@
+We cannot find the data sheet for the LEDS
+SeeedStudio 5mm Common Anode RGB LEDs 
+
+Forward voltage (RGB): (2.0, 3.2, 3.2) V • Luminosity (RGB): (800, 4000, 900)  mcd 
+
+However, assuming the following
+R - 2V Drop
+G - 3.2V Drop
+B - 3.2V Drop
+
+Also Assuming that we want a 20ma drive
+
+R needs a (3.3 - 2) / 20 ma =  47 ohm (68 ohm resistor gives 19.1176 ma)
+G needs a (3.3 - 3.2) / 20 ma = 1 ohm
+B needs a (3.3 - 3.2) / 20 ma = 1 ohm
+
+if we want iref to make a 3.3v rail give 20ma, the resistor needs to be 165 ohms
+
+
+each board needs
+
+2 x  1.8 Kohm   (4) // This is the Rref for the TLC5940 (typical pin voltage of 1.24 => Iref ~ 21.7 mA
+20 x 1 ohm (40)
+//10 x 65 or 68 ohm (20)
+10 x 47 ohm (20)
+

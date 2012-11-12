@@ -1,0 +1,72 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 d/filespace/people/c/cwilcox/courses/ece551/project
+T_opt
+Z2 VAlWMh;ij^Y8:f?=WH@D772
+Z3 04 11 4 work p1_mealy_tb fast 0
+Z4 =1-0019b93ece19-4cd5df05-4a11f-68e5
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3;37
+vp1_mealy
+Z8 IHMBUaoWATcSzfZHdSiTTb2
+Z9 VaOoY7>zQ=RAgkQoNSXjS]0
+Z10 w1289070713
+Z11 8/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy.v
+Z12 F/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy.v
+L0 1
+Z13 OE;L;6.3;37
+r1
+31
+Z14 o-work work -nocovercells -L mtiAvm
+!s85 0
+vp1_mealy_tb
+Z15 IVOI:ciP8H?fk;8=n51:F02
+Z16 VRN1Lc4`TMOFc1T3S1CTN;3
+Z17 w1289084608
+Z18 8/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy_tb.v
+Z19 F/filespace/people/c/cwilcox/courses/ece551/hw4/p1_mealy_tb.v
+L0 1
+R13
+r1
+31
+R14
+!s85 0
+vrx
+Z20 I^S<`dhjNFNKl4F8JSil<_0
+Z21 VzGCUPnNkVe8fG81;P;2[i2
+Z22 w1288727341
+Z23 8/filespace/people/c/cwilcox/courses/ece551/project/rx.v
+Z24 F/filespace/people/c/cwilcox/courses/ece551/project/rx.v
+L0 7
+R13
+r1
+31
+R14
+!s85 0
+vtx
+Z25 Vz432G3I@o:[[]dh_OXMV=3
+r1
+31
+Z26 I@2>j1>XON2ADg9`EPKO>m3
+Z27 w1288736195
+Z28 8/filespace/people/c/cwilcox/courses/ece551/project/tx.v
+Z29 F/filespace/people/c/cwilcox/courses/ece551/project/tx.v
+L0 7
+R13
+R14
+!s85 0
+vtx_tb
+Z30 V80BEi<7<T@S?f3gIT6Bg80
+r1
+31
+Z31 IX7MC0_m8U@D@_?WE0jC]V1
+Z32 w1288737946
+Z33 8/filespace/people/c/cwilcox/courses/ece551/project/tx_tb.v
+Z34 F/filespace/people/c/cwilcox/courses/ece551/project/tx_tb.v
+L0 1
+R13
+R14
+!s85 0

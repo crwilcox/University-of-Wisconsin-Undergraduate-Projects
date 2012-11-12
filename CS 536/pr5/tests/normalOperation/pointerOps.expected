@@ -1,0 +1,18 @@
+void main() {
+  int x;
+  int y;
+  int* z;
+  double a;
+  double b;
+  double* c;
+  (y = 4); /* int */
+  (x = y); /* int */
+  (b = 4.2); /* double */
+  (z = (&y)); /* int* */
+  (x = ((*z) + 2)); /* int */
+  (c = (&b)); /* double* */
+  (a = ((*c) + b)); /* double */
+  int** q = (&z);
+  (a = (*(*q))); /* double */
+  return;
+}

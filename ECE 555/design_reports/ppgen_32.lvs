@@ -1,0 +1,155 @@
+@(#)$CDS: LVS.exe version 6.1.1 01/18/2007 15:13 (cds126047) $
+
+Command line: /afs/engr.wisc.edu/apps/cadence-2008/IC-6.1.1/tools.lnx86/dfII/bin/32bit/LVS.exe -dir /filespace/people/c/chanson/ece555/finalproject/ece555/LVS -l -s -t /filespace/people/c/chanson/ece555/finalproject/ece555/LVS/layout /filespace/people/c/chanson/ece555/finalproject/ece555/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /filespace/people/c/chanson/ece555/finalproject/ece555/LVS/layout/netlist
+       count
+	165		nets
+	68		terminals
+	130		pmos
+	129		nmos
+
+    Net-list summary for /filespace/people/c/chanson/ece555/finalproject/ece555/LVS/schematic/netlist
+       count
+	165		nets
+	68		terminals
+	129		pmos
+	129		nmos
+
+
+    Terminal correspondence points
+    N162      N38       A<0>
+    N142      N48       A<10>
+    N133      N49       A<11>
+    N195      N50       A<12>
+    N188      N51       A<13>
+    N182      N52       A<14>
+    N175      N53       A<15>
+    N168      N54       A<16>
+    N157      N55       A<17>
+    N147      N56       A<18>
+    N139      N57       A<19>
+    N150      N39       A<1>
+    N179      N58       A<20>
+    N172      N59       A<21>
+    N165      N60       A<22>
+    N153      N61       A<23>
+    N145      N62       A<24>
+    N137      N63       A<25>
+    N129      N64       A<26>
+    N190      N65       A<27>
+    N183      N66       A<28>
+    N176      N67       A<29>
+    N141      N40       A<2>
+    N143      N68       A<30>
+    N134      N69       A<31>
+    N132      N41       A<3>
+    N194      N42       A<4>
+    N187      N43       A<5>
+    N181      N44       A<6>
+    N174      N45       A<7>
+    N169      N46       A<8>
+    N156      N47       A<9>
+    N160      N2        B
+    N155      N6        Z<0>
+    N158      N16       Z<10>
+    N148      N17       Z<11>
+    N140      N18       Z<12>
+    N131      N19       Z<13>
+    N193      N20       Z<14>
+    N186      N21       Z<15>
+    N180      N22       Z<16>
+    N173      N23       Z<17>
+    N166      N24       Z<18>
+    N154      N25       Z<19>
+    N146      N7        Z<1>
+    N191      N26       Z<20>
+    N184      N27       Z<21>
+    N177      N28       Z<22>
+    N170      N29       Z<23>
+    N163      N30       Z<24>
+    N151      N31       Z<25>
+    N144      N32       Z<26>
+    N135      N33       Z<27>
+    N196      N34       Z<28>
+    N189      N35       Z<29>
+    N138      N8        Z<2>
+    N159      N36       Z<30>
+    N149      N37       Z<31>
+    N130      N9        Z<3>
+    N192      N10       Z<4>
+    N185      N11       Z<5>
+    N178      N12       Z<6>
+    N171      N13       Z<7>
+    N164      N14       Z<8>
+    N152      N15       Z<9>
+    N136      N1        gnd!
+    N167      N3        ppgen_en
+    N161      N0        vdd!
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			259	258
+	total			259	258
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			165	165
+	total			165	165
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			68	68
+
+
+Probe files from /filespace/people/c/chanson/ece555/finalproject/ece555/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /filespace/people/c/chanson/ece555/finalproject/ece555/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

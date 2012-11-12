@@ -1,0 +1,15 @@
+"A Standard String"
+""
+"\n"
+"\t"
+"\\"
+"\""
+"The Quick Fox Jumps Over the Brown Dog !@#$%^&*(){}|[]\\:\"<>?;',.//`~"
+"\:"
+"f\"oo\$\^bar"
+"good but added a 	tab"
+"goodbutmultipleline
+"
+"multiple line fake out \"
+"
+"goodbutEOF

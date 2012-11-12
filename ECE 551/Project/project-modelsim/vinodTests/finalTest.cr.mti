@@ -1,0 +1,54 @@
+/filespace/people/c/cwilcox/courses/ece551/project/netlists/CoreWithTxRx_Post.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/project/netlists/CoreWithTxRx_Post.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module Packet_Queue_0
+-- Compiling module Packet_Queue_9
+-- Compiling module Link_Control_0
+-- Compiling module Routing_State_Machine
+-- Compiling module Packet_Queue_1
+-- Compiling module Packet_Queue_2
+-- Compiling module Node_Manager
+-- Compiling module Packet_Queue_3
+-- Compiling module Packet_Queue_4
+-- Compiling module Link_Control_1
+-- Compiling module Packet_Queue_5
+-- Compiling module Packet_Queue_6
+-- Compiling module Link_Control_2
+-- Compiling module Packet_Queue_7
+-- Compiling module Packet_Queue_8
+-- Compiling module Link_Control_3
+-- Compiling module core
+-- Compiling module tx_0
+-- Compiling module rx_0
+-- Compiling module rx_1
+-- Compiling module rx_2
+-- Compiling module rx_3
+-- Compiling module tx_1
+-- Compiling module tx_2
+-- Compiling module tx_3
+-- Compiling module CoreWithTxRx_Post
+
+Top level modules:
+	CoreWithTxRx_Post
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/FaultyTx.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/FaultyTx.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module FaultyTx
+
+Top level modules:
+	FaultyTx
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/Router4x4.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/Router4x4.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module Router4x4
+
+Top level modules:
+	Router4x4
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/tb_RouterCoreFinal.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/project/vinodTests/tb_RouterCoreFinal.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module tb_RouterCore4x4
+
+Top level modules:
+	tb_RouterCore4x4
+
+} {} {}}

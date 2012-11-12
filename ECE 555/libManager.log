@@ -1,0 +1,38 @@
+\o Program:		@(#)$CDS: libManagerOA.exe version 6.1.1 01/10/2007 08:46 (cat61lnx) $
+\o Sub version:		sub-version 06.03-p001
+\o Arguments:		-mpssession virtuoso10776 -mpshost tux-113 
+\o Working Directory:	tux-113:/filespace/people/c/cwilcox/courses/ece555/project
+\o Qt version: 		4.1.4
+\o Log file is "/filespace/people/c/cwilcox/courses/ece555/project/libManager.log".
+\o Opening libManager window.
+\o changeWorkingDir("/filespace/people/c/cwilcox/courses/ece555/project")
+\o ddSetForcedLib("")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(239 44 1033 694))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 25 1016 694))
+\a cdsLibManager->libListBox->value = "ece555_projectlib"
+\a cdsLibManager->libListBox->value = "ece555_projectlib"
+\a cdsLibManager->libLineEdit->value = "ece555_projectlib"
+\a cdsLibManager->cellListBox->value = "toplevel"
+\a cdsLibManager->cellLineEdit->value = "toplevel"
+\a cdsLibManager->viewListBox->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->viewListBox 1 0)
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "ece555_projectlib"
+\a cdsLibManager->libListBox->value = "ece555_projectlib"
+\a cdsLibManager->cellListBox->value = "toplevel"
+\a cdsLibManager->cellLineEdit->value = "toplevel"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

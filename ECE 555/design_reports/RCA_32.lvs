@@ -1,0 +1,186 @@
+@(#)$CDS: LVS.exe version 6.1.1 01/18/2007 15:13 (cds126047) $
+
+Command line: /afs/engr.wisc.edu/apps/cadence-2008/IC-6.1.1/tools.lnx86/dfII/bin/32bit/LVS.exe -dir /filespace/people/c/cwilcox/courses/ece555/project/LVS -l -s -t /filespace/people/c/cwilcox/courses/ece555/project/LVS/layout /filespace/people/c/cwilcox/courses/ece555/project/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /filespace/people/c/cwilcox/courses/ece555/project/LVS/layout/netlist
+       count
+	548		nets
+	99		terminals
+	481		pmos
+	481		nmos
+
+    Net-list summary for /filespace/people/c/cwilcox/courses/ece555/project/LVS/schematic/netlist
+       count
+	548		nets
+	99		terminals
+	481		pmos
+	481		nmos
+
+
+    Terminal correspondence points
+    N489      N2        Z<0>
+    N493      N42       Z<10>
+    N478      N41       Z<11>
+    N467      N40       Z<12>
+    N455      N38       Z<13>
+    N544      N36       Z<14>
+    N532      N34       Z<15>
+    N522      N32       Z<16>
+    N512      N31       Z<17>
+    N503      N30       Z<18>
+    N488      N27       Z<19>
+    N474      N86       Z<1>
+    N538      N26       Z<20>
+    N527      N23       Z<21>
+    N518      N22       Z<22>
+    N507      N21       Z<23>
+    N498      N19       Z<24>
+    N483      N15       Z<25>
+    N470      N13       Z<26>
+    N458      N12       Z<27>
+    N547      N10       Z<28>
+    N536      N11       Z<29>
+    N462      N7        Z<2>
+    N494      N9        Z<30>
+    N479      N8        Z<31>
+    N450      N6        Z<3>
+    N540      N85       Z<4>
+    N528      N84       Z<5>
+    N519      N83       Z<6>
+    N509      N82       Z<7>
+    N500      N45       Z<8>
+    N485      N43       Z<9>
+    N476      N124      a<0>
+    N461      N60       a<10>
+    N449      N61       a<11>
+    N539      N62       a<12>
+    N526      N63       a<13>
+    N517      N64       a<14>
+    N508      N65       a<15>
+    N499      N66       a<16>
+    N484      N67       a<17>
+    N471      N68       a<18>
+    N459      N69       a<19>
+    N466      N126      a<1>
+    N515      N70       a<20>
+    N505      N71       a<21>
+    N495      N72       a<22>
+    N480      N73       a<23>
+    N468      N74       a<24>
+    N456      N75       a<25>
+    N545      N76       a<26>
+    N534      N77       a<27>
+    N524      N78       a<28>
+    N513      N79       a<29>
+    N454      N133      a<2>
+    N464      N80       a<30>
+    N452      N81       a<31>
+    N543      N49       a<3>
+    N531      N54       a<4>
+    N521      N55       a<5>
+    N511      N56       a<6>
+    N502      N57       a<7>
+    N487      N58       a<8>
+    N472      N59       a<9>
+    N482      N5        add_en
+    N533      N52       b<0>
+    N491      N35       b<10>
+    N475      N37       b<11>
+    N465      N39       b<12>
+    N453      N122      b<13>
+    N542      N24       b<14>
+    N530      N25       b<15>
+    N520      N28       b<16>
+    N510      N29       b<17>
+    N501      N127      b<18>
+    N486      N16       b<19>
+    N523      N53       b<1>
+    N537      N18       b<20>
+    N525      N17       b<21>
+    N516      N20       b<22>
+    N506      N128      b<23>
+    N496      N114      b<24>
+    N481      N112      b<25>
+    N469      N111      b<26>
+    N457      N123      b<27>
+    N546      N108      b<28>
+    N535      N110      b<29>
+    N514      N4        b<2>
+    N492      N113      b<30>
+    N477      N109      b<31>
+    N504      N121      b<3>
+    N490      N44       b<4>
+    N473      N46       b<5>
+    N463      N47       b<6>
+    N451      N48       b<7>
+    N541      N125      b<8>
+    N529      N33       b<9>
+    N460      N0        gnd!
+    N497      N1        vdd!
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			962	962
+	total			962	962
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			548	548
+	total			548	548
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			99	99
+
+
+Probe files from /filespace/people/c/cwilcox/courses/ece555/project/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /filespace/people/c/cwilcox/courses/ece555/project/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

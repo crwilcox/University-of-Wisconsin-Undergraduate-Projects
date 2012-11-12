@@ -1,0 +1,28 @@
+.:
+core_link_control.scr               : Synthesis script for Link_Control
+core_node_manager.scr               : Synthesis script for Node_Manager
+core_packet_queue.scr               : Synthesis script for Packet_Queue
+core_routing_state_machine.scr      : Synthesis script for Routing_State_Machine
+core.scr                            : Synthesis script for core
+CoreWithTxRx.scr                    : Synthesis script for CoreWithTxRx
+reports/                            : Folder holding area and timing reports
+rx.scr                              : Synthesis script for rx
+tx.scr                              : Synthesis script for tx
+
+./reports:
+area_report_core_link_control.txt
+area_report_core_node_manager.txt
+area_report_core_packet_queue.txt
+area_report_core_routing_state_machine.txt
+area_report_core.txt
+area_report_CoreWithTxRx.txt
+area_report_rx.txt
+area_report_tx.txt
+timing_report_core_link_control.txt
+timing_report_core_node_manager.txt
+timing_report_core_packet_queue.txt
+timing_report_core_routing_state_machine.txt
+timing_report_core.txt
+timing_report_CoreWithTxRx.txt
+timing_report_rx.txt
+timing_report_tx.txt

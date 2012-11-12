@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Node_Manager
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:30:02 2010
+****************************************
+
+Operating Conditions: NOM   Library: gflxp
+Wire Load Model Mode: enclosed
+
+  Startpoint: In_Queue/Full_reg
+              (falling edge-triggered flip-flop clocked by Clk_r)
+  Endpoint: Core_Load_Ack_reg
+            (rising edge-triggered flip-flop clocked by Clk_r)
+  Path Group: Clk_r
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Node_Manager       B1X1                  gflxp
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clk_r (fall edge)                  1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  In_Queue/Full_reg/CPN (FDN2QM3P)         0.00       1.00 f
+  In_Queue/Full_reg/Q (FDN2QM3P)           0.15       1.15 f
+  In_Queue/Full (Packet_Queue_0)           0.00       1.15 f
+  U16/Z (ND2M2P)                           0.03       1.17 r
+  U15/Z (ND2BNM2P)                         0.02       1.20 f
+  Core_Load_Ack_reg/D (FD4QM3P)            0.00       1.20 f
+  data arrival time                                   1.20
+
+  clock Clk_r (rise edge)                  1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  Core_Load_Ack_reg/CP (FD4QM3P)           0.00       1.25 r
+  library setup time                      -0.21       1.04
+  data required time                                  1.04
+  -----------------------------------------------------------
+  data required time                                  1.04
+  data arrival time                                  -1.20
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.16
+
+
+1

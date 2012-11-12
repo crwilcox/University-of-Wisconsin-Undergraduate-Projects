@@ -1,0 +1,9 @@
+void main()
+{
+	//Attempt to use an array subscript on a non-array. (Pointers are not arrays.)
+	int myInteger = 5;
+	int someOtherInteger = myInteger[0];
+
+	int* myPointer = &myInteger;
+	int accessInt = myPointer[0];
+}

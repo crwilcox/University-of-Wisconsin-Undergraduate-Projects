@@ -1,0 +1,44 @@
+== Left - 1Bit ==
+	0x AAAA AAAA shifted
+
+	A's --> 1
+	Z[15] is the worst
+	DELAY: 3.393 ns  - .25ns = 3.143ns
+
+	A's --> 0
+	Z[14] is the worst
+	DELAY: 8.1243ns - 5.75ns = 2.3743ns
+
+== Left - 31Bit ==
+	0x FFFF FFFF shifted
+	A's --> 1
+	Z[30] is the worst 
+	DELAY: 3.43ns - .25ns = 3.18ns
+
+	A's --> 0
+	Z[1] is the worst 
+	DELAY: 7.7357 - 5.75ns = 1.9857ns
+
+
+== Right - 1Bit ==
+	0x AAAA AAAA shifted
+
+	A's --> 1
+	Z[15] is the worst 
+	DELAY: 3.4667ns  - .25ns = 3.2167ns
+
+	A's --> 0
+	Z[14] is the worst 
+	DELAY: 8.1284ns - 5.75ns = 2.3784ns
+
+
+== Right - 32Bit ==
+	0x 7FFF FFFF shifted
+
+	A's --> 1
+	Z[0] is the worst 
+	DELAY:  3.4529ns - .25ns = 3.2029ns
+
+	A's --> 0
+	Z[29] is the worst 
+	DELAY: 7.6463ns - 5.75ns = 1.8963ns

@@ -1,0 +1,16 @@
+bool A = false; /*HEAP*/
+bool main(int argc /*0*/) {
+  while(true) {
+    int B = 4; /*-4*/
+    if((B/*4:7:L*/ < 3)) {
+      bool A = true; /*-8*/
+      int B = 2; /*-12*/
+      return (!A/*6:9:L*/);
+    }
+    else {
+      bool A = true; /*-8*/
+      int B = 1; /*-12*/
+      return A/*11:9:L*/;
+    }
+  }
+}

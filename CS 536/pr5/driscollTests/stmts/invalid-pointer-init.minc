@@ -1,0 +1,5 @@
+void main(bool y)
+{
+
+  int * x = &y;
+}

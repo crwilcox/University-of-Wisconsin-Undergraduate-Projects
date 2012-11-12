@@ -1,0 +1,1180 @@
+# //  ModelSim SE 6.3 May  4 2007 Linux 2.6.32-bpo.5-amd64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Project file /filespace/people/c/cwilcox/courses/ece551/project/hw4.mpf was not found.
+# Unable to open project.
+# Loading project hw4
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# 6 compiles, 0 failed with no errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_tb.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# 11 compiles, 0 failed with no errors. 
+vsim -novopt work.prime_detector_behavioral_structural_tb
+# vsim -novopt work.prime_detector_behavioral_structural_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_structural_tb
+# Loading work.prime_detector_behavioral_structural_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_structural_netlist
+# Loading work.prime_detector_structural_netlist
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_0
+# Loading work.dff_async_rst_0
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(7): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff3
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(8): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff3
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_3
+# Loading work.dff_async_rst_3
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(37): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff2
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(38): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff2
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_2
+# Loading work.dff_async_rst_2
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(27): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff1
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(28): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff1
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_1
+# Loading work.dff_async_rst_1
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(17): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff0
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(18): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff0
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(52): Instantiation of 'MUX21LM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(53): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(54): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(55): Instantiation of 'NR3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(56): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(57): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(58): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(59): Instantiation of 'AND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(60): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(61): Instantiation of 'OAI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(62): Instantiation of 'AOI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(63): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(64): Instantiation of 'OAI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(65): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(66): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(67): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(68): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(69): Instantiation of 'AOI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(70): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(71): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(72): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_netlist
+# Loading work.prime_detector_behavioral_netlist
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(9): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(10): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(11): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(12): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(13): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(14): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(15): Instantiation of 'ND3CNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(16): Instantiation of 'AO21CNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(17): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(18): Instantiation of 'AOI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(19): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(20): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(21): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(22): Instantiation of 'AND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(23): Instantiation of 'AOI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(24): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(25): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(26): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(27): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(28): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(29): Instantiation of 'OAI211M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(30): Instantiation of 'ND2BNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(31): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(32): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(33): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(34): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(35): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(36): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(37): Instantiation of 'OAI22CDNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(38): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(39): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Error loading design
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_tb.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# 11 compiles, 0 failed with no errors. 
+vsim -novopt work.prime_detector_behavioral_structural_tb
+# vsim -novopt work.prime_detector_behavioral_structural_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_structural_tb
+# Loading work.prime_detector_behavioral_structural_tb
+# Loading work.prime_detector_structural_netlist
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_0
+# Loading work.dff_async_rst_0
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(7): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff3
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(8): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff3
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_3
+# Loading work.dff_async_rst_3
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(37): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff2
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(38): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff2
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_2
+# Loading work.dff_async_rst_2
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(27): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff1
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(28): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff1
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_1
+# Loading work.dff_async_rst_1
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(17): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff0
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(18): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT/dff0
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(52): Instantiation of 'MUX21LM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(53): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(54): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(55): Instantiation of 'NR3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(56): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(57): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(58): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(59): Instantiation of 'AND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(60): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(61): Instantiation of 'OAI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(62): Instantiation of 'AOI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(63): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(64): Instantiation of 'OAI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(65): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(66): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(67): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(68): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(69): Instantiation of 'AOI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(70): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(71): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_structural_netlist.v(72): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/strucDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Loading work.prime_detector_behavioral_netlist
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(9): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(10): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(11): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(12): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(13): Instantiation of 'FD2QM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(14): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(15): Instantiation of 'ND3CNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(16): Instantiation of 'AO21CNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(17): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(18): Instantiation of 'AOI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(19): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(20): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(21): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(22): Instantiation of 'AND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(23): Instantiation of 'AOI22M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(24): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(25): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(26): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(27): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(28): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(29): Instantiation of 'OAI211M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(30): Instantiation of 'ND2BNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(31): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(32): Instantiation of 'ND2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(33): Instantiation of 'ND3M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(34): Instantiation of 'OAI21M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(35): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(36): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(37): Instantiation of 'OAI22CDNM1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(38): Instantiation of 'NR2M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# ** Error: (vsim-3033) /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_netlist.v(39): Instantiation of 'N1M1P' failed. The design unit was not found.
+#         Region: /prime_detector_behavioral_structural_tb/behavDUT
+#         Searched libraries:
+#             /filespace/people/c/cwilcox/courses/ece551/hw4/work
+# Error loading design
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_tb.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# 11 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_structural_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_structural_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_structural_tb
+# Loading work.prime_detector_behavioral_structural_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_structural_netlist
+# Loading work.prime_detector_structural_netlist
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_0
+# Loading work.dff_async_rst_0
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.FD2QM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.N1M1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_3
+# Loading work.dff_async_rst_3
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_2
+# Loading work.dff_async_rst_2
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_1
+# Loading work.dff_async_rst_1
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.MUX21LM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI21M1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_netlist
+# Loading work.prime_detector_behavioral_netlist
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AO21CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI211M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2BNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22CDNM1P(fast)
+add wave \
+{sim:/prime_detector_behavioral_structural_tb/clk } \
+{sim:/prime_detector_behavioral_structural_tb/rst } \
+{sim:/prime_detector_behavioral_structural_tb/in_bit } \
+{sim:/prime_detector_behavioral_structural_tb/behavioral_output } \
+{sim:/prime_detector_behavioral_structural_tb/structural_output } \
+{sim:/prime_detector_behavioral_structural_tb/error } 
+run -all
+# Break in Module prime_detector_behavioral_structural_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_structural_tb.v line 92
+quit -sim
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# 10 compiles, 1 failed with no errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of prime_detector_structural_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_structural_netlist_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_structural_netlist_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_structural_netlist_tb
+# Loading work.prime_detector_behavioral_structural_netlist_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_structural_netlist
+# Loading work.prime_detector_structural_netlist
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_0
+# Loading work.dff_async_rst_0
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.FD2QM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.N1M1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_3
+# Loading work.dff_async_rst_3
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_2
+# Loading work.dff_async_rst_2
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.dff_async_rst_1
+# Loading work.dff_async_rst_1
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.MUX21LM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI21M1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_netlist
+# Loading work.prime_detector_behavioral_netlist
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AO21CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI211M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2BNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22CDNM1P(fast)
+add wave \
+{sim:/prime_detector_behavioral_structural_netlist_tb/clk } \
+{sim:/prime_detector_behavioral_structural_netlist_tb/rst } \
+{sim:/prime_detector_behavioral_structural_netlist_tb/in_bit } \
+{sim:/prime_detector_behavioral_structural_netlist_tb/behavioral_output } \
+{sim:/prime_detector_behavioral_structural_netlist_tb/structural_output } \
+{sim:/prime_detector_behavioral_structural_netlist_tb/error } 
+run -all
+# Break in Module prime_detector_behavioral_structural_netlist_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_structural_netlist_tb.v line 92
+quit -sim
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# 11 compiles, 1 failed with no errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_tb
+# Loading work.prime_detector_behavioral_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_netlist
+# Loading work.prime_detector_behavioral_netlist
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.FD2QM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.N1M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AO21CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI211M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2BNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22CDNM1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral
+# Loading work.prime_detector_behavioral
+# ** Warning: (vsim-3009) [TSCALE] - Module 'prime_detector_behavioral' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /prime_detector_behavioral_tb/behavDUT
+add wave \
+{sim:/prime_detector_behavioral_tb/clk } \
+{sim:/prime_detector_behavioral_tb/rst } \
+{sim:/prime_detector_behavioral_tb/in_bit } \
+{sim:/prime_detector_behavioral_tb/behavioral_output } \
+{sim:/prime_detector_behavioral_tb/behavioral_netlist_output } \
+{sim:/prime_detector_behavioral_tb/error } 
+run -all
+# Break in Module prime_detector_behavioral_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_tb.v line 92
+quit -sim
+# Load canceled
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v failed with 1 errors.
+# 13 compiles, 1 failed with 1 error. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Load canceled
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Load canceled
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_noglitch_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_noglitch_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_noglitch_tb
+# Loading work.prime_detector_behavioral_noglitch_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_netlist
+# Loading work.prime_detector_behavioral_netlist
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.FD2QM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.N1M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AO21CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI211M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2BNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22CDNM1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral
+# Loading work.prime_detector_behavioral
+# ** Warning: (vsim-3009) [TSCALE] - Module 'prime_detector_behavioral' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /prime_detector_behavioral_noglitch_tb/behavDUT
+add wave \
+{sim:/prime_detector_behavioral_noglitch_tb/clk } \
+{sim:/prime_detector_behavioral_noglitch_tb/rst } \
+{sim:/prime_detector_behavioral_noglitch_tb/in_bit } \
+{sim:/prime_detector_behavioral_noglitch_tb/error } \
+{sim:/prime_detector_behavioral_noglitch_tb/behavioral_output } \
+{sim:/prime_detector_behavioral_noglitch_tb/behavioral_netlist_output } 
+run -all
+# Break in Module prime_detector_behavioral_noglitch_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_noglitch_tb.v line 97
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v failed with 2 errors.
+# 13 compiles, 1 failed with 2 errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v failed with 2 errors.
+# 13 compiles, 1 failed with 2 errors. 
+quit -sim
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v failed with 2 errors.
+# 13 compiles, 1 failed with 2 errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_noglitch_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.prime_detector_behavioral_noglitch_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_noglitch_tb
+# Loading work.prime_detector_behavioral_noglitch_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral_netlist
+# Loading work.prime_detector_behavioral_netlist
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.FD2QM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.N1M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AO21CNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI21M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AND2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.AOI22M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.NR2M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND3M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI211M1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.ND2BNM1P(fast)
+# Loading /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp.OAI22CDNM1P(fast)
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.prime_detector_behavioral
+# Loading work.prime_detector_behavioral
+# ** Warning: (vsim-3009) [TSCALE] - Module 'prime_detector_behavioral' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /prime_detector_behavioral_noglitch_tb/behavDUT
+add wave \
+{sim:/prime_detector_behavioral_noglitch_tb/clk } \
+{sim:/prime_detector_behavioral_noglitch_tb/rst } \
+{sim:/prime_detector_behavioral_noglitch_tb/in_bit } \
+{sim:/prime_detector_behavioral_noglitch_tb/error } \
+{sim:/prime_detector_behavioral_noglitch_tb/behavioral_output } \
+{sim:/prime_detector_behavioral_noglitch_tb/behavioral_netlist_output } 
+run -all
+# Break in Module prime_detector_behavioral_noglitch_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/prime_detector_behavioral_noglitch_tb.v line 98
+quit -sim
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2_tb
+# Loading work.p2_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_120bit
+# Loading work.fulladd_120bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_2bit
+# Loading work.fulladd_2bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2ab_adder
+# Loading work.p2ab_adder
+# ** Error: (vsim-3053) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): Illegal output or inout port connection (port 'c_out').
+#         Region: /p2_tb/DUT1
+# ** Warning: (vsim-3015) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (120) for port 'c_out'.
+#         Region: /p2_tb/DUT1
+# ** Warning: (vsim-3015) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): [PCDPC] - Port size (120 or 120) does not match connection size (1) for port 'sum'.
+#         Region: /p2_tb/DUT1
+# ** Error: (vsim-3054) /filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v(7): port 'a' must be 2 or 60-bit wide, (actual 120-bit).
+#         Region: /p2_tb/DUT1/fa[0]
+# ** Error: (vsim-3054) /filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v(7): port 'b' must be 2 or 60-bit wide, (actual 120-bit).
+#         Region: /p2_tb/DUT1/fa[0]
+# ** Error: (vsim-3054) /filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v(7): port 'sum' must be 2 or 60-bit wide, (actual 120-bit).
+#         Region: /p2_tb/DUT1/fa[0]
+# Error loading design
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2_tb
+# Loading work.p2_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_120bit
+# Loading work.fulladd_120bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_2bit
+# Loading work.fulladd_2bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2ab_adder
+# Loading work.p2ab_adder
+# ** Error: (vsim-3053) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): Illegal output or inout port connection (port 'c_out').
+#         Region: /p2_tb/DUT1
+# ** Warning: (vsim-3015) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (120) for port 'c_out'.
+#         Region: /p2_tb/DUT1
+# ** Warning: (vsim-3015) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): [PCDPC] - Port size (120 or 120) does not match connection size (1) for port 'sum'.
+#         Region: /p2_tb/DUT1
+# ** Error: (vsim-3054) /filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v(7): port 'a' must be 2 or 60-bit wide, (actual 120-bit).
+#         Region: /p2_tb/DUT1/fa[0]
+# ** Error: (vsim-3054) /filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v(7): port 'b' must be 2 or 60-bit wide, (actual 120-bit).
+#         Region: /p2_tb/DUT1/fa[0]
+# ** Error: (vsim-3054) /filespace/people/c/cwilcox/courses/ece551/hw4/fulladd_120bit.v(7): port 'sum' must be 2 or 60-bit wide, (actual 120-bit).
+#         Region: /p2_tb/DUT1/fa[0]
+# Error loading design
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2_tb
+# Loading work.p2_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_120bit
+# Loading work.fulladd_120bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_2bit
+# Loading work.fulladd_2bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2ab_adder
+# Loading work.p2ab_adder
+# ** Error: (vsim-3053) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): Illegal output or inout port connection (port 'c_out').
+#         Region: /p2_tb/DUT1
+# ** Warning: (vsim-3015) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (120) for port 'c_out'.
+#         Region: /p2_tb/DUT1
+# ** Warning: (vsim-3015) /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v(10): [PCDPC] - Port size (120 or 120) does not match connection size (1) for port 'sum'.
+#         Region: /p2_tb/DUT1
+# Error loading design
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb
+# vsim +notimingchecks -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/gflxp -L /afs/engr.wisc.edu/apps/eda/modelsim_techlib/6.3.i386_linux26/flexstream.3.4/verilog/udps -t ns -novopt work.p2_tb 
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2_tb
+# Loading work.p2_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_120bit
+# Loading work.fulladd_120bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_2bit
+# Loading work.fulladd_2bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2ab_adder
+# Loading work.p2ab_adder
+add wave \
+{sim:/p2_tb/c_in } \
+{sim:/p2_tb/a } \
+{sim:/p2_tb/b } \
+{sim:/p2_tb/sum_a } \
+{sim:/p2_tb/sum_b } \
+{sim:/p2_tb/c_out_a } \
+{sim:/p2_tb/c_out_b } \
+{sim:/p2_tb/error } 
+view wave
+# .main_pane.mdi.interior.cs.vm.paneset.cli_3.wf.clip.cs.pw.wf
+run -all
+# Break in Module p2_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v line 38
+add wave \
+{sim:/p2_tb/DUT2/BITWIDTH } \
+{sim:/p2_tb/DUT2/c_in } \
+{sim:/p2_tb/DUT2/a } \
+{sim:/p2_tb/DUT2/b } \
+{sim:/p2_tb/DUT2/sum } \
+{sim:/p2_tb/DUT2/c_out } \
+{sim:/p2_tb/DUT2/cs } 
+restart
+run -all
+# Break in Module p2_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v line 38
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+restart
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2_tb
+# Loading work.p2_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_120bit
+# Loading work.fulladd_120bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_2bit
+# Loading work.fulladd_2bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2ab_adder
+# Loading work.p2ab_adder
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+run -all
+# Break in Module p2_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v line 38
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Compile of p1_mealy.v was successful.
+# Compile of p1_mealy_tb.v was successful.
+# Compile of fulladd_2bit.v was successful.
+# Compile of p2ab_adder.v was successful.
+# Compile of p2_tb.v was successful with warnings.
+# Compile of fulladd_120bit.v was successful.
+# Compile of prime_detector_behavioral.v was successful.
+# Compile of prime_detector_behavioral_netlist.v was successful.
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+restart
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2_tb
+# Loading work.p2_tb
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_120bit
+# Loading work.fulladd_120bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.fulladd_2bit
+# Loading work.fulladd_2bit
+# Refreshing /filespace/people/c/cwilcox/courses/ece551/hw4/work.p2ab_adder
+# Loading work.p2ab_adder
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+# Compile of prime_detector_structural_netlist.v was successful.
+# Compile of prime_detector_behavioral_structural_netlist_tb.v was successful.
+# Compile of prime_detector_behavioral_tb.v was successful.
+# Compile of dff_async_rst.v was successful.
+# Compile of prime_detector_behavioral_noglitch_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+run -all
+# Break in Module p2_tb at /filespace/people/c/cwilcox/courses/ece551/hw4/p2_tb.v line 41

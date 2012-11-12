@@ -1,0 +1,28 @@
+int f1() {
+  return 1;
+}
+
+int f2(int a) {
+  int j;
+  (j = (a + 2)); /* int */
+  return j;
+}
+
+double f3() {
+  return 3.1415;
+}
+
+bool f4(double g) {
+  return true;
+}
+
+void main() {
+  int x;
+  double y;
+  bool z;
+  (x = (f1() + 4)); /* int */
+  (x = (f2(x) + 2)); /* int */
+  (y = (f3() + 3.22)); /* double */
+  (z = f4(y)); /* bool */
+  return;
+}

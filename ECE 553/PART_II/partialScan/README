@@ -1,0 +1,23 @@
+This directory contains all of the files for partial scanning
+
+FindPartialScan/
+	Contains the program that runs random combinations of scanable flip flops
+	in order to find the best
+fps-progress.txt
+	A log of the best results that we have found and total number of 
+	variations run
+seq_1
+	Unmodified Circuit
+seq_1-00001000100010000000100010100
+	The best circuit as found by FindPartialScan
+seq_1-faults
+	The list of faults to use to try and find coverage
+seq_1-output
+	Output of the fastest command with the file 
+	seq_1-00001000100010000000100010100
+seq_1-statistics
+	Statistics of the fastest command with the file 
+	seq_1-00001000100010000000100010100
+seq_1-vector
+	The vector file produced by the fastest command with the file 
+	seq_1-00001000100010000000100010100

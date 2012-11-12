@@ -1,0 +1,3 @@
+void main(string z) {
+  write z;
+}

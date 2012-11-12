@@ -1,0 +1,6 @@
+int Var = 0; /*4*/
+void main(int argc /*4*/) {
+  int Var2 = (Var/*2:5:G*/ + Var/*2:5:G*/); /*4*/
+  int Var = 1; /*4*/
+  int Var3 = (Var/*5:7:L*/ * Var/*5:7:L*/); /*4*/
+}

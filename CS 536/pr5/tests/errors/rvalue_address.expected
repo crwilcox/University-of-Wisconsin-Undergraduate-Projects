@@ -1,0 +1,4 @@
+3:17:Cannot take the address of an r-value
+4:17:Cannot take the address of an r-value
+4:22:Operator can only be applied to numeric types
+

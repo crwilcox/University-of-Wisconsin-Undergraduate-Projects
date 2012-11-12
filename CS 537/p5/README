@@ -1,0 +1,14 @@
+///////////////////////////////////////////////////////////////////////////////
+// Title:            Project 5 - Scalable Web Server
+// Files:            README
+// Semester:         Spring 2010
+//
+// Authors:          Tyler Lee Tucker - Tyler_DOT_LTucker_AT_gmail_DOT_com
+//                   Christopher Wilcox - cwilcox@wisc.edu
+// Course:           UW-Madison CS 537 - Introduction to Operating Systems
+// Instructor:       Prof. Remzi Arpaci-Dusseau
+//
+//////////////////////////// 80 columns wide //////////////////////////////////
+
+2010-04-21 @ 0101 CST: We are passing all tests....
+2010-04-21 @ 2308 CST: had to modify my gettimeofday function to be in milli, not micro seconds as the test changed... Still pass all tests

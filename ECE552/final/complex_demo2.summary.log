@@ -1,0 +1,8 @@
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/alignTest.asm SUCCESS CPI:10.4 VALID_CPI:2100.0 CYCLES:21 ICOUNT:2 VALID_ICOUNT:r1, IHITRATE: 66.7 DHITRATE: 0.0
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/perf-test-dep-all.asm SUCCESS CPI:3.8 VALID_CPI:4.2 CYCLES:34 ICOUNT:9 VALID_ICOUNT:8 IHITRATE: 76.9 DHITRATE: 0
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/perf-test-dep-ld.asm SUCCESS CPI:5.2 VALID_CPI:6.0 CYCLES:42 ICOUNT:8 VALID_ICOUNT:7 IHITRATE: 80.0 DHITRATE: 233.3
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/perf-test-dep-ldst.asm SUCCESS CPI:5.4 VALID_CPI:5.9 CYCLES:59 ICOUNT:11 VALID_ICOUNT:10 IHITRATE: 83.3 DHITRATE: 166.7
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/perf-test-dep-waw.asm SUCCESS CPI:3.8 VALID_CPI:4.2 CYCLES:34 ICOUNT:9 VALID_ICOUNT:8 IHITRATE: 76.9 DHITRATE: 0
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/perf-test-dep-zero.asm SUCCESS CPI:11.2 VALID_CPI:3.1 CYCLES:56 ICOUNT:5 VALID_ICOUNT:18 IHITRATE: 78.3 DHITRATE: 0
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/pipeTest.asm SUCCESS CPI:5.2 VALID_CPI:4.8 CYCLES:115 ICOUNT:22 VALID_ICOUNT:24 IHITRATE: 75.0 DHITRATE: 400.0
+/p/course/cs552-david/public/html/S10/project/tests/public/complex_demo2/stallTest.asm SUCCESS CPI:5.5 VALID_CPI:3.0 CYCLES:404 ICOUNT:74 VALID_ICOUNT:135 IHITRATE: 73.8 DHITRATE: 794.1

@@ -1,0 +1,163 @@
+// Library - ece555_projectlib, Cell - fsm, View - schematic
+// LAST TIME SAVED: Dec  9 00:20:49 2010
+// NETLIST TIME: Dec  9 00:21:00 2010
+`timescale 1ns / 1ns 
+
+module fsm ( Q7, Q6, Q9, Q7orQ8, Q8, Q5orQ7, wren0, Q2orQ7, Q5, Q3orQ6,
+     Q4, clk, rst, start );
+
+output  Q7, Q6, Q9, Q7orQ8, Q8, Q5orQ7, wren0, Q2orQ7, Q5, Q3orQ6, Q4;
+
+input  clk, rst, start;
+
+
+specify 
+    specparam CDS_LIBNAME  = "ece555_projectlib";
+    specparam CDS_CELLNAME = "fsm";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+dff I19 ( notcount16full, net0304, clk);
+dff I18 ( net0304, net0307, clk);
+dff I17 ( net0307, net0310, clk);
+dff I16 ( net0310, notcount16full_early, clk);
+dff I9 ( Q1, D1, clk);
+dff I8 ( Q2, D2, clk);
+dff I7 ( Q3, D3, clk);
+dff I6 ( Q4, D4, clk);
+dff I5 ( Q5, D5, clk);
+dff I4 ( Q6, D6, clk);
+dff I3 ( Q7, D7, clk);
+dff I2 ( Q8, D8, clk);
+dff I0 ( Q9, D9, clk);
+count16 I1 ( count16_out0, count16_out1, count16_out2, count16_out3,
+     clk, Q5, Q1);
+nmos N88 ( net0361, 0, net0126);
+nmos N87 ( net0126, 0, Q1);
+nmos N86 ( net0126, 0, Q9);
+nmos N89 ( net0308, 0, net0360);
+nmos N90 ( net0308, 0, rst);
+nmos N80 ( net0360, 0, net0714);
+nmos N79 ( D2, 0, net0586);
+nmos N78 ( net0833, 0, notrst);
+nmos N77 ( net0586, net0833, net01069);
+nmos N76 ( D9, 0, net0543);
+nmos N75 ( net0295, 0, notrst);
+nmos N74 ( net0543, net0295, net0491);
+nmos N73 ( net0985, net0757, net01073);
+nmos N72 ( net0757, 0, notrst);
+nmos N71 ( D5, 0, net0985);
+nmos N70 ( net0419, net0203, Q5);
+nmos N69 ( net0203, 0, notrst);
+nmos N68 ( D6, 0, net0419);
+nmos N64 ( net0443, net0227, Q7);
+nmos N63 ( net0227, 0, notrst);
+nmos N62 ( D8, 0, net0443);
+nmos N61 ( D7, 0, net0463);
+nmos N60 ( net0701, 0, notrst);
+nmos N59 ( net0463, net0701, Q6);
+nmos N58 ( net0467, net0251, Q3);
+nmos N57 ( net0251, 0, notrst);
+nmos N56 ( D4, 0, net0467);
+nmos N55 ( D3, 0, net0487);
+nmos N54 ( net0263, 0, notrst);
+nmos N52 ( net0189, 0, notQ4);
+nmos N51 ( net01073, net0189, net0353);
+nmos N50 ( net0353, net0201, notcount16full);
+nmos N49 ( net0201, 0, Q8);
+nmos N48 ( notQ4, 0, Q4);
+nmos N47 ( net0714, net0174, net0361);
+nmos N46 ( net0174, 0, notstart);
+nmos N91 ( D1, 0, net0308);
+nmos N43 ( notrst, 0, rst);
+nmos N27 ( net0491, 0, notQ8);
+nmos N26 ( net0491, 0, notcount16full);
+nmos N24 ( notQ8, 0, Q8);
+nmos N23 ( net0137, net0153, count16_out1);
+nmos N22 ( net0141, net0137, count16_out2);
+nmos N21 ( notcount16full_early, net0141, count16_out3);
+nmos N53 ( net0487, net0263, Q2);
+nmos N20 ( net0153, 0, count16_out0);
+nmos N19 ( net01069, 0, notstart);
+nmos N18 ( net01069, 0, net0126);
+nmos N15 ( notstart, 0, start);
+nmos N41 ( net0120, 0, Q8);
+nmos N30 ( Q2orQ7, 0, net0172);
+nmos N42 ( net0120, 0, D2);
+nmos N31 ( Q3orQ6, 0, net0156);
+nmos N29 ( net0172, 0, Q2);
+nmos N33 ( net0156, 0, Q3);
+nmos N28 ( net0172, 0, Q7);
+nmos N34 ( Q7orQ8, 0, net0144);
+nmos N35 ( net0144, 0, Q8);
+nmos N36 ( net0144, 0, Q7);
+nmos N37 ( net0140, 0, Q5);
+nmos N32 ( net0156, 0, Q6);
+nmos N40 ( wren0, 0, net0120);
+nmos N39 ( Q5orQ7, 0, net0140);
+nmos N38 ( net0140, 0, Q7);
+pmos P88 ( net0361, 1, net0126);
+pmos P87 ( net0656, 1, Q9);
+pmos P86 ( net0126, net0656, Q1);
+pmos P89 ( net0640, 1, rst);
+pmos P90 ( net0308, net0640, net0360);
+pmos P91 ( D1, 1, net0308);
+pmos P80 ( net0360, 1, net0714);
+pmos P79 ( D2, 1, net0586);
+pmos P78 ( net0586, 1, net01069);
+pmos P77 ( net0586, 1, notrst);
+pmos P76 ( D9, 1, net0543);
+pmos P75 ( net0543, 1, net0491);
+pmos P74 ( net0543, 1, notrst);
+pmos P73 ( net0985, 1, notrst);
+pmos P72 ( net0985, 1, net01073);
+pmos P71 ( D5, 1, net0985);
+pmos P70 ( net0419, 1, notrst);
+pmos P69 ( net0419, 1, Q5);
+pmos P68 ( D6, 1, net0419);
+pmos P64 ( net0443, 1, notrst);
+pmos P63 ( net0443, 1, Q7);
+pmos P62 ( D8, 1, net0443);
+pmos P61 ( D7, 1, net0463);
+pmos P60 ( net0463, 1, Q6);
+pmos P59 ( net0463, 1, notrst);
+pmos P58 ( net0467, 1, notrst);
+pmos P57 ( net0467, 1, Q3);
+pmos P56 ( D4, 1, net0467);
+pmos P55 ( D3, 1, net0487);
+pmos P54 ( net0487, 1, Q2);
+pmos P52 ( net0353, 1, notcount16full);
+pmos P51 ( net01073, 1, net0353);
+pmos P50 ( net01073, 1, notQ4);
+pmos P49 ( net0353, 1, Q8);
+pmos P48 ( notQ4, 1, Q4);
+pmos P47 ( net0714, 1, notstart);
+pmos P46 ( net0714, 1, net0361);
+pmos P43 ( notrst, 1, rst);
+pmos P27 ( net0285, 1, notQ8);
+pmos P25 ( net0491, net0285, notcount16full);
+pmos P24 ( notQ8, 1, Q8);
+pmos P23 ( notcount16full_early, 1, count16_out0);
+pmos P22 ( notcount16full_early, 1, count16_out1);
+pmos P21 ( notcount16full_early, 1, count16_out2);
+pmos P53 ( net0487, 1, notrst);
+pmos P20 ( notcount16full_early, 1, count16_out3);
+pmos P19 ( net01069, net0314, net0126);
+pmos P18 ( net0314, 1, notstart);
+pmos P15 ( notstart, 1, start);
+pmos P42 ( net0120, net0235, Q8);
+pmos P28 ( net0239, 1, Q7);
+pmos P29 ( net0172, net0239, Q2);
+pmos P30 ( Q2orQ7, 1, net0172);
+pmos P31 ( Q3orQ6, 1, net0156);
+pmos P32 ( net0271, 1, Q3);
+pmos P34 ( Q7orQ8, 1, net0144);
+pmos P35 ( net0259, 1, Q8);
+pmos P36 ( net0144, net0259, Q7);
+pmos P37 ( net0140, net0255, Q5);
+pmos P40 ( wren0, 1, net0120);
+pmos P41 ( net0235, 1, D2);
+pmos P33 ( net0156, net0271, Q6);
+pmos P39 ( Q5orQ7, 1, net0140);
+pmos P38 ( net0255, 1, Q7); 
+endmodule

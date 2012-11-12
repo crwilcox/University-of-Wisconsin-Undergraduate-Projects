@@ -1,0 +1,15 @@
+Core:2_0 Data:11_FF_0030
+Core:3_2 Data:11_FF_0031
+Core:0_1 Data:11_FF_0032
+Core:0_0 Data:11_FF_0033
+Core:1_3 Data:11_FF_0034
+Core:1_2 Data:11_FF_0035
+Core:1_2 Data:11_FF_0036
+Core:1_3 Data:11_FF_0037
+Core:0_1 Data:11_FF_0038
+Core:1_0 Data:11_FF_0039
+Core:1_2 Data:11_FF_0040
+Core:3_1 Data:11_FF_0041
+Core:3_2 Data:11_FF_0042
+Core:0_2 Data:11_FF_0043
+Core:2_2 Data:11_FF_0044

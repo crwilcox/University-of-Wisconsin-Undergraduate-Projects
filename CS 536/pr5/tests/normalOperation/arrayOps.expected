@@ -1,0 +1,9 @@
+void main() {
+  int[2] x;
+  int*[5] y;
+  ((x[0]) = 1); /* int */
+  ((x[1]) = 54378); /* int */
+  int* a = (&(x[0]));
+  ((y[2]) = a); /* int* */
+  return;
+}

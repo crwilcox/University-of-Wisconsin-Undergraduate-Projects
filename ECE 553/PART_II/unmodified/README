@@ -1,0 +1,12 @@
+This directory contains the files for the unmodified circuit
+
+seq_1
+	The unmodified circuit
+seq_1-faults
+	The fault list for the circuit
+seq_1-output
+	The output of fastest
+seq_1-statistics
+	The statistics from fastest
+seq_1-vector
+	The vectors from fastest

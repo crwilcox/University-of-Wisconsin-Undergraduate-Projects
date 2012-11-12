@@ -1,0 +1,3 @@
+void main(int argc /*4*/) {
+  return argc/*1:15:L*/;
+}

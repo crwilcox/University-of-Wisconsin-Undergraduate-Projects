@@ -1,0 +1,71 @@
+Assignment Number:  4, Part 2
+Assignment Name:    SteamGame
+Date Completed:    Friday, May 9, 2008
+
+Partner 1            Name: Christopher Wilcox
+Partner 1           Login: wilcox
+Partner 1 Lecturer's Name: Hasti
+Partner 1     Lab Section: 316
+
+Partner 2            Name: Jacob Backhaus
+Partner 2           Login: backhaus
+Partner 2 Lecturer's Name: Hasti
+Partner 2     Lab Section: 306
+
+1) Level Design: This is your chance to show us some of your designing skills. 
+Use the LevelEditor to create an interesting Level. Your Level should be 
+complicated enough to be interesting, not too difficult, and not too easy. 
+Output it to level.txt. Give us some thoughtful reasons why this is a good 
+level. Submit level.txt with your project.
+	Answer: This Level uses all objects given to us, most of which disappear 
+			initially.  Though linear, the level still maintains difficulty 
+			because of random movements of opponents.
+
+2) Interfaces: We could have designed this project without using any interfaces. 
+Describe what design changes we'd need to make to remove the WindowObject 
+interface.  Why did we include it, even if it isn't strictly necessary?
+	Answer:  It isn't necessary, but it makes coding simpler.  we could have 
+			written the methods within our classes.	By using an interface we avoid
+			a lot of hassle with multiple methods that all do the same thing.
+
+3) Inheritance: Speaking of interfaces, we could have written Sprite as an 
+interface. Then the various Sprite classes would all implement Sprite, and we 
+wouldn't need to use inheritance at all. Give a good reason why inheritance is 
+much better than interfaces in this case.
+	Answer: Inheritance allows us to build off what we have already made.  
+			most of the classes we use share some common methods.
+			Interfaces would require more work, as we would have to
+			rewrite each class.
+
+4) Error handling: In part 1, we were careless with errors. We basically 
+assumed that the parameters would be good as preconditions, and figured that 
+if the caller didn't like the result of a call with bad data, it was their 
+fault for passing in bad data. We also could have written in error checking, 
+which would (for example) ignore any calls to placeSprite() that passed in an 
+invalid Location. In the end, we gave you a .jar that would throw 
+IllegalArgumentExceptions if bad parameters were passed in. Give one advantage
+of listing stuff as a preconditions. Give one advantage of trying to fix the 
+problem immediately (by ignoring the call or just returning null). Give one
+advantage of throwing exceptions if we see bad input.
+	Answer:	Advantage of Precondition:  We do not have to be defensive 
+										throughout our program
+			Advantage of fixing problem immediately: The bad input is set to a 
+										value.  The program in turn does not
+										crash.
+			Advantage to Throwing exceptions: By throwing exceptions, we allow 
+										the user to enter anything they like,
+										and we can combat it.  We can also 
+										pinpoint what caused the error. We 
+										also do not crash the program...
+
+5) Class design: You may have noticed that the location of a Sprite was sort 
+of in two places. The Sprite was stored at a specific location in a Level's 2D 
+array. The Sprite also had a reference to its Location. Give one advantage of 
+storing the information in both places. Give one disadvantage.
+	Answer:	Advantage of Storing in both places: We can call the sprite without
+					knowing its location.  We can also set a sprite into location.
+			Disadvantage of Storing in both places:  We could make sprites that 
+					have no location (could cause sprites with no location to 
+					inhabit memory space).  You also have two places to refer to, 
+					so this could cause errors/mistakes/problems.  We also have to
+					change two objects.

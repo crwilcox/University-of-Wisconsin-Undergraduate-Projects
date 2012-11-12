@@ -1,0 +1,7 @@
+Z hi to lo (B toggling on and off)
+20.239ns - 20.075ns = .164ns
+
+Z lo to hi
+100.174 ns - 100.025ns = .149ns
+
+80.182 - 80.025

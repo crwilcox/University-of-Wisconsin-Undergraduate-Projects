@@ -1,0 +1,6 @@
+double main() {
+  double x;
+  (x = (1.0 + 1.0)); /* double */
+  (x = (4.0 - 8.0)); /* double */
+  return x;
+}

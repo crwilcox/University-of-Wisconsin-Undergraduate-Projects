@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : core
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:31:24 2010
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NOM   Library: gflxp
+Wire Load Model Mode: enclosed
+
+  Startpoint: routing_state_machine/TxQueue_Write_reg[2]
+              (rising edge-triggered flip-flop clocked by Clk_s)
+  Endpoint: S_Link_Control/TxQueue/Queue_reg[1][2]
+            (falling edge-triggered flip-flop clocked by Clk_s)
+  Path Group: Clk_s
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               B1X1                  gflxp
+  Packet_Queue_8     B0.2X0.2              gflxp
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock Clk_s (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  routing_state_machine/TxQueue_Write_reg[2]/CP (FD2QM1P)
+                                                          0.00 #     0.00 r
+  routing_state_machine/TxQueue_Write_reg[2]/Q (FD2QM1P)
+                                                          0.15       0.15 r
+  routing_state_machine/TxQueue_Write_S (Routing_State_Machine)
+                                                          0.00       0.15 r
+  S_Link_Control/TxQueue_Write (Link_Control_3)           0.00       0.15 r
+  S_Link_Control/TxQueue/Write_Ack (Packet_Queue_8)       0.00       0.15 r
+  S_Link_Control/TxQueue/U30/Z (BUFM10P)                  0.07       0.22 r
+  S_Link_Control/TxQueue/U20/Z (N1M2P)                    0.02       0.24 f
+  S_Link_Control/TxQueue/U9/Z (NR2FM1P)                   0.08       0.32 r
+  S_Link_Control/TxQueue/U68/Z (N1M2P)                    0.06       0.38 f
+  S_Link_Control/TxQueue/U115/Z (OA21M1P)                 0.08       0.46 f
+  S_Link_Control/TxQueue/U19/Z (OAI21M2P)                 0.08       0.54 r
+  S_Link_Control/TxQueue/U67/Z (BUFM2P)                   0.13       0.67 r
+  S_Link_Control/TxQueue/U120/Z (AOI22M1P)                0.06       0.72 f
+  S_Link_Control/TxQueue/U121/Z (OAI21M1P)                0.04       0.76 r
+  S_Link_Control/TxQueue/Queue_reg[1][2]/D (FDN1QM1P)     0.00       0.76 r
+  data arrival time                                                  0.76
+
+  clock Clk_s (fall edge)                                 1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  S_Link_Control/TxQueue/Queue_reg[1][2]/CPN (FDN1QM1P)
+                                                          0.00       1.00 f
+  library setup time                                     -0.24       0.76
+  data required time                                                 0.76
+  --------------------------------------------------------------------------
+  data required time                                                 0.76
+  data arrival time                                                 -0.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

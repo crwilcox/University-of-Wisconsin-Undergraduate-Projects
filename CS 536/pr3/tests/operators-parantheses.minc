@@ -1,0 +1,11 @@
+bool a = a && !b || c;
+bool b = a && b;
+bool c = a || b && c;
+int d = 1+2*3-4;
+int e = 1+(2*3-4);
+int f = a+b++;
+int g = a+b*c/d%e;
+int h = b++ - a[0];
+int i = b-- + a[0];
+int j = a-b+c/d-e*f;
+int k = (*a+&b) + (++a--);

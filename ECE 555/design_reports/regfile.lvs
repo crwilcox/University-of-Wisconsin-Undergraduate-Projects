@@ -1,0 +1,201 @@
+@(#)$CDS: LVS.exe version 6.1.1 01/18/2007 15:13 (cds126047) $
+
+Command line: /afs/engr.wisc.edu/apps/cadence-2008/IC-6.1.1/tools.lnx86/dfII/bin/32bit/LVS.exe -dir /filespace/people/c/cwilcox/courses/ece555/project/LVS -l -s -t /filespace/people/c/cwilcox/courses/ece555/project/LVS/layout /filespace/people/c/cwilcox/courses/ece555/project/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /filespace/people/c/cwilcox/courses/ece555/project/LVS/layout/netlist
+       count
+	2059		nets
+	114		terminals
+	2585		pmos
+	2585		nmos
+
+    Net-list summary for /filespace/people/c/cwilcox/courses/ece555/project/LVS/schematic/netlist
+       count
+	2059		nets
+	114		terminals
+	2585		pmos
+	2585		nmos
+
+
+    Terminal correspondence points
+    N1989     N3        Z<0>
+    N1993     N24       Z<10>
+    N1978     N23       Z<11>
+    N1966     N37       Z<12>
+    N1951     N36       Z<13>
+    N2053     N35       Z<14>
+    N2039     N64       Z<15>
+    N2027     N65       Z<16>
+    N2015     N70       Z<17>
+    N2004     N69       Z<18>
+    N1988     N68       Z<19>
+    N1974     N2        Z<1>
+    N2047     N67       Z<20>
+    N2034     N66       Z<21>
+    N2023     N32       Z<22>
+    N2009     N31       Z<23>
+    N1999     N30       Z<24>
+    N1983     N33       Z<25>
+    N1970     N34       Z<26>
+    N1957     N15       Z<27>
+    N2058     N17       Z<28>
+    N2045     N16       Z<29>
+    N1961     N29       Z<2>
+    N1995     N19       Z<30>
+    N1980     N18       Z<31>
+    N1946     N28       Z<3>
+    N2049     N27       Z<4>
+    N2035     N26       Z<5>
+    N2024     N25       Z<6>
+    N2012     N20       Z<7>
+    N2001     N22       Z<8>
+    N1985     N21       Z<9>
+    N1976     N59       a<0>
+    N1960     N49       a<10>
+    N1945     N48       a<11>
+    N2048     N47       a<12>
+    N2033     N46       a<13>
+    N2022     N45       a<14>
+    N2010     N44       a<15>
+    N2000     N43       a<16>
+    N1984     N42       a<17>
+    N1971     N41       a<18>
+    N1958     N40       a<19>
+    N1965     N58       a<1>
+    N2020     N39       a<20>
+    N2007     N38       a<21>
+    N1996     N109      a<22>
+    N1981     N110      a<23>
+    N1968     N113      a<24>
+    N1954     N111      a<25>
+    N2055     N112      a<26>
+    N2042     N104      a<27>
+    N2030     N106      a<28>
+    N2017     N105      a<29>
+    N1950     N57       a<2>
+    N1963     N108      a<30>
+    N1948     N107      a<31>
+    N2052     N56       a<3>
+    N2038     N55       a<4>
+    N2026     N54       a<5>
+    N2014     N53       a<6>
+    N2003     N52       a<7>
+    N1987     N51       a<8>
+    N1972     N50       a<9>
+    N2041     N88       b<0>
+    N1991     N78       b<10>
+    N1975     N77       b<11>
+    N1964     N76       b<12>
+    N1949     N75       b<13>
+    N2051     N74       b<14>
+    N2037     N73       b<15>
+    N2025     N72       b<16>
+    N2013     N71       b<17>
+    N2002     N4        b<18>
+    N1986     N5        b<19>
+    N2029     N87       b<1>
+    N2046     N8        b<20>
+    N2032     N7        b<21>
+    N2021     N6        b<22>
+    N2008     N9        b<23>
+    N1997     N10       b<24>
+    N1982     N14       b<25>
+    N1969     N13       b<26>
+    N1956     N12       b<27>
+    N2057     N63       b<28>
+    N2044     N62       b<29>
+    N2018     N86       b<2>
+    N1992     N61       b<30>
+    N1977     N60       b<31>
+    N2005     N85       b<3>
+    N1990     N84       b<4>
+    N1973     N83       b<5>
+    N1962     N82       b<6>
+    N1947     N81       b<7>
+    N2050     N80       b<8>
+    N2036     N79       b<9>
+    N2011     N11       clk
+    N1959     N0        gnd!
+    N2006     N94       rd_enA<0>
+    N1994     N96       rd_enA<1>
+    N1979     N95       rd_enA<2>
+    N1967     N98       rd_enA<3>
+    N1953     N97       rd_enA<4>
+    N1955     N89       rd_enB<0>
+    N2056     N90       rd_enB<1>
+    N2043     N91       rd_enB<2>
+    N2031     N92       rd_enB<3>
+    N2019     N93       rd_enB<4>
+    N1998     N1        vdd!
+    N1952     N99       wr_en<0>
+    N2054     N100      wr_en<1>
+    N2040     N103      wr_en<2>
+    N2028     N101      wr_en<3>
+    N2016     N102      wr_en<4>
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			5170	5170
+	total			5170	5170
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			2059	2059
+	total			2059	2059
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			114	114
+
+
+Probe files from /filespace/people/c/cwilcox/courses/ece555/project/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /filespace/people/c/cwilcox/courses/ece555/project/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

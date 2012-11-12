@@ -1,0 +1,10 @@
+void main()
+{
+  if(true) {
+    int x;
+  }
+
+    int x;
+
+}
+

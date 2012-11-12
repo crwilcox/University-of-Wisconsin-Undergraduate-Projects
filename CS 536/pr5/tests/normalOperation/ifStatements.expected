@@ -1,0 +1,17 @@
+void main() {
+  int i;
+  (i = 0); /* int */
+  if((i < 50)) {
+    (i++); /* int */
+  }
+  else {
+  }
+  double j;
+  (j = 0.0); /* double */
+  if((j < 423.7)) {
+    (j = (j + 43.2)); /* double */
+  }
+  else {
+  }
+  return;
+}

@@ -1,0 +1,11 @@
+int main(){
+// Applying a logical operator (&&, ||, !) to an operand of type other than bool
+// Using a non-boolean expression as the condition of an if or while statement
+
+	bool cannotBeTrue = 5 && 6 || !true;
+
+	if ( 5 ){
+		//HAHA!
+	}
+	return 1;
+}

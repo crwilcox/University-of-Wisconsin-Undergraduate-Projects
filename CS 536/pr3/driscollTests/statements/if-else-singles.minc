@@ -1,0 +1,4 @@
+int func()
+{
+  if(x) 5; else 6;
+}

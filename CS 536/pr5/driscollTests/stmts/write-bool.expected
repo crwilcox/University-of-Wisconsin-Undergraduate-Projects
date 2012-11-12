@@ -1,0 +1,4 @@
+void main() {
+  int z;
+  write (z > 5);
+}

@@ -1,0 +1,52 @@
+#Following the specifications given in the homework
+remove_design -design
+
+#files for read in are space delimited...
+read_file -format verilog {../core_link_control.v ../core_packet_queue.v} 
+
+#INPUTS EXCLUDING CLK
+set non_clk_inputs [remove_from_collection [all_inputs] [find port Clk_r]]
+
+# SPECIFY CLOCK
+# 200 MHz
+#create_clock -name "Clk_s" -period 5 -waveform { 0 1 }  { Clk_r  }
+# 800 MHz
+create_clock -name "Clk_r" -period 1.25 -waveform { 0 1 }  { Clk_r  }
+
+
+#INPUT PORT ATTRIBUTES
+set_dont_touch_network [find port Clk_r]
+
+#SET INPUT DELAY
+set_input_delay -clock Clk_r 0 [copy_collection $non_clk_inputs]
+
+#OUTPUT DELAY
+set_output_delay -clock Clk_r 0 [all_outputs]
+
+#WIRE LOAD
+set_wire_load_model -name B1X1 -library gflxp
+
+#OPERATING CONDITIONS
+set_operating_conditions -library gflxp NOM
+
+#DRIVING CELL
+set_driving_cell -lib_cell DDRVLS33 -library gflxio [copy_collection $non_clk_inputs]
+
+#TOP LEVEL CONSTRAINTS
+set_max_area 0.0
+
+#COMPILE
+check_design > output/design_check_core_link_control.txt
+compile_ultra
+
+#REPORT AREA
+report_area > output/area_report_core_link_control.txt
+
+# VERIFY TIMING
+check_timing
+report_timing > output/timing_report_core_link_control.txt
+
+#get the netlist
+write -hierarchy -format verilog Link_Control -output output/core_link_control_synth.v
+
+exit

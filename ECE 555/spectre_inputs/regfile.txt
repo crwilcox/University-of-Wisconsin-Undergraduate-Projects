@@ -1,0 +1,55 @@
+vDD vdd! 0 dc 1.8
+vGND gnd! 0 dc 0 
+
+vclk clk 0 pulse 0 1.8 5n 0.05n 0.05n 10n 20n
+
+vwr_en<0> wr_en<0> 	0 pulse 0 1.8 0		0.05n 0.05n 10n 1000n
+vwr_en<1> wr_en<1> 	0 pulse 0 1.8 25n 	0.05n 0.05n 10n 1000n
+vwr_en<2> wr_en<2> 	0 pulse 0 1.8 0 	0.05n 0.05n 10n 1000n
+vwr_en<3> wr_en<3> 	0 pulse 0 1.8 25n 	0.05n 0.05n 10n 1000n
+vwr_en<4> wr_en<4> 	0 pulse 0 1.8 0 	0.05n 0.05n 10n 1000n
+
+vrd_enA<0> rd_enA<0> 	0 pulse 0 1.8 40n 	0.05n 0.05n 10n 1000n
+vrd_enA<1> rd_enA<1> 	0 pulse 0 1.8 50n 	0.05n 0.05n 10n 1000n
+vrd_enA<2> rd_enA<2> 	0 pulse 0 1.8 60n 	0.05n 0.05n 10n 1000n
+vrd_enA<3> rd_enA<3> 	0 pulse 0 1.8 70n 	0.05n 0.05n 10n 1000n
+vrd_enA<4> rd_enA<4> 	0 pulse 0 1.8 80n 	0.05n 0.05n 10n 1000n
+
+vrd_enB<0> rd_enB<0> 	0 pulse 0 1.8 90n 	0.05n 0.05n 10n 1000n
+vrd_enB<1> rd_enB<1> 	0 pulse 0 1.8 100n 	0.05n 0.05n 10n 1000n
+vrd_enB<2> rd_enB<2> 	0 pulse 0 1.8 110n 	0.05n 0.05n 10n 1000n
+vrd_enB<3> rd_enB<3> 	0 pulse 0 1.8 120n 	0.05n 0.05n 10n 1000n
+vrd_enB<4> rd_enB<4> 	0 pulse 0 1.8 130n 	0.05n 0.05n 10n 1000n
+
+vZ<31> Z<31> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<30> Z<30> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<29> Z<29> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<28> Z<28> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<27> Z<27> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<26> Z<26> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<25> Z<25> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<24> Z<24> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<23> Z<23> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<22> Z<22> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<21> Z<21> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<20> Z<20> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<19> Z<19> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<18> Z<18> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<17> Z<17> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<16> Z<16> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<15> Z<15> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<14> Z<14> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<13> Z<13> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<12> Z<12> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<11> Z<11> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<10> Z<10> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<9> Z<9> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<8> Z<8> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<7> Z<7> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<6> Z<6> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<5> Z<5> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<4> Z<4> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<3> Z<3> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<2> Z<2> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n
+vZ<1> Z<1> 0 pulse 0 1.8 0 0.05n 0.05n 20n 100n
+vZ<0> Z<0> 0 pulse 0 1.8 20n 0.05n 0.05n 20n 100n

@@ -1,0 +1,8 @@
+#this file is read by Vcheck.pl and tells the script which filenames to skip
+clkrst.v
+dff.v
+memory2c.syn.v
+memory2c.v
+proc_hier_pbench.v
+proc_hier_bench.v
+proc_hier.v

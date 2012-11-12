@@ -1,0 +1,12 @@
+Register File Delay:
+
+Rd_EnA<2>
+	Asserted at 60.0253ns
+	Data Received at 60.3016ns
+	Delay: 0.2763 ns
+
+Rd_EnB<3>
+	Asserted at 120.025ns
+	Data Received at 120.268ns
+	
+	Delay: .243 ns

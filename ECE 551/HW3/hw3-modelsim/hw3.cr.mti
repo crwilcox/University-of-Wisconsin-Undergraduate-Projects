@@ -1,0 +1,71 @@
+/filespace/people/c/cwilcox/courses/ece551/hw3/ud_counter_tb.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/ud_counter_tb.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module ud_counter_tb
+
+Top level modules:
+	ud_counter_tb
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/JKFF.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/JKFF.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module JKFF
+
+Top level modules:
+	JKFF
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/dff_async_rst.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/dff_async_rst.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module dff_async_rst
+
+Top level modules:
+	dff_async_rst
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/prime_detector_structural.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/prime_detector_structural.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module prime_detector_structural
+
+Top level modules:
+	prime_detector_structural
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/register_file_16.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/register_file_16.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module register_file_16
+
+Top level modules:
+	register_file_16
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/prime_detector_behavioral.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/prime_detector_behavioral.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module prime_detector_behavioral
+
+Top level modules:
+	prime_detector_behavioral
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/prime_detector_behavioral_structural_tb.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/prime_detector_behavioral_structural_tb.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module prime_detector_behavioral_structural_tb
+
+Top level modules:
+	prime_detector_behavioral_structural_tb
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/register_file_16_tb.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/register_file_16_tb.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module register_file_16_tb
+
+Top level modules:
+	register_file_16_tb
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/priority_encoder_10_to_4_74HC.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/priority_encoder_10_to_4_74HC.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module priority_encoder_10_to_4_74HC
+
+Top level modules:
+	priority_encoder_10_to_4_74HC
+
+} {} {}} /filespace/people/c/cwilcox/courses/ece551/hw3/ud_counter.v {1 {vlog -work work -vopt -nocovercells /filespace/people/c/cwilcox/courses/ece551/hw3/ud_counter.v
+Model Technology ModelSim SE vlog 6.3 Compiler 2007.05 May  4 2007
+-- Compiling module ud_counter
+
+Top level modules:
+	ud_counter
+
+} {} {}}

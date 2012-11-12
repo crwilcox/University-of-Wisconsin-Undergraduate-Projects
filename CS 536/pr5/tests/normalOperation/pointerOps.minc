@@ -1,0 +1,19 @@
+void main()
+{
+	int x;
+	int y;
+	int *z;
+	double a;
+	double b;
+	double *c;
+	y = 4;
+	x = y;
+	b = 4.2;
+	z = &y;
+	x = *z + 2;
+	c = &b;
+	a = *c + b;
+	int **q = &z;
+	a = **q;
+	return;
+}

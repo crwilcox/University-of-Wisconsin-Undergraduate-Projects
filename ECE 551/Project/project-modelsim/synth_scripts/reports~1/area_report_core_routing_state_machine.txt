@@ -1,0 +1,26 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : Routing_State_Machine
+Version: D-2010.03-SP3
+Date   : Mon Dec 13 22:30:30 2010
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gflxp (File: /afs/engr.wisc.edu/apps/eda/flexstream/lsi_fs_3.4/lib3p/synopsys/gflxp/gflxp_nom.db)
+
+Number of ports:              354
+Number of nets:               723
+Number of cells:              541
+Number of references:          69
+
+Combinational area:       2137.589015
+Noncombinational area:    5751.338116
+Net Interconnect area:    6880.063657  
+
+Total cell area:          7888.927131
+Total area:               14768.990788
+1

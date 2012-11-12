@@ -1,0 +1,353 @@
+
+`timescale 1 ns / 10 ps
+
+module tb_RouterCore4x4();
+  
+reg Clk_r,Clk_s,Rst_n;
+
+reg  [0:15] Packet_From_Node_Valid;
+wire  [0:(32*16)-1] Packet_From_Node;
+wire [0:(32*16)-1] Packet_To_Node;
+wire [0:15] Packet_To_Node_Valid;
+wire [0:15] Core_Load_Ack;
+
+localparam clkr_hfperiod = 1;//1 makes for a period of 2, 500 MHz
+localparam clks_hfperiod = .50000005;//.50000005 makes for a period of 1.000001, 999 MHz           
+
+reg [31:0] rcvdpkts_Node      [0:15][0:31]; //node,entries
+reg [7:0] node_pktcnt [0:15];
+reg [9:0] pkts_sent,pkts_rcvd;
+
+
+       // Packet_From_Node      [(i*128+j*32):(i*128+j*32)+31] = {24'hFF00_AD,j,i};
+reg [0:31] Packet_From_Node_Array[0:15];
+wire [0:31] Packet_To_Node_Array[0:15];
+real starttime,endtime;
+reg [1:0] faultlevel;
+
+genvar a;       
+generate 
+for (a=0;a<16;a=a+1) begin:arr
+  assign Packet_From_Node[a*32:(a*32)+31] = Packet_From_Node_Array[a];
+  assign Packet_To_Node_Array[a]          = Packet_To_Node[a*32:(a*32)+31];
+end
+endgenerate  
+
+
+/////////////////////////////////////
+/// Core 4x4 Instantiation
+/////////////////////////////////////
+Router4x4  mesh4x4(.Clk_r,
+                   .Clk_s,
+                   .Rst_n,
+                   .faultlevel,
+                   
+                   .Packet_From_Node_Valid,
+                   .Packet_From_Node,
+                   .Packet_To_Node,
+                   .Packet_To_Node_Valid,
+                   .Core_Load_Ack,
+                   
+                   .East_Tx_Rx_Ready(4'hF),.West_Tx_Rx_Ready(4'hF),.South_Tx_Rx_Ready(4'hF),.North_Tx_Rx_Ready(4'hF),
+                   .East_Tx_Rx_Error(4'h0),.West_Tx_Rx_Error(4'h0),.South_Tx_Rx_Error(4'h0),.North_Tx_Rx_Error(4'h0),
+                   .East_Tx_S_Data(),.West_Tx_S_Data(),.South_Tx_S_Data(),.North_Tx_S_Data(),
+                   
+                   .East_Rx_S_Data(4'hF),.West_Rx_S_Data(4'hF),.South_Rx_S_Data(4'hF),.North_Rx_S_Data(4'hF),
+                   .East_Rx_Rx_Ready(),.West_Rx_Rx_Ready(),.South_Rx_Rx_Ready(),.North_Rx_Rx_Ready(),
+                   .East_Rx_Rx_Error(),.West_Rx_Rx_Error(),.South_Rx_Rx_Error(),.North_Rx_Rx_Error()
+                                    
+                  );
+
+                                    
+  /////////////////////////////////
+  /// Define clocks         //////
+  /////////////////////////////////          
+  always #clkr_hfperiod Clk_r    = ~Clk_r;
+  always #clks_hfperiod  Clk_s   = ~Clk_s;
+  localparam pkts = 50; localparam waitcycles = 1000;
+  
+  initial begin
+    
+    init_sim;
+    /*
+    $display("\n**********  LOW CONTENTION TESTS  *********** ");
+    //Low Contention    
+    issue_cfgpkts;  pkts_sent = 0;
+    repeat (100) begin
+      issue_msgpkts(0);   
+      waittoreceive();
+    end    
+    calc_droprate();
+
+     $display("\n**********  MED CONTENTION TESTS  *********** ");
+    //Med Contention
+    issue_cfgpkts;  pkts_sent = 0;
+    repeat (25) begin
+      starttime = $time;
+      $display("starttime:%d",starttime);
+      issue_msgpkts(1);  
+      waittoreceive();
+      endtime = $time;
+      $display("endtime:%d",endtime);
+    end
+    calc_droprate();
+    
+    $display("\n**********  HIGH CONTENTION TESTS  *********** ");
+    //High Contention
+    issue_cfgpkts;  pkts_sent = 0;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (50) issue_msgpkts(2);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+    */
+    
+    $display("\n**********  VERY HIGH CONTENTION TESTS  *********** ");
+    issue_cfgpkts;  pkts_sent = 0;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (13) issue_msgpkts(3);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+    
+    $display("\n**********  Uni directional Streaming Tests *********** ");
+    issue_cfgpkts;  pkts_sent = 0;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (200) issue_msgpkts(4);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+    
+    $display("\n**********  Bi directional Streaming Tests *********** ");
+    issue_cfgpkts;  pkts_sent = 0;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (100) issue_msgpkts(5);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+    
+     $display("\n**********  1 percent  Faulty Link,HIGH CONTENTION TESTS  *********** ");
+    //High Contention
+    issue_cfgpkts;  pkts_sent = 0; faultlevel = 2'd1;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (50) issue_msgpkts(2);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+
+    $display("\n**********  50 percent Faulty Link,HIGH CONTENTION TESTS  *********** ");
+    //High Contention
+    issue_cfgpkts;  pkts_sent = 0; faultlevel = 2'd2;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (50) issue_msgpkts(2);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+    
+    $display("\n**********  90 percent Faulty Link,HIGH CONTENTION TESTS  *********** ");
+    //High Contention
+    issue_cfgpkts;  pkts_sent = 0; faultlevel = 2'd3;
+    starttime = $time; 
+    $display("starttime:%d",starttime);
+    repeat (50) issue_msgpkts(2);
+    waittoreceive();
+    endtime = $time;
+    $display("endtime:%d",endtime);
+    calc_droprate(); 
+        
+    $stop();
+    
+  end 
+   
+/////////////////////////////////////
+// Task to Calc Drop rate ///
+/////////////////////////////////////
+task calc_droprate;
+ real drop_rate;
+ real drop_pkts;
+ real throughput;
+ begin
+   drop_pkts = pkts_sent - pkts_rcvd;
+   drop_rate = drop_pkts/pkts_sent;  
+   throughput = pkts_rcvd/(endtime-starttime);
+   $display("Rcvd pkts:%d  Send pkts:%d  Dropped:%d Drop Rate:%f throughput:%f",pkts_rcvd,pkts_sent,drop_pkts, drop_rate, throughput);
+   
+ end
+endtask
+
+/////////////////////////////
+/// Task to Issue Msg Pkts///
+/////////////////////////////
+task automatic issue_msgpkts;
+  input [2:0] contention;
+  
+  reg [0:15] rand_node;       //node is choosed randomly to insert a pkt
+  reg [1:0] rand_nsdest,rand_wedest;
+  integer i;
+  
+  begin : issuepkts
+      
+      rand_node = 0;
+      if (contention == 3'd0)    // low
+         rand_node[{$random}%16] = 1;  //generates randomly from 0 to 15
+      else if (contention == 3'd1)  //medium     
+         rand_node = $random;
+      else if (contention == 3'd2) //high
+         rand_node = 16'b1001_0000_0000_1001; 
+      else if (contention == 3'd3) //very high
+         rand_node = 16'b1111_1111_1111_1111;
+      else if (contention == 3'd4) //uni directional
+         rand_node = 16'b1000_0000_0000_0000;    
+      else if (contention == 3'd5) //bi directional
+         rand_node = 16'b1000_0000_0000_0001;   
+                  
+    if (contention == 1) $display("random nodes generated are:%b", rand_node);
+   
+  for (i=0;i<16;i=i+1) begin 
+    if(rand_node[i]) begin 
+      
+      if(contention < 3'd4) begin
+        rand_nsdest = {$random} % 4; //random fr 0 .. 3
+        rand_wedest = {$random} % 4;
+      end  
+      else if (contention == 3'd4) begin
+        rand_nsdest = 2'd3;
+        rand_wedest = 2'd3;
+      end
+      else if (contention == 3'd5) begin
+        if(i == 0) begin
+          rand_nsdest = 2'd3;
+          rand_wedest = 2'd3;
+        end 
+        else begin
+          rand_nsdest = 2'd0;
+          rand_wedest = 2'd0;
+        end  
+      end
+        
+      if ((rand_nsdest*4 + rand_wedest) == i) 
+        rand_nsdest = (rand_nsdest == 0) ? rand_nsdest+1 : rand_nsdest-1;
+        
+        
+      Packet_From_Node_Valid[i]  = 1'b1;
+      Packet_From_Node_Array[i]  = {2'b00,rand_wedest,2'b00,rand_nsdest,24'hDADA_DA};
+    
+      @(negedge Core_Load_Ack[i]) Packet_From_Node_Valid[i] = 1'b0;    //issue msg pkt from node
+      
+      pkts_sent = pkts_sent + 1;
+    end  
+    
+  end //for end 
+  
+ end //begin
+endtask   
+
+task waittoreceive;
+  integer i;
+  begin : wait_rcv   
+    $display("waiting for pkts to be received! sent: %d, rcvd: %d", pkts_sent,pkts_rcvd);
+    
+    for (i=0;i<1000;i = i+1)
+      @(posedge Clk_r) begin        
+        if(pkts_sent == pkts_rcvd) disable wait_rcv;
+      end    
+      
+  end  
+endtask  
+      
+/////////////////////////////
+/// Task to Issue Cfg  Pkt///
+/////////////////////////////
+task issue_cfgpkts;
+  reg [3:0] i,j;
+  reg [3:0] link;
+  
+  begin
+    Rst_n = 1'b0;
+    #20 Rst_n = 1'b1;
+         
+    for (i=0;i<4;i=i+1) begin :ns  //ns
+      for (j=0;j<4;j=j+1) begin :we//we
+        Packet_From_Node_Valid      [j+i*4]        = 1'b1;
+        Packet_From_Node_Array      [j+i*4] = {24'hFF00_AD,j,i};
+        
+        @(negedge Core_Load_Ack[j+i*4]) begin
+            link = 4'b1111;
+            
+            if (j==3) link[0] = 1'b0;
+            else if (j==0) link[1] = 1'b0;
+            
+            if (i==0) link[2] = 1'b0;
+            else if (i==3) link[3] = 1'b0;  
+                
+            Packet_From_Node_Array[j+i*4] = {28'hFF01_DCE,link};    //issue linkpkt    
+        end   
+        
+        @(negedge Core_Load_Ack[j+i*4]) Packet_From_Node_Valid[j+i*4]   = 1'b0;
+        
+    end  //forend
+   end   //forend
+ 
+  end
+
+endtask
+
+
+
+//////////////////////////////////
+/// Task to Initialize Stimulus //
+//////////////////////////////////
+task init_sim;
+begin
+    Clk_r = 1'b0; Clk_s = 1'b0; 
+    Rst_n= 1'b1; 
+    Packet_From_Node_Valid=16'd0; 
+    faultlevel = 2'd0;
+    
+end   
+endtask  
+
+/////////////////////////////////
+// Logic to receive pkts to Node
+/////////////////////////////////
+    
+integer i;
+
+//always @ (node_pktcnt) begin
+ always @ (*) begin
+   pkts_rcvd = 0;
+    for(i=0;i<16;i=i+1)
+      pkts_rcvd = pkts_rcvd + node_pktcnt[i];
+end      
+   
+always @ (posedge Clk_r,negedge Rst_n) begin
+  if (!Rst_n) begin
+    for(i=0;i<16;i=i+1)
+        node_pktcnt[i] <= 0; 
+  end  
+  else begin
+    for(i=0;i<16;i=i+1) begin
+      if(Packet_To_Node_Valid[i]) begin 
+         rcvdpkts_Node[i][node_pktcnt[i]] <= Packet_To_Node_Array[i];
+         node_pktcnt[i]                   <= node_pktcnt[i] + 1;
+          $display("Rcvd Pkt: %h to node:%d",Packet_To_Node_Array[i], i);
+      end     
+      
+    end//for 
+  end
+end  
+                       
+endmodule
+

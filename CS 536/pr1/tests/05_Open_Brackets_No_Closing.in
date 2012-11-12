@@ -1,0 +1,12 @@
+= x int
+{
+= y double
+= j char
+{
+= z float
+{
+? j
+? x
+{
+? y
+? z

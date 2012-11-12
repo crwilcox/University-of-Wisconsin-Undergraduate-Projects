@@ -1,0 +1,16 @@
+void main()
+{
+	int i;
+	i = 0;
+	while (i<50)
+	{
+		i++;
+	}
+	double j;
+	j= 0.0;
+	while (j<423.7)
+	{
+		j = j + 43.2;
+	}
+	return;
+}

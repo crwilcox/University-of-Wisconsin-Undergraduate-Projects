@@ -1,0 +1,84 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 d/filespace/people/c/cwilcox/courses/ece551/hw2
+T_opt
+Z2 VFIYmP[lGQ2_^DSTRQ3kD@1
+Z3 04 17 4 work prime_detector_tb fast 0
+Z4 =1-001e4febc72a-4c992e55-578e0-21af
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3;37
+vdff_async_rst
+Z8 IVfGIU^LLil3:iO@En8cGD1
+Z9 VCEN9GXdz[08KS>BbZ<Q4U1
+Z10 w1285107075
+Z11 8/filespace/people/c/cwilcox/courses/ece551/hw2/dff_async_rst.v
+Z12 F/filespace/people/c/cwilcox/courses/ece551/hw2/dff_async_rst.v
+L0 1
+Z13 OE;L;6.3;37
+r1
+31
+Z14 o-work work -nocovercells -L mtiAvm
+!s85 0
+vmodulo_6
+Z15 I=O=8X^i<VG3kFd33[PP:21
+Z16 VET9YSAb;hoho0;<FPT8RR1
+Z17 w1285038973
+Z18 8/filespace/people/c/cwilcox/courses/ece551/hw2/modulo_6.v
+Z19 F/filespace/people/c/cwilcox/courses/ece551/hw2/modulo_6.v
+L0 1
+R13
+r1
+31
+R14
+!s85 0
+vmodulo_6_tb
+Z20 Id[ATSaYicMEDd[eBSZKB=3
+Z21 V^X=E<=6=EQ]DA_VQ;L1GQ2
+Z22 w1285039366
+Z23 8/filespace/people/c/cwilcox/courses/ece551/hw2/modulo_6_tb.v
+Z24 F/filespace/people/c/cwilcox/courses/ece551/hw2/modulo_6_tb.v
+L0 1
+R13
+r1
+31
+R14
+!s85 0
+vprime_detctor_tb
+Z25 I3h;`TMKBiiHiDdcb9PXX=0
+Z26 VYE5XeCT`4EfaLiYg]daco1
+Z27 w1285107252
+Z28 8/filespace/people/c/cwilcox/courses/ece551/hw2/prime_detector_tb.v
+Z29 F/filespace/people/c/cwilcox/courses/ece551/hw2/prime_detector_tb.v
+L0 1
+R13
+r1
+31
+R14
+!s85 0
+vprime_detector
+Z30 IgMk=6`?6bb<a<i`i^0YRf3
+Z31 VfdK;Y65;ZTGkC6hD]FzKl1
+Z32 w1285107166
+Z33 8/filespace/people/c/cwilcox/courses/ece551/hw2/prime_detector.v
+Z34 F/filespace/people/c/cwilcox/courses/ece551/hw2/prime_detector.v
+L0 1
+R13
+r1
+31
+R14
+!s85 0
+vprime_detector_tb
+Z35 I13hmX_@mY868VL6YA[4Rg0
+Z36 VgU5<U0CofQ4@]89]:O?:I1
+Z37 w1285107267
+R28
+R29
+L0 1
+R13
+r1
+31
+R14
+!s85 0

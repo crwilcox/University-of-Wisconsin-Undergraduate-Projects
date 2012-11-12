@@ -1,0 +1,12 @@
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_11_mem.asm SUCCESS CPI:4.1 VALID_CPI:2.8 CYCLES:6297 ICOUNT:1521 VALID_ICOUNT:2262 IHITRATE: 75.0 DHITRATE: 226.2
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_12_mem.asm SUCCESS CPI:4.3 VALID_CPI:2.8 CYCLES:6089 ICOUNT:1425 VALID_ICOUNT:2200 IHITRATE: 75.3 DHITRATE: 217.4
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_13_mem.asm SUCCESS CPI:4.5 VALID_CPI:2.9 CYCLES:6244 ICOUNT:1402 VALID_ICOUNT:2132 IHITRATE: 75.1 DHITRATE: 213.4
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_18_mem.asm SUCCESS CPI:4.3 VALID_CPI:2.8 CYCLES:5953 ICOUNT:1399 VALID_ICOUNT:2122 IHITRATE: 75.4 DHITRATE: 212.6
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_19_mem.asm SUCCESS CPI:4.3 VALID_CPI:2.8 CYCLES:5969 ICOUNT:1383 VALID_ICOUNT:2128 IHITRATE: 75.3 DHITRATE: 211.3
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_22_mem.asm SUCCESS CPI:4.3 VALID_CPI:2.9 CYCLES:6277 ICOUNT:1463 VALID_ICOUNT:2176 IHITRATE: 75.5 DHITRATE: 218.9
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_23_mem.asm SUCCESS CPI:4.1 VALID_CPI:2.8 CYCLES:6327 ICOUNT:1539 VALID_ICOUNT:2274 IHITRATE: 75.9 DHITRATE: 225.1
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_26_mem.asm SUCCESS CPI:4.5 VALID_CPI:2.9 CYCLES:6307 ICOUNT:1411 VALID_ICOUNT:2148 IHITRATE: 75.9 DHITRATE: 213.3
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_30_mem.asm SUCCESS CPI:4.1 VALID_CPI:2.8 CYCLES:6350 ICOUNT:1561 VALID_ICOUNT:2306 IHITRATE: 75.6 DHITRATE: 228.3
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_3_mem.asm SUCCESS CPI:4.2 VALID_CPI:2.8 CYCLES:6014 ICOUNT:1423 VALID_ICOUNT:2156 IHITRATE: 75.3 DHITRATE: 213.5
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_6_mem.asm SUCCESS CPI:4.4 VALID_CPI:2.9 CYCLES:6397 ICOUNT:1469 VALID_ICOUNT:2212 IHITRATE: 76.1 DHITRATE: 220.5
+/p/course/cs552-david/public/html/S10/project/tests/public/rand_mem/t_9_mem.asm SUCCESS CPI:4.3 VALID_CPI:2.8 CYCLES:6454 ICOUNT:1511 VALID_ICOUNT:2272 IHITRATE: 75.3 DHITRATE: 224.7

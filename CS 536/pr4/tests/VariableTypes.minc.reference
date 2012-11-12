@@ -1,0 +1,7 @@
+line 6:12 no viable alternative at input '"this is a string; //string type'
+line 7:12 no viable alternative at input '{'
+line 7:14 mismatched input ',' expecting SEMI
+line 7:17 mismatched input ',' expecting SEMI
+line 7:20 mismatched input ',' expecting SEMI
+line 7:23 mismatched input ',' expecting SEMI
+line 7:26 extraneous input '}' expecting SEMI

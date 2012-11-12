@@ -1,0 +1,4 @@
+Board Dimensions
+X: 4320 mil
+Y: 3750 mil
+

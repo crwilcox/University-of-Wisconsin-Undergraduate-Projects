@@ -1,0 +1,1 @@
+para 2 > results//fileout+para 1 > results//fileout+para 0 > results//fileout

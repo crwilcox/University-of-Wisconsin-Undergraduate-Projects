@@ -1,0 +1,10 @@
+1:1:FLOAT_LIT: 0.0
+2:1:Floating point has leading 0: 00.0
+3:1:Floating point has leading 0: 01.0
+4:1:FLOAT_LIT: 0.0
+5:1:FLOAT_LIT: 1.21
+6:1:FLOAT_LIT: 1.23E-45
+7:1:FLOAT_LIT: 1.23E45
+8:1:Floating point has leading 0: 1.23e045
+9:1:FLOAT_LIT: 1.23
+10:1:Floating point out of range: 654679874654.8765464654e1234

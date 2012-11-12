@@ -1,0 +1,26 @@
+module JKFF(input j, k, clk, rst_n output reg q, q_n);
+	//The module implements a JK flip=flop with asynchronous active-low reset
+	// J  K		rst_n	Qnext
+	//-----------------------
+	// x   x    0       0
+	// 0   1    1		0
+	// 0   0    1		Qprev
+	// 1   1    1		!Qprev
+	// 1   0    1		1
+	
+	always @(posedge clk, negedge rst_n) begin
+		if(rst_n == 1'b0) q <= 1'b0;
+		else begin
+			case ({j,k})
+				2'b00: q <= q;
+				2'b01: q <= 1'b0;
+				2'b10: q <= 1'b0;
+				2'b11: q <= !q;
+				default: q <= 1'bx;
+			endcase
+		end
+
+		q_n <= !q;
+	end
+	
+endmodule //JKFF

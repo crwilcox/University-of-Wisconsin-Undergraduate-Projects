@@ -1,0 +1,16 @@
+bool cond1 = false;
+
+
+
+
+bool cond2 = true;
+int x = 0;
+if (cond1) 
+
+
+
+
+
+if (cond2) x=3; 
+else x=6; 
+else x=5;

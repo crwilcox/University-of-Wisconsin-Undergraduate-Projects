@@ -1,0 +1,20 @@
+
+  = x int      
+= y float   
+
+{
+    
+ ? x				
+    = z char
+
+     ? z				
+   {
+    
+     = x double		  
+
+
+      ? y				
+    ? x   				
+			
+    }  
+ }

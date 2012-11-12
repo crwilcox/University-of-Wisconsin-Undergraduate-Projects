@@ -1,0 +1,8 @@
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_1_icache.asm SUCCESS CPI:39.4 VALID_CPI:9.1 CYCLES:3662 ICOUNT:93 VALID_ICOUNT:404 IHITRATE: 41.3 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_2_icache.asm SUCCESS CPI:38.6 VALID_CPI:9.1 CYCLES:3668 ICOUNT:95 VALID_ICOUNT:404 IHITRATE: 41.2 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_3_icache.asm SUCCESS CPI:36.4 VALID_CPI:8.9 CYCLES:3602 ICOUNT:99 VALID_ICOUNT:404 IHITRATE: 42.5 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_4_icache.asm SUCCESS CPI:29.4 VALID_CPI:9.1 CYCLES:3674 ICOUNT:125 VALID_ICOUNT:404 IHITRATE: 41.0 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_5_icache.asm SUCCESS CPI:34.9 VALID_CPI:8.8 CYCLES:3560 ICOUNT:102 VALID_ICOUNT:404 IHITRATE: 43.4 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_6_icache.asm SUCCESS CPI:37.8 VALID_CPI:9.0 CYCLES:3632 ICOUNT:96 VALID_ICOUNT:404 IHITRATE: 41.9 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_7_icache.asm SUCCESS CPI:33.9 VALID_CPI:9.0 CYCLES:3632 ICOUNT:107 VALID_ICOUNT:404 IHITRATE: 41.9 DHITRATE: 0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_icache/t_8_icache.asm SUCCESS CPI:30.5 VALID_CPI:8.9 CYCLES:3602 ICOUNT:118 VALID_ICOUNT:404 IHITRATE: 42.5 DHITRATE: 0

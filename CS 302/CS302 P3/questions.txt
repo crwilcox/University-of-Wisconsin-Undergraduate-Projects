@@ -1,0 +1,64 @@
+Assignment Number: Project 3
+  Assignment Name: LookOut! Below
+  Date Completed: Monday, April 7, 2008
+
+  Partner 1 Name: Jacob Backhaus
+  Partner 1 Login: backhaus
+  Partner 1 Lecturer's Name: Hasti
+  Partner 1 Lab Section: 306
+
+  Partner 2 Name: Christopher Wilcox
+  Partner 2 Login:	wilcox
+  Partner 2 Lecturer's Name: Hasti
+  Partner 2 Lab Section: 316
+  
+1.  The BrokenPrioritySequence class contains several errors. Which did you find?
+	ANSWER:
+		1: The Constructor is initializing taskNumber to 1 instead of zero.  this will cause the
+		   taskNumber to be incorrect by 1
+		   		-when taskNumber should be = to 5, it is 6; when 6, it is 7, etc...
+		2: Null Values Returned As Tasks Making TaskCount Perform Inaccurately.  
+			-If you create an array of size 5, with no tasks inside, it will think 5 tasks have
+			 been added, causing the taskCount to perform incorrectly.
+		3: When Task is Removed, taskCount does not reflect the correct taskNumber.  The
+		   taskNumber should be 1 place lower after the removeNextTask function.  Our tester
+		   shows that this does not occur correctly
+		4: NextTask does not return the correct next task in the list.  This could be that the 
+		   list is not ordered correctly, or that it is offset by the taskCount();
+		5: The final think is the removeNextTask method, which could have been attributed to the 
+		   nextTask or taskCount being off.
+
+
+2.  In Part 4, we said that you should use a do-while loop to read numeric input from the user. 
+    Why should you use this loop and not a for or regular while loop?
+
+	ANSWER:
+		A do-while loop allows us to create an area that will, unlike a while loop, evaluates at 
+		the end of a statement.  This guarantees are statement to run at least once.  Our user section 
+		creates a loop that will only exit if the 7th case (quit) occurs.  This allows us to create
+		a NEAR infinite loop condition, that allows the user to return to the beginning of our loop
+		indefinitely.
+
+
+3.  The data structures we used for this assignment are very useful for organizing Task objects,
+    but what problem would we encounter if we needed to organize objects of another type, 
+    such as Student? How would you solve this problem? If you could add any feature to the 
+    Java language, what would you add or change to make writing data structure classes easier?
+
+	ANSWER:
+		Given our current organization, we would have to implement an entire new set of classes,
+		which could handle the Student object rather than the Task object.  To solve this problem,
+		we would have to implement new types of classes, which could handle different types of data.
+		I would allow java to handle different data types, and would enable the java system library,
+		so that I could sort and take advantage of java's built in features.
+
+
+4.  The save/restore methods provided in the TaskUtility class will only work with saving and
+    restoring to task lists of the same type. Would it be possible to change the file format to
+    support saving and restoring across different types of lists? Would it be worthwhile?
+    
+    ANSWER:
+    	It would be possible if we were to create a multitude of if statements to cover exact cases.  I believe
+    	it would not be worthwhile as we have already spent over 30 hours writing this program and think the
+    	amount of time it would take to correctly implement the additions to the method would take far too long.
+    	

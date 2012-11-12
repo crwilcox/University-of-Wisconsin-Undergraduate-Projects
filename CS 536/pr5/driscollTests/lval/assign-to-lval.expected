@@ -1,0 +1,3 @@
+void f(int s) {
+  (s = 1); /* int */
+}

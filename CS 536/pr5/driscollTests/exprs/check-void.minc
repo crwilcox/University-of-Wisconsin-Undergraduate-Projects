@@ -1,0 +1,7 @@
+void f()
+{
+}
+void main(int  y)
+{
+  y + f();
+}

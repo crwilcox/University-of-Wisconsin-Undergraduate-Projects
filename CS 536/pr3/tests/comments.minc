@@ -1,0 +1,11 @@
+// single line
+int a = 4;
+int b = 3
+// single line comment 
+int c = 2;
+/* multi line with embedded int
+int d = 1
+d should not be seen...
+if it does it is broken*/
+int e = 0;
+// int f = -1; //should not be seen as a line

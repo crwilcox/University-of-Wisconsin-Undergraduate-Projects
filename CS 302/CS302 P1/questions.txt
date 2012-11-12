@@ -1,0 +1,58 @@
+Assignment Number: 1
+Assignment Name: Time Keeps On Tickin'
+Date Completed:2-16-08
+
+Partner 1 Name: Christopher Wilcox	
+Partner 1 Login: wilcox	
+Partner 1 Lecturer's Name:Hasti
+Partner 1 Lab Section:316
+
+Partner 2 Name:none
+Partner 2 Login:none
+Partner 2 Lecturer's Name:none
+Partner 2 Lab Section:none
+
+   1. What happens if the value of the base is less than the start value in the constructor of your Timer class? Is this reasonable? 
+	If so, justify why. If not, propose a reasonable way to handle this situation (it doesn't have to be Java code; an English description is fine).
+   
+	Answer: If the value of the base is less than the start value in the constructor, the start value is out of range. 
+		It is not reasonable for our start value to be out of range.  This would work, but is not reasonable.  We could have the program get rid
+		of anything over the base value, or have an error statement come if this happens.
+
+
+
+   2. Suppose we had asked you to name your Timer class Counter instead.  
+	Would that have caused any problems with using your class with the other classes in this assignment?  Why or why not?
+	
+	Answer: Yes.  Other classes link to the Timer class by using its name.  This would cause me to review all the classes and change
+		all instances of Timer to Counter in every class.
+
+
+
+   3. What method(s) do you think would be necessary to extend the Timer class so that it could count downward (as well as upward)?
+  How would you implement the method(s)?
+
+	Answer: a decrement method would be needed.  it would require a method looking like the one below.
+
+
+
+   4. What happens if you give a negative value to the tick method of the StopWatch class?
+	
+	Answer: Tick allows you to move in a backward direction.  It prints the values.
+
+
+   5. Suppose we wish to create a class to keep track of distance traveled in yards, feet, and inches (such as 15 yards 2 feet 4 inches). 
+	How could the Timer and/or StopWatch be used to implement this? What modifications (if any) would need to be made to one or both classes?
+	
+	Answer:They would be able to do the same thing.  The only major change would be the bases of the numbers
+		inches would be like seconds with a base of 12
+		feet would be like minutes with a base of 3
+		yards would be like hours with a base of about 1760
+		we would remove days entirely or make days into miles 
+
+
+
+   6. What happens if you run the stopwatch for 86,400,000 seconds? Why does this happen?
+
+	Answer: It cycles entirely
+		86,400,000 = 1000 days.  The watch can only handle 999 days.  This is an overflow error. 

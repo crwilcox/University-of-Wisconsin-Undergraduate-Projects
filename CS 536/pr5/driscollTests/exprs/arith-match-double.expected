@@ -1,0 +1,4 @@
+void main(double y) {
+  double x;
+  (x + y); /* double */
+}

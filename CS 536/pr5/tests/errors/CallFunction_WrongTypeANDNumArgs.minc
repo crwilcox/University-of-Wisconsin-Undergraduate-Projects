@@ -1,0 +1,10 @@
+int TestFunction(int Arg1, int Arg2, int Arg3)
+{
+	return Arg1 + Arg2 + Arg3;
+}
+void main() {
+int Num1 = TestFunction(1,2,3);
+double Num2 = TestFunction(1.0,2.0,3.0);
+int Num3 = TestFunction(1.0, 2.0);
+int Num4 = TestFunction(1.0, 2.0, 3.0, 4.0);
+}

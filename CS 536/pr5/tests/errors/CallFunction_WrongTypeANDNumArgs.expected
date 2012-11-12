@@ -1,0 +1,5 @@
+7:28:Type of actual does not match type of formal
+7:32:Type of actual does not match type of formal
+7:36:Type of actual does not match type of formal
+8:12:TestFunction expects 3 arguments; given 2
+9:12:TestFunction expects 3 arguments; given 4

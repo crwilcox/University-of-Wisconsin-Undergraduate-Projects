@@ -1,0 +1,6 @@
+Core:0_0 Data:00_FF_0000
+Core:1_0 Data:10_FF_0010
+Core:0_1 Data:01_FF_0001
+Core:1_1 Data:11_FF_0011
+Core:2_2 Data:22_FF_0022
+Core:3_3 Data:33_FF_0033

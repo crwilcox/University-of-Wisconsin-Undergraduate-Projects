@@ -1,0 +1,4 @@
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_dcache/ldld_rand_large.asm SUCCESS CPI:2.3 VALID_CPI:2.0 CYCLES:2404 ICOUNT:1028 VALID_ICOUNT:1174 IHITRATE: 99.7 DHITRATE: 133.7
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_dcache/ldld_rand_small.asm SUCCESS CPI:2.3 VALID_CPI:2.0 CYCLES:2404 ICOUNT:1028 VALID_ICOUNT:1174 IHITRATE: 99.7 DHITRATE: 133.7
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_dcache/ldst_rand_large.asm SUCCESS CPI:2.7 VALID_CPI:1.8 CYCLES:2575 ICOUNT:960 VALID_ICOUNT:1471 IHITRATE: 99.5 DHITRATE: 167.0
+/afs/cs.wisc.edu/p/course/cs552-david/public/html/S10/project/tests/public/rand_dcache/ldst_rand_small.asm SUCCESS CPI:2.5 VALID_CPI:1.6 CYCLES:2383 ICOUNT:960 VALID_ICOUNT:1471 IHITRATE: 99.5 DHITRATE: 167.0

@@ -1,0 +1,93 @@
+P(English) = 0.3442623 
+P(Spanish) = 0.32786885 
+P(Japanese) = 0.32786885
+
+P(a|English) = 0.061947893
+P(b|English) = 0.011741026
+P(c|English) = 0.022177495
+P(d|English) = 0.02225204
+P(e|English) = 0.1073838
+P(f|English) = 0.020462932
+P(g|English) = 0.013902866
+P(h|English) = 0.04666592
+P(i|English) = 0.05505237
+P(j|English) = 7.081889E-4
+P(k|English) = 0.004062768
+P(l|English) = 0.030713035
+P(m|English) = 0.023742964
+P(n|English) = 0.0563942
+P(o|English) = 0.06489246
+P(p|English) = 0.01502106
+P(q|English) = 7.45462E-4
+P(r|English) = 0.049573224
+P(s|English) = 0.0627679
+P(t|English) = 0.08613814
+P(u|English) = 0.024786612
+P(v|English) = 0.008908271
+P(w|English) = 0.0155428825
+P(x|English) = 0.0010809199
+P(y|English) = 0.013530135
+P(z|English) = 4.472772E-4
+P( |English) = 0.17935815
+
+P(a|Spanish) = 0.09927843
+P(b|Spanish) = 0.010367421
+P(c|Spanish) = 0.038898565
+P(d|Spanish) = 0.039976776
+P(e|Spanish) = 0.11337812
+P(f|Spanish) = 0.0066351495
+P(g|Spanish) = 0.008791573
+P(h|Spanish) = 0.0068839677
+P(i|Spanish) = 0.052002985
+P(j|Spanish) = 0.0057228166
+P(k|Spanish) = 2.488181E-4
+P(l|Spanish) = 0.04744132
+P(m|Spanish) = 0.022642449
+P(n|Spanish) = 0.060462803
+P(o|Spanish) = 0.07705068
+P(p|Spanish) = 0.024467114
+P(q|Spanish) = 0.007796301
+P(r|Spanish) = 0.059301652
+P(s|Spanish) = 0.06452683
+P(t|Spanish) = 0.03450278
+P(u|Spanish) = 0.03574687
+P(v|Spanish) = 0.005556938
+P(w|Spanish) = 3.3175747E-4
+P(x|Spanish) = 0.0031516962
+P(y|Spanish) = 0.0059716348
+P(z|Spanish) = 0.0032346356
+P( |Spanish) = 0.16562992
+
+P(a|Japanese) = 0.13157131
+P(b|Japanese) = 0.00929422
+P(c|Japanese) = 0.0029044438
+P(d|Japanese) = 0.01655533
+P(e|Japanese) = 0.06186465
+P(f|Japanese) = 0.0017426662
+P(g|Japanese) = 0.014522219
+P(h|Japanese) = 0.032239325
+P(i|Japanese) = 0.098460644
+P(j|Japanese) = 0.0014522219
+P(k|Japanese) = 0.056055766
+P(l|Japanese) = 0.0020331107
+P(m|Japanese) = 0.041243102
+P(n|Japanese) = 0.0647691
+P(o|Japanese) = 0.092651755
+P(p|Japanese) = 5.8088877E-4
+P(q|Japanese) = 2.9044438E-4
+P(r|Japanese) = 0.036305547
+P(s|Japanese) = 0.0464711
+P(t|Japanese) = 0.06244554
+P(u|Japanese) = 0.061283763
+P(v|Japanese) = 0.0011617775
+P(w|Japanese) = 0.022945106
+P(x|Japanese) = 2.9044438E-4
+P(y|Japanese) = 0.011617775
+P(z|Japanese) = 0.00464711
+P( |Japanese) = 0.12460064
+
+			true English	true Spanish	true Japanese
+Predicted English	    9		     0		     0
+Predicted Spanish	    0		     20              0
+Predicted Japanese	    0		     0		     20
+
